@@ -1,0 +1,112 @@
+@CHARSET "ISO-8859-1";
+
+.own-area {
+	width: 41%;
+	margin: 0px auto;
+	margin-top: 3%;
+}
+
+.own-area img {
+	margin: 0 auto;
+	text-align: center;
+	max-height: 410px;
+}
+
+.own-next-button {
+	float: right;
+}
+
+#yesOrNoImage {
+	heigth: 100%;
+	width: 100%;
+}
+
+#gifImage{
+	heigth: 100%;
+	width: 100%;
+}
+
+#nextYesOrNo {
+	margin: 0 auto;
+	margin-top: 2%;
+	display: block;
+}
+
+#nextJokeMomma {
+	margin: 0 auto;
+	margin-top: 2%;
+	display: block;
+}
+
+#nextJokeNorris {
+	margin: 0 auto;
+	margin-top: 2%;
+	display: block;
+}
+
+#nextSong {
+	margin: 0 auto;
+	margin-top: 2%;
+	display: block;
+}
+
+#nextGif{
+	margin: 0 auto;
+	margin-top: 2%;
+	display: block;
+}
+
+#gifInput{
+	margin-top: 2%;
+}
+
+#genreList{
+	margin-top: 2%;
+}
+
+#joke-area-yomomma {
+	min-height: 60px;
+}
+
+#joke-area-norris {
+	min-height: 60px;
+}
+
+#joke-area {
+	min-height: 60px;
+}
+
+#inner-nav {
+	margin: 0 auto;
+	width: 186px;
+	border: none;
+	margin-top: 30px;
+}
+
+.inner-menu a{
+	    color: #BEFF59 !important;
+}
+
+#putTheWidgetHere iframe{
+	height: 70%;
+}
+
+#gifArea img{
+	margin: 0 auto;
+    text-align: center;
+    max-height: 350px;
+}
+
+#putTheVideoHere div iframe {
+	height: 100%;
+	width: 100%;
+	min-height: 300px;
+}
+
+#YTsearchList{
+	margin-top: 2%;
+}
+
+#nextVideo{
+	margin-top: 2%;
+}
