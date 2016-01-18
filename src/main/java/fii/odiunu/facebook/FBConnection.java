@@ -5,7 +5,7 @@ import java.net.URLEncoder;
 
 public class FBConnection {
 	public static final String FB_APP_ID = "430639803797405";
-	public static final String REDIRECT_URI = "http://localhost:8080/CuSEr/Main";
+	public static final String REDIRECT_URI = "http://localhost:8080/main";
 
 	static String accessToken = "";
 

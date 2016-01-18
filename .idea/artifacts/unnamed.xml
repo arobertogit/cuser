@@ -1,20 +1,20 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="cuser6:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/cuser6_war_exploded</output-path>
-    <root id="root">
-      <element id="javaee-facet-resources" facet="cuser6/web/Web" />
+  <artifact type="war" name="unnamed">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
+    <root id="archive" name="unnamed.war">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="cuser6" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-bundle:1.18.3" />
-          <element id="library" level="project" name="Maven: javax.ws.rs:jsr311-api:1.1.1" />
-          <element id="library" level="project" name="Maven: javax.faces:jsf-api:2.1" />
-          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
           <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-bundle:1.18.3" />
+          <element id="library" level="project" name="Maven: javax.faces:jsf-api:2.1" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:jsr311-api:1.1.1" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="cuser6/web/Web" />
     </root>
   </artifact>
 </component>
