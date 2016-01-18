@@ -3,6 +3,13 @@
     <output-path>$PROJECT_DIR$/out/artifacts/cuser6_war</output-path>
     <root id="archive" name="cuser6_war.war">
       <element id="artifact" artifact-name="cuser6:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.sun.jersey.contribs:jersey-multipart:1.19" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.19" />
+          <element id="library" level="project" name="Maven: org.jvnet.mimepull:mimepull:1.9.3" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>

@@ -8,11 +8,13 @@
           <element id="module-output" name="cuser6" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-bundle:1.18.3" />
           <element id="library" level="project" name="Maven: javax.ws.rs:jsr311-api:1.1.1" />
           <element id="library" level="project" name="Maven: javax.faces:jsf-api:2.1" />
-          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
           <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1" />
+          <element id="library" level="project" name="Maven: com.sun.jersey.contribs:jersey-multipart:1.19" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.19" />
+          <element id="library" level="project" name="Maven: org.jvnet.mimepull:mimepull:1.9.3" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-bundle:1.19" />
         </element>
       </element>
     </root>
