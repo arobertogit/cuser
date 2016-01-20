@@ -3,18 +3,10 @@ package fii.odiunu.rest;
 import com.sun.jersey.core.header.FormDataContentDisposition;
 import com.sun.jersey.multipart.FormDataParam;
 
-import javax.ws.rs.Consumes;
-import javax.ws.rs.GET;
-import javax.ws.rs.POST;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -42,7 +34,7 @@ public class FileSystemRest {
 
     @POST
     @Path("/upload")
-    @Produces(MediaType.APPLICATION_JSON)
+//    @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.MULTIPART_FORM_DATA)
     public Response uploadFile(@FormDataParam("file") InputStream fileInputStream,
                                @FormDataParam("file") FormDataContentDisposition contentDispositionHeader) {
@@ -58,9 +50,9 @@ public class FileSystemRest {
 
     private void saveFile(InputStream uploadedInputStream, String serverLocation) {
         try {
-            int read;
             byte[] bytes = new byte[1024];
             OutputStream outputStream = new FileOutputStream(new File(serverLocation));
+            int read;
             while ((read = uploadedInputStream.read(bytes)) != -1) {
                 outputStream.write(bytes, 0, read);
             }
