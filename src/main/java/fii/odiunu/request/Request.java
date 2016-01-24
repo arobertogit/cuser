@@ -207,4 +207,82 @@ public class Request {
         }
 
     }
+
+    public String writeMusicToRDF(String keyword) {
+
+        JSONArray jsonArray = new JSONArray();
+        JSONObject jsonObj = null;
+        String line = "",linkToSong = "";
+
+        String titleOfMusic;
+        String description;
+        String musicId;
+        String musicGenre;
+        String musicURL;
+
+        Model model = ModelFactory.createDefaultModel();
+
+        try {
+            URL url = new URL("http://api.soundcloud.com/tracks?client_id=ffcaccc2a3bf0998c26d5a980a8b8607&q=" + keyword + "&limit=50");
+            BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
+            while ((line = br.readLine()) != null) {
+
+                String objects[] = line.split("\\},\\{");
+
+                for(int i=0;i<objects.length;i++){
+
+                    objects[i] = objects[i].replace("[{", "");
+                    objects[i] = "{" + objects[i];
+                    objects[i] = objects[i] + "}";
+                    jsonObj = (JSONObject) new JSONObject(objects[i]);
+
+                    jsonArray.put(jsonObj);
+
+                    try {
+                        description = (String) jsonObj.get("description");
+                    } catch (Exception ex) {
+                        description = "";
+                    }
+                    titleOfMusic = (String) jsonObj.get("title");
+                    musicURL = (String) jsonObj.get("permalink_url");
+                    musicId = (String) jsonObj.get("id").toString();
+                    try {
+                        musicGenre = (String) jsonObj.get("genre");
+                    } catch (Exception ex) {
+                        musicGenre = "";
+                    }
+
+
+                    Resource music = model.createResource("music"+i);
+                    Property p1 = model.createProperty("title");
+                    music.addProperty(p1, titleOfMusic);
+                    Property p2 = model.createProperty("description");
+                    music.addProperty(p2, description);
+                    Property p3 = model.createProperty("url");
+                    music.addProperty(p3, musicURL);
+                    Property p4 = model.createProperty("id");
+                    music.addProperty(p4, musicId);
+                    Property p5 = model.createProperty("genre");
+                    music.addProperty(p5, musicGenre);
+                }
+            }
+
+            FileOutputStream fos = new FileOutputStream("ms-"+keyword+".nt");
+
+            RDFDataMgr.write(fos, model, Lang.NTRIPLES);
+
+
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+        return linkToSong;
+    }
+
+    public void readMusicFromRDF(String keyword){
+        Model model = ModelFactory.createDefaultModel();
+        model.read("ms-"+keyword+".nt", "NTRIPLES");
+
+        RDFDataMgr.write(System.out, model, Lang.NTRIPLES);
+
+    }
 }
