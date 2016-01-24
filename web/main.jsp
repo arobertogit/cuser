@@ -18,7 +18,8 @@
 </head>
 <body>
 	<ul class="nav nav-tabs">
-		<li class="active"><a href="#images" data-toggle="tab">Images</a></li>
+		<li class="active"><a href="#menu" data-toggle="tab">Menu</a></li>
+		<li><a href="#images" data-toggle="tab">Images</a></li>
 		<li><a href="#videos" data-toggle="tab">Videos</a></li>
 		<li><a href="#jokes" data-toggle="tab">Jokes</a></li>
 		<li><a href="#music" data-toggle="tab">Music</a></li>
@@ -29,7 +30,15 @@
 		<li><a href="#numbers" data-toggle="tab">Random Facts</a></li>
 	</ul>
 	<div class="tab-content">
-		<div class="tab-pane fade active in" id="images">
+		<div class="tab-pane fade active in" id="menu">
+			<div class="alert alert-success">
+				<ul id="menuArea" class="row effect-4 grid">
+
+				</ul>
+			</div>
+		</div>
+
+		<div class="tab-pane fade" id="images">
 			<div class="alert alert-success">
 				<ul id="imagesArea" class="row effect-4 grid">
 					
