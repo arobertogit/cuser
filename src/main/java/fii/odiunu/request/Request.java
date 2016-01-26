@@ -107,6 +107,8 @@ public class Request {
 
     public void readMenuFromRDF(String keyword) {
         Model model = ModelFactory.createDefaultModel();
+
+        //de verificat calea
         model.read("/web/resources/" + keyword + ".nt", "NTRIPLES");
 
         for (int i = 0; i < 10; i++) {
@@ -282,7 +284,16 @@ public class Request {
         Model model = ModelFactory.createDefaultModel();
         model.read("ms-"+keyword+".nt", "NTRIPLES");
 
-        RDFDataMgr.write(System.out, model, Lang.NTRIPLES);
+        for (int i = 0; i < 10; i++) {
+            Resource music = model.getResource("music" + i);
+            Property p1 = model.createProperty("title");
+            Property p2 = model.createProperty("description");
+            Property p3 = model.createProperty("url");
+            Property p4 = model.createProperty("id");
+            Property p5 = model.createProperty("genre");
+
+
+        }
 
     }
 }
