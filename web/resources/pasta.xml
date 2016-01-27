@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:video="https://schema.org/VideoObject#">
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video0">
+    <video:id>n6DLqK6v364</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/n6DLqK6v364/hqdefault.jpg</video:thumbnail>
+    <video:description>(PP) Contains product placement. We've teamed up with LV= Insurance to bring you a classic kitchen tip every Saturday for the next 6 weeks. Cooking pasta is ...</video:description>
+    <video:title>How To Cook Perfect Pasta | Gennaro Contaldo</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video1">
+    <video:id>6cDdkpIIm1s</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/6cDdkpIIm1s/hqdefault.jpg</video:thumbnail>
+    <video:description>Click here to SUBSCRIBE: http://bit.ly/1dn24vP NEW "Meal Prep Made Easy" eBook available now: http://bit.ly/MealPrepMadeEasy Salad-In-A-Jar: ...</video:description>
+    <video:title>Pasta 3 Delicious Ways</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video6">
+    <video:id>1teUhznIYeU</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/1teUhznIYeU/hqdefault.jpg</video:thumbnail>
+    <video:description>Hey Food Tubers! Gennaro is here to show you how to make a variety of pasta shapes at home. Fresh, rich, satisfying and surprisingly simple to make. For some ...</video:description>
+    <video:title>How To Make Pasta Shapes | Jamie's Comfort Food | Gennaro Contaldo</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video7">
+    <video:id>DSnu670BeUY</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/DSnu670BeUY/hqdefault.jpg</video:thumbnail>
+    <video:description>Recipe in Hindi - http://goo.gl/7LthCp Recipe in English - Subscribe for more recipes - http://www.youtube.com/subscription_center?add_user=nishamadhulika ...</video:description>
+    <video:title>Veg Macaroni Indian Style Recipes - Indian Style Masala Macaroni Pasta</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video8">
+    <video:id>JGzYJpG1eLs</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/JGzYJpG1eLs/hqdefault.jpg</video:thumbnail>
+    <video:description>This colourful recipe for a spicy sausage pasta dish ticks every box. Tastes amazing, smells amazing and is really simple to prepare. Quality sausages browned ...</video:description>
+    <video:title>Summer Sausage Pasta | Jamie Oliver</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video9">
+    <video:id>7HgI_Cs6PmU</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/7HgI_Cs6PmU/hqdefault.jpg</video:thumbnail>
+    <video:description>Sponsored by Bertolli | Just a handful of ingredients yet Gennaro's simple pasta dish is full of Italian flavour. Almonds and basil form the basis of a pesto sauce ...</video:description>
+    <video:title>Pesto Pasta With Aubergine | Gennaro Contaldo</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video2">
+    <video:id>8t6ddIzPy0k</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/8t6ddIzPy0k/hqdefault.jpg</video:thumbnail>
+    <video:description>This pasta recipe by Gennaro really is the definition of quick Italian cooking. A simple pan fried sauce with garlic, chilli, tomatoes and capers tossed through ...</video:description>
+    <video:title>Simple Tuna Pasta | Gennaro Contaldo</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video3">
+    <video:id>s9DRvkjTCUc</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/s9DRvkjTCUc/hqdefault.jpg</video:thumbnail>
+    <video:description>SUBSCRIBE for more great recipes! http://bit.ly/BethsEntertaining SUBSCRIBE to my gardening channel! http://bit.ly/InBethsGarden Visit my website: ...</video:description>
+    <video:title>Beth's Cheesy Pizza Pasta Bake (Great for Picky Eaters!)</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video4">
+    <video:id>sBNQQReqq58</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/sBNQQReqq58/hqdefault.jpg</video:thumbnail>
+    <video:description>Click "CC" for subtitles 공�?홈페�?�지 http://www.imbc.com/broad/tv/drama/pasta/ Pasta(파스타), 1회, EP01, 2010/01/04, MBC TV, Republic of Korea 분주하게 ...</video:description>
+    <video:title>Pasta, 1회, EP01, #01</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video5">
+    <video:id>dLSUSqPLmU0</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/dLSUSqPLmU0/hqdefault.jpg</video:thumbnail>
+    <video:description>If you're looking for great recipes to feed your family you'll love our new channel: http://jamieol.com/FamilyFoodTube. You'll find tasty meals for all ages that will ...</video:description>
+    <video:title>Easy Tuna Pasta Bake | KerryAnn Dunlop</video:title>
+  </rdf:Description>
+</rdf:RDF>

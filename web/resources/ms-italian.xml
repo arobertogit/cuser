@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:music="https://schema.org/AudioObject#">
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music40">
+    <music:genre>Soundscape</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >223856610</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/maknoise/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music20">
+    <music:genre>italian</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >243672659</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/sergey-shinshinov/italian</music:url>
+    <music:description>Nino Rota style</music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music44">
+    <music:genre>IMPERIA</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >144473116</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/leny-imperia-jimenez/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music32">
+    <music:genre>italian</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >115987620</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/tjtyson/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music24">
+    <music:genre>Mc</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >149304020</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/soliman-g/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music12">
+    <music:genre>Italian</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >224817456</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/listomusic/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music7">
+    <music:genre>private</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >223545568</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/lapti/italian</music:url>
+    <music:description></music:description>
+    <music:title>Lapti - Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music48">
+    <music:genre>english record</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >216840497</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/l-trung-18/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music36">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >91539007</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/youngfun/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music28">
+    <music:genre>italo dance</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >193497199</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/mhkr-1/italian</music:url>
+    <music:description>banging italo from the 90's</music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music16">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >232943424</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/user-350724868/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music3">
+    <music:genre>Florida Man Returns</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >214758319</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/coxncrendor/episode-107-worlds-greatest-italian-restaurant</music:url>
+    <music:description>In a month filled with reports on the Watcher, only 1 hero is brave enough to return and save us from the letter writing menace! It's FLORIDA MAAAAAN! 
+http://moroncdn.infofuelproducti.netdna-cdn.com/wp-content/uploads/check-368billion-640-mug1.jpg</music:description>
+    <music:title>Episode 107 - Worlds Greatest Italian Restaurant</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music31">
+    <music:genre>Pop Electronic</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >44715447</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/e-t-c-1/italian</music:url>
+    <music:description>Compilation of early tracks. 1992 about.</music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music11">
+    <music:genre>learn italian</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >187958582</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/radiolingua/lesson-01-season-1-coffee-break-italian</music:url>
+    <music:description>Join teacher Mark, learner Katie and native speaker Francesca in this new series from Radio Lingua. In lesson 1, you'll learn to say "hello" and "goodbye", and you'll also learn to ask "how are you?" and answer this question with appropriate responses. In the Caffè Culturale section, Francesca will introduce you to Italy and help you learn to pronounce the names of well-known Italian cities in Italian. For more Italian content and to access the video version of this lesson, lesson notes and bonus audio, please click on the "Buy videos and notes" button. </music:description>
+    <music:title>Lesson 01 - Season 1 - Coffee Break Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music43">
+    <music:genre>spoken</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >104538885</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/time-projects/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music35">
+    <music:genre>accent</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >201278079</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/mattboundsvo/italian</music:url>
+    <music:description>For /u/AwsmAssasin on /r/RecordThis</music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music23">
+    <music:genre>Tristano</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >146182432</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/shamwiches/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music15">
+    <music:genre>italian</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >192644336</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/eric-garro/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music47">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >129843334</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/erik-walter/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music39">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >63751281</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/dark-reactable/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music2">
+    <music:genre>edm</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >133546823</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/italian/a-k-a-italian-new-generation</music:url>
+    <music:description>New Generation Italizer Series 017 Special E.D.M. set</music:description>
+    <music:title>A.k.a ITALIAN New Generation Italizer Series 017 E.D.M. Set</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music27">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >80387915</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/donnyquinn/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music19">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >32951697</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/soroodsorx/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian . کاتیوشا</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music6">
+    <music:genre>Franky Rizardo </music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >195576580</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/italian/franky-rizardo-elements-italian-vocal-remix</music:url>
+    <music:description>Franky Rizardo - Elements (Italian Vocal Remix)</music:description>
+    <music:title>Franky Rizardo - Elements (Italian Vocal Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music42">
+    <music:genre>tarot</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >150582851</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/michaelgouldmusic/italian</music:url>
+    <music:description>These are small percussion solos for the piece TAROT for the Tangente Dance Company on Berlin, Germany.</music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music30">
+    <music:genre>languages</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >197594136</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/nik_t-1/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music22">
+    <music:genre>Chile</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >206389909</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/luciosanchezmoral/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music10">
+    <music:genre>House</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >42737054</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/paolo-ortelli/italian</music:url>
+    <music:description>Spankers Feat. John Biancale - Italian (Paolo Ortelli vs Degree) Teaser&#xD;
+&#xD;
+LYRICS:&#xD;
+We’re Gonna Have A Party Baby&#xD;
+We're Goin' To Little Italy Now&#xD;
+La Dolce Vita&#xD;
+Here We Go!&#xD;
+That’s Amore&#xD;
+Italiano&#xD;
+&#xD;
+I'm Italian I’m A Stallion&#xD;
+I Got Style Cuz I'm Italian&#xD;
+Hey Maria Hello Tony&#xD;
+Pizza And Cannelloni&#xD;
+I Gotta Zia&#xD;
+Her Name's Sonia&#xD;
+She Makes The Best Lasagna&#xD;
+Frank Sinatra Al Pacino&#xD;
+Let’s Have A Glass Of Vino&#xD;
+I’m A Fighter I’m A Lover&#xD;
+Don’t Talk Bad 'Bout My Mother&#xD;
+I’m Italian I’m A Stallion&#xD;
+Don’t Fuck With An Italian!&#xD;
+&#xD;
+Angelina Bella Signorina&#xD;
+My Bambina You’re Hot Hot Hot Hot&#xD;
+Hey Sofia&#xD;
+Ohh Mamma Mia&#xD;
+Italiano La La La La La La&#xD;
+&#xD;
+Hey Gina What's A Matta Wid You?!&#xD;
+Ti Amo Means I Love You&#xD;
+Hey Gino Pasta Fazoo&#xD;
+I’m Italian E Va Fangu!&#xD;
+&#xD;
+I’m Italian I’m A Stallion&#xD;
+Trans Ams And Gold Medallions&#xD;
+More Meatballs And Linguini&#xD;
+Take A Ride In My Lamborghini&#xD;
+Trevi Fountain&#xD;
+Colosseum&#xD;
+Fly To Rome n Go n See Em&#xD;
+Jersey Shore n The Sopranos&#xD;
+Tu Vuoi Far L’americano!&#xD;
+&#xD;
+Angelina Bella Signorina&#xD;
+My Bambina You’re Hot Hot Hot Hot&#xD;
+Hey Sofia&#xD;
+Ohh Mamma Mia&#xD;
+Italiano La La La La La La&#xD;
+&#xD;
+I Wanna Hear You Sing!&#xD;
+Here We Go!&#xD;
+&#xD;
+I’m Italian E Va Fangu!&#xD;
+&#xD;
+MORE INFO:&#xD;
+&#xD;
+www.paoloortelli.com &#xD;
+www.facebook.com/paolo.ortelli &#xD;
+www.twitter.com/PaoloOrtellidj &#xD;
+www.youtube.com/paoloortelli &#xD;
+www.facebook.com/lukedegree &#xD;
+www.twitter.com/LukeDegree&#xD;
+&#xD;
+Buy this track on Beatport: http://www.beatport.com/track/italian-paolo-ortelli-vs-degree-edit-clean-version/3199161&#xD;
+&#xD;
+</music:description>
+    <music:title>Spankers Feat. John Biancale - Italian (Paolo Ortelli vs Degree) Teaser</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music46">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >138601826</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/dina-horwedel/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music34">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >204761780</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/trippyspaceman89/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music9">
+    <music:genre>hus</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >130716102</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/toddterje/italian-stallion</music:url>
+    <music:description></music:description>
+    <music:title>TODD TERJE - Italian Stallion</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music26">
+    <music:genre>italian</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >123343002</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/eltigrechinox/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music14">
+    <music:genre>Denis Staunton</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >135484533</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/irishtimes-world/18-02-14-scottish-referendum</music:url>
+    <music:description>18/02/14&#xD;
+&#xD;
+In this week's show Denis Staunton takes a look at the Scottish referendum campaign and examines the potential consequences for Ireland with Paul Gillespie and Mark Hennessy. &#xD;
+&#xD;
+He also analyses the prospects for new Italian Prime Minister, Matteo Renzi, with Paddy Agnew in Rome. &#xD;
+&#xD;
+Worldview is a foreign affairs podcast presented by the deputy editor of the Irish Times, Denis Staunton.&#xD;
+It can be listened to and downloaded via Soundcloud and iTunes.&#xD;
+It can be delivered for free to you each week via this link. &#xD;
+https://itun.es/i66S3JH #iTunes&#xD;
+Android users can access this podcast via http://stitcher.com/s?fid=44906&amp;refid=stpr</music:description>
+    <music:title>Scottish referendum &amp; Ireland, New Italian PM</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music1">
+    <music:genre>Soundtrack</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >26019186</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/mallah1/godfather-soundtrack-italian</music:url>
+    <music:description></music:description>
+    <music:title>Godfather Soundtrack Italian Violin</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music38">
+    <music:genre>Blues</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >112052873</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/mark-stockill-2/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music18">
+    <music:genre>Acoustic</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >195662691</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/khalid-mazen/enrico-macias-sing-solenzara-with-italian</music:url>
+    <music:description></music:description>
+    <music:title>Enrico Macias  sing Solenzara  with Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music5">
+    <music:genre>Ee-Sma</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >198729426</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/italian/ee-sma-vs-david-lara-speak-with-meitalian-mash-up</music:url>
+    <music:description>Ee-Sma vs. David Lara - Speak With Me(Italian Mash-up)</music:description>
+    <music:title>Ee-Sma vs. David Lara - Speak With Me(Italian Mash-up)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music41">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >246780</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/jawaker/italian</music:url>
+    <music:description></music:description>
+    <music:title>Jawaker Italian Mafia - Play Trix, Trix Complex, Tarneeb, Baloot With Friends For Free Online</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music33">
+    <music:genre>Entertainment</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >90218388</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/soundbybravo/italian</music:url>
+    <music:description>Join the party Sunday, June 2nd @ 8/7c. Only by Bravo.</music:description>
+    <music:title>"We are a large Italian family."</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music21">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >25699159</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/liviaalexandras/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music13">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >42770393</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/jen-fox-1/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music45">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >73493136</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/colincassidyorg/italian</music:url>
+    <music:description>A one-stop-voice-shop! Find the character voice you want in this A to Zed list of voice characterisations from Award Winning Voice Artist Colin Cassidy.   www.colincassidy.org </music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music8">
+    <music:genre>Dance</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >56644023</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/foolsgoldrecs/napt-ital</music:url>
+    <music:description>iTunes: itunes.apple.com/album/tom-toms-single/id528120147
+Subscribe to Fool's Gold! smarturl.it/FGTV
+
+Don’t let the mysterious voice on the track fool you: tom toms are not “the little drums.�? In the expert hands of UK twosome NAPT, they are megaton percussion weapons, on which NAPT bang out commands for you to freak the funk OUT. Throughout their brand new Tom Toms EP, these breakbeat scientists meld house and techno with cheeky, unexpected soundbites and bugged-out loops for one of the most joyous and undeniably dance-y Fool’s Gold releases to date. Ain’t nothing little going on here…
+
+Check @napt! 
+www.facebook.com/naptuk
+www.instagram.com/naptnapt/
+twitter.com/napt
+
+Check @foolsgoldrecs for more
+
+Sign up to The Goldmine to receive our releases in WAV!
+drip.fm/foolsgoldrecs</music:description>
+    <music:title>NAPT - Italian Spiderman Feat. FireFlowerz</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music0">
+    <music:genre>classical</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >63445778</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/princesspiamia/time-to-say-goodbye-by-sarah</music:url>
+    <music:description>Pia Mia (16 yrs old) covers "Time To Say Goodbye" by Sarah Brightman </music:description>
+    <music:title>Time To Say Goodbye by Sarah Brightman (Pia Mia cover in Italian)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music37">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >195190970</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/prfmsound/italian</music:url>
+    <music:description>http://translyrics.perfume-global.com/</music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music25">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >96969061</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/ratmen/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music17">
+    <music:genre>italy</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >110741189</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/redplanetaudiobooks/italian</music:url>
+    <music:description></music:description>
+    <music:title>RX: Freedom to Travel Language Series: Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music49">
+    <music:genre>Pedrada</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >59878000</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/tl-tulio/italian</music:url>
+    <music:description></music:description>
+    <music:title>Italian</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music4">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >4350233</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/giacomo-vezzani/italian-music-the-godfather-tarantella</music:url>
+    <music:description></music:description>
+    <music:title>Italian Music, The Godfather - Tarantella</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music29">
+    <music:genre>McDonald's Egypt</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >149469663</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/mcdonaldsegypt/italian</music:url>
+    <music:description></music:description>
+    <music:title>The Italian Sandwich Radio Ad</music:title>
+  </rdf:Description>
+</rdf:RDF>

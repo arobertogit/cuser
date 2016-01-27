@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:music="https://schema.org/AudioObject#">
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music40">
+    <music:genre>pools</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >196277498</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/iampools/lets-get-breakfast</music:url>
+    <music:description>yeah</music:description>
+    <music:title>lets get breakfast</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music20">
+    <music:genre>Forgotten</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >85950140</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/alex-kooser/01-breakfast-at-tiffanys</music:url>
+    <music:description>Forgotten Songs from the 20th/21st century&#xD;
+&#xD;
+</music:description>
+    <music:title>01 Breakfast At Tiffanys</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music44">
+    <music:genre>Shoegaze</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >207040912</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/breakfastband/breakfast-breakfast-04-kill</music:url>
+    <music:description>Breakfast EP 
+2015
+Guitarras y voz: Sebastián Cifuentes 
+Bajo: Jorge Aspillaga 
+Batería: Joaquín Flores 
+Grabado entre enero y marzo del 2015 en Trancemission estudios y La casa Delay. 
+Mezcla y postproducción: Breakfast</music:description>
+    <music:title>Breakfast - Breakfast - 04 Kill Your Darlings</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music32">
+    <music:genre>gucci</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >196430461</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/makie125/gucci-mane-take-it-easy-ft-ilovemakonnen-breakfast</music:url>
+    <music:description></music:description>
+    <music:title>Gucci Mane - Take It Easy Ft. ILoveMakonnen (Breakfast)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music24">
+    <music:genre>Boris</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >192799875</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/wearebreakfast/boris</music:url>
+    <music:description>http://breakfastamulet.com</music:description>
+    <music:title>Boris</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music12">
+    <music:genre>R&amp;B</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >99187315</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/hatenylo/breakfast-at-tiffanys</music:url>
+    <music:description>Inspired by the most beautiful woman ever to grace the silver screen, Audrey Hepburn.  &#xD;
+&#xD;
+"People, even more than things, need to be restored, renewed, revived, reclaimed, and redeemed... never throw anyone out."&#xD;
+&#xD;
+Produced by: Boogie Wizzard, Nylo, Cash</music:description>
+    <music:title>Nylo - Breakfast At Tiffany's</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music7">
+    <music:genre>Shy Girls</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >214633314</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/noahbreakfast/shygirls</music:url>
+    <music:description>Shy Girls Ft. Tei Shi - Arrest Me (Noah Breakfast Remix)
+
+Additional guitar - Levi Natkins
+
+Artwork by Glassface</music:description>
+    <music:title>Shy Girls Ft. Tei Shi - Arrest Me (Noah Breakfast Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music48">
+    <music:genre>tea tree oil</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >185422258</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/breakfastsongs/tea-tree-oil</music:url>
+    <music:description>Educate yourself about tea tree oil. Stephen Cogswell and Jenny Simon on backing vocals.</music:description>
+    <music:title>Tea Tree Oil</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music36">
+    <music:genre>Amulet</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >226384873</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/wearebreakfast/valentine-amulet</music:url>
+    <music:description></music:description>
+    <music:title>Valentine</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music28">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >116471973</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/newyabanci22/supertramp-breakfast-in</music:url>
+    <music:description>gftwww.MDindir.net&#xD;
+&#xD;
+ORJİNAL KARAOKE HALLERİNİ İNDİRMEK İÇİN AŞAĞIDAKİ BAĞLANTIYI ZİYARET EDİNİZ&#xD;
+&#xD;
+http://www.mdindir.net/yabanci-muzik/1414-supertramp-karaoke.html</music:description>
+    <music:title>Supertramp - Breakfast in America (www.mdindir.net)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music16">
+    <music:genre>Pop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >13877245</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/bandofgold/dont-you-forget-about-me</music:url>
+    <music:description>Just a wee sample of some of the sounds you can expect on your Big Day.</music:description>
+    <music:title>Don't You (Forget About Me) - (Originally From The Breakfast Club &amp;amp; The Milk Advert)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music3">
+    <music:genre>torylanez</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >211067327</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/torylanez/karrueche</music:url>
+    <music:description>FARGO FRIDAY.
+KARRUECHE PROD NOAH BREAKFAST
+Additional Production - Play Picasso</music:description>
+    <music:title>Karrueche (Prod. Noah Breakfast)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music31">
+    <music:genre>Classic Rock</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >64683827</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/rhmusic-3/the-logical-song-breakfast-in</music:url>
+    <music:description>Roger Hodgson wrote and composed the songs listed above on the Breakfast in America Album. Though all the above songs that Roger recorded with Supertramp were credited equally Hodgson/Davies, that does not reflect how it really was. Roger actually wrote his songs while he was alone and many of his biggest hits were songs he had written before he met Rick and co-founded the band. Roger and Rick actually wrote separately, though they continued to share writer's credit. Of course, it would have been Roger's preference if he'd had better advice and had all the songs he wrote in just his name and the ones Rick wrote just in Rick's name so there would not be so much confusion about the difference in artistic, lyrical and musical styles of each songwriter and composer.&#xD;
+&#xD;
+The Roger Hodgson Store is the only place you can buy directly from the artist and get his autographed CD's. Visit www.RogerHodgsonStore.com&#xD;
+&#xD;
+Get your own autographed copy of this CD at rogerhodgson.spinshop.com/details/1517…p;wId=151757&#xD;
+</music:description>
+    <music:title>The Logical Song - Breakfast in America Album</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music11">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >88308094</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/purpsbeats/gucci-mane-breakfast-feat-waka</music:url>
+    <music:description>Produced by PURPS </music:description>
+    <music:title>Gucci Mane - Breakfast Feat.Waka Flocka &amp; PeeWee Longway ( NO DJ ) PRODUCED BY PURPS</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music43">
+    <music:genre>Shoegaze</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >207040732</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/breakfastband/breakfast-breakfast-02-let-me</music:url>
+    <music:description>Breakfast EP 
+2015
+Guitarras y voz: Sebastián Cifuentes 
+Bajo: Jorge Aspillaga 
+Batería: Joaquín Flores 
+Grabado entre enero y marzo del 2015 en Trancemission estudios y La casa Delay. 
+Mezcla y postproducción: Breakfast</music:description>
+    <music:title>Breakfast - Breakfast - 02 Let Me Down</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music35">
+    <music:genre>Amulet</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >226384294</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/wearebreakfast/franklin</music:url>
+    <music:description></music:description>
+    <music:title>Franklin</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music23">
+    <music:genre>Electronic</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >196177992</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/mrsuicidesheep/aobeats-manila-killa-jai-wolf-ft-mark-johns-diamonds-for-breakfast</music:url>
+    <music:description>AObeats
+https://soundcloud.com/aokamura
+https://www.facebook.com/aobeats
+
+Jai Wolf
+https://soundcloud.com/jaiwolfmusic
+https://www.facebook.com/JaiWolfMusic
+https://twitter.com/JaiWolfx
+
+Manila Killa
+https://soundcloud.com/manilakilla
+https://www.facebook.com/manilakilla
+https://twitter.com/ManilaKilla
+
+Mark Johns
+https://soundcloud.com/itsmarkjohns
+https://www.facebook.com/itsmarkjohns
+https://twitter.com/itsmarkjohns
+
+Released by Moving Castle:
+https://soundcloud.com/movingcastle
+https://www.facebook.com/movingcastlemusic
+https://twitter.com/mvngcstl</music:description>
+    <music:title>AObeats &amp; Manila Killa &amp; Jai Wolf (ft. Mark Johns) - Diamonds For Breakfast</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music15">
+    <music:genre>Swavey</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >170205818</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/torylanez/04-a-week-straight-prod-noah</music:url>
+    <music:description>DOWNLOAD : LOST CAUSE 
+swavenation.com/lostcause
+www.hotnewhiphop.com/tory-lanez-los…pe.115502.html
+
+LOST CAUSE TOUR: swavenation.com</music:description>
+    <music:title>A Week Straight (Prod. Noah Breakfast x Tory Lanez)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music47">
+    <music:genre>Breakfast</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >195437390</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/breakfastisserved/game-over</music:url>
+    <music:description></music:description>
+    <music:title>Game Over</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music39">
+    <music:genre>Music</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >187687284</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/dnauxb/breakfast-demo-whatdidisay</music:url>
+    <music:description></music:description>
+    <music:title>Breakfast Demo Whatdidisay</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music2">
+    <music:genre>LostCause</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >163103470</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/torylanez/the-mission-prod-christian-louie-x-tory-lanez-x-noah-breakfast</music:url>
+    <music:description>DOWNLOAD : LOST CAUSE 
+swavenation.com/lostcause
+http://www.hotnewhiphop.com/tory-lanez-lost-cause-new-mixtape.115502.html
+
+LOST CAUSE TOUR: swavenation.com</music:description>
+    <music:title>The Mission (Prod. Christian Louie X Tory Lanez X Noah Breakfast)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music27">
+    <music:genre>Dance</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >150598080</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/sayloulou/everything-we-touch-noah-brkfst-remix-1</music:url>
+    <music:description>Pre-order Everything We Touch and exclusive B side Peppermint now: smarturl.it/EWT?IQid=SC&#xD;
+&#xD;
+Get a free download here: https://sayloulou.com&#xD;
+&#xD;
+facebook.com/SayLouLoumusic&#xD;
+twitter.com/SayLouLou&#xD;
+youtube.com/user/SayLouLouMusic&#xD;
+instagram.com/saylouloumusic&#xD;
+&#xD;
+@noahbreakfast</music:description>
+    <music:title>Everything We Touch (Noah Breakfast Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music19">
+    <music:genre>90's</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >43719726</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/boredandshit/deep-blue-something-breakfast</music:url>
+    <music:description></music:description>
+    <music:title>Deep Blue Something - Breakfast At Tiffanys</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music6">
+    <music:genre>ToryLanez</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >167423815</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/torylanez/henny-in-hand-prod-noah-breakfast-free-matti</music:url>
+    <music:description>DOWNLOAD : LOST CAUSE 
+swavenation.com/lostcause
+http://www.hotnewhiphop.com/tory-lanez-lost-cause-new-mixtape.115502.html
+
+LOST CAUSE TOUR: swavenation.com</music:description>
+    <music:title>Henny In Hand (Prod. Noah Breakfast + Matti Free)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music42">
+    <music:genre>Shoegaze</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >207040802</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/breakfastband/breakfast-breakfast-01-intro</music:url>
+    <music:description>Breakfast EP 
+2015
+Guitarras y voz: Sebastián Cifuentes 
+Bajo: Jorge Aspillaga 
+Batería: Joaquín Flores 
+Grabado entre enero y marzo del 2015 en Trancemission estudios y La casa Delay. 
+Mezcla y postproducción: Breakfast</music:description>
+    <music:title>Breakfast - Breakfast - 01 Intro</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music30">
+    <music:genre>Classic Rock</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >64683823</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/rhmusic-3/breakfast-in-america-breakfast</music:url>
+    <music:description>Roger Hodgson wrote and composed the songs listed above on the Breakfast in America Album. Though all the above songs that Roger recorded with Supertramp were credited equally Hodgson/Davies, that does not reflect how it really was. Roger actually wrote his songs while he was alone and many of his biggest hits were songs he had written before he met Rick and co-founded the band. Roger and Rick actually wrote separately, though they continued to share writer's credit. Of course, it would have been Roger's preference if he'd had better advice and had all the songs he wrote in just his name and the ones Rick wrote just in Rick's name so there would not be so much confusion about the difference in artistic, lyrical and musical styles of each songwriter and composer.&#xD;
+&#xD;
+The Roger Hodgson Store is the only place you can buy directly from the artist and get his autographed CD's. Visit www.RogerHodgsonStore.com&#xD;
+&#xD;
+Get your own autographed copy of this CD at rogerhodgson.spinshop.com/details/1517…p;wId=151757&#xD;
+</music:description>
+    <music:title>Breakfast in America - Breakfast in America Album</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music22">
+    <music:genre>christmas</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >180694309</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/ladybirdbooks/christmas-breakfast-cranberry-pancakes-baked-by-marika-gauciladybird-christmas-podcast-episode-2</music:url>
+    <music:description>Get the kids in (and then out of) the kitchen on Christmas day with some yummy Christmas pancakes. Find the recipe here: po.st/LBXmasBlog2
+Our host Isabel and chef Marika Gauci are back with another tummy tempting recipe. Listen to Marika baking Christmas Morning Sweet Cranberry Pancakes with her three year old daughter, Phaedra. You can also enjoy Christmas memories from our very own Ladybird team and Radio 6 presenter and dad Shaun Keaveny.  Special celebrity guest Jo Whiley also pops in to offer cooking tips for little ones. But a Ladybird podcast wouldn't be complete without  storytime and this one is from Hansel and Gretel.  
+Head over to po.st/LBXmasBlog2 for the full Sweet Cranberry Pancakes recipe and a chance to win a KitchenAid and a bundle of Ladybird books 
+Tweet @Ladybirdbooks @HappyFoodie with your #LadybirdChristmas baking pictures.
+</music:description>
+    <music:title>CHRISTMAS BREAKFAST (CRANBERRY PANCAKES BAKED BY MARIKA GAUCI)Ladybird Christmas Podcast Episode 2</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music10">
+    <music:genre>Swavey</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >170205824</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/torylanez/05-gold-prod-tory-lanez-x-noah</music:url>
+    <music:description>DOWNLOAD : LOST CAUSE 
+swavenation.com/lostcause
+www.hotnewhiphop.com/tory-lanez-los…pe.115502.html
+
+LOST CAUSE TOUR: swavenation.com</music:description>
+    <music:title>Gold (Prod.Tory Lanez x Noah Breakfast x Play Picasso)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music46">
+    <music:genre>Breakfast</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >195434346</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/breakfastisserved/lucid-dreams</music:url>
+    <music:description></music:description>
+    <music:title>Lucid Dreams</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music34">
+    <music:genre>breakfast</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >57292680</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/amanda-roldan/trouble-sleeping-breakfast-a-t</music:url>
+    <music:description></music:description>
+    <music:title>Trouble Sleeping Breakfast</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music9">
+    <music:genre>newgoa</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >224483151</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/jijah-1/breakfast</music:url>
+    <music:description>new original track by - Jijah!
+Enjoy:]</music:description>
+    <music:title>Breakfast</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music26">
+    <music:genre>Sofia</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >207421551</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/wearebreakfast/sofia</music:url>
+    <music:description>http://breakfastamulet.com</music:description>
+    <music:title>Sofia</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music14">
+    <music:genre>Laid Back</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >82288285</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/six60/six60-feel-the-love-rudimental</music:url>
+    <music:description>Recorded for 'Damn! I Wish I Was Your Cover' on George FM Breakfast&#xD;
+&#xD;
+Recorded Fri March 8th 2013&#xD;
+&#xD;
+SIX60&#xD;
+www.six60.co.nz&#xD;
+www.facebook.com/six60&#xD;
+www.twitter.com/SIX60&#xD;
+www.youtube.com/user/Six60NZ&#xD;
+www.soundcloud.com/six60&#xD;
+</music:description>
+    <music:title>Six60 - Feel the Love (Rudimental Cover for George FM Breakfast)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music1">
+    <music:genre>Pop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >149840864</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/melissasteel/kisses-for-breakfast</music:url>
+    <music:description>New track 'Kisses For Breakfast' ft. Popcaan. Out 28th of July&#xD;
+Pre-order on iTunes: http://smarturl.it/kisses&#xD;
+Stream on Spotify: http://spoti.fi/1zrIpTr &#xD;
+Facebook: http://on.fb.me/1qIulmz&#xD;
+Twitter: http://www.twitter.com/MelissaSteel&#xD;
+Tumblr: http://www.melissasteelx.tumblr.com/&#xD;
+YouTube: http://www.youtube.com/MelissaSteel&#xD;
+</music:description>
+    <music:title>Kisses For Breakfast feat. Popcaan</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music38">
+    <music:genre>Celebrity Interview</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >114845273</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/londons-heart-breakfast/robbie-williams</music:url>
+    <music:description>Robbie popped by to play us his new song, and tell us about his daughter Teddy's first birthday, why Hollywood lied to us and plans for Emma to duet with Rob on his next album!</music:description>
+    <music:title>Robbie Williams joins Jamie &amp; Emma for Heart Breakfast</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music18">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >12049577</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/lehowstef/marvin-sease-i-ate-you-for-my</music:url>
+    <music:description></music:description>
+    <music:title>Marvin Sease - I Ate You for My Breakfast</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music5">
+    <music:genre>HWLS</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >147503049</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/hwls/004-w-noah-breakfast</music:url>
+    <music:description>HWLS x NOAH BREAKFAST 
+
+"004"
+
+* * * * * 
+
+https://twitter.com/hwlsmusic 
+https://instagram.com/hwls_
+https://www.facebook.com/hwlsmusic 
+
+* * * * *
+ 
+www.facebook.com/noahbreakfast
+www.soundcloud.com/noahbreakfast
+www.twitter.com/noahbreakfast</music:description>
+    <music:title>004 w/ Noah Breakfast</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music41">
+    <music:genre>Shoegaze</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >207040653</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/breakfastband/breakfast-breakfast-03-new</music:url>
+    <music:description>Breakfast EP 
+2015
+Guitarras y voz: Sebastián Cifuentes 
+Bajo: Jorge Aspillaga 
+Batería: Joaquín Flores 
+Grabado entre enero y marzo del 2015 en Trancemission estudios y La casa Delay. 
+Mezcla y postproducción: Breakfast</music:description>
+    <music:title>Breakfast - Breakfast - 03 New Life</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music33">
+    <music:genre>Classical</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >44562754</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/steven-gutheinz/breakfast</music:url>
+    <music:description>A chamber orchestra work for piano, 3 strings (violin, cello, double bass), flute, oboe, clarinet, bassoon, trumpet and trombone.</music:description>
+    <music:title>Breakfast</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music21">
+    <music:genre>Diane</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >188075870</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/wearebreakfast/diane</music:url>
+    <music:description>http://breakfastamulet.com</music:description>
+    <music:title>Diane</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music13">
+    <music:genre>Moving Castle</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >196067339</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/movingcastle/aobeats-jai-wolf-manila-killa-ft-mark-johns-diamonds-for-breakfast</music:url>
+    <music:description>Download Moving Castle Vol. IV: bit.ly/MCVol4
+
+Follow @aokamura
+facebook.com/aobeats
+instagram.com/aobeats
+twitter.com/aobeats
+
+Follow @jaiwolfmusic
+facebook.com/JaiWolfMusic
+intsagram.com/jaiwolfx
+twitter.com/jaiwolfx
+
+Follow @manilakilla:
+facebook.com/manilakilla
+Instagram.com/manilakillamusic
+twitter.com/manilakilla
+
+Follow @itsmarkjohns:
+Facebook.com/itsmarkjohns
+Instagram.com/itsmarkjohns
+Twitter.com/itsmarkjohns
+
+Follow @movingcastle:
+facebook.com/movingcastlemusic
+instagram.com/mvngcstl
+twitter.com/mvngcstl</music:description>
+    <music:title>AObeats &amp; Jai Wolf &amp; Manila Killa Ft. Mark Johns - Diamonds For Breakfast</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music45">
+    <music:genre>Hip-hop/rap</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >54162662</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/bennylynx/02-breakfast-at-epiffanies</music:url>
+    <music:description></music:description>
+    <music:title>02 Breakfast AT ePiffanies feat. Erick Arc Elliott (Prod. By Erick Arc Elliott)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music8">
+    <music:genre>Tory Lanez</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >169501398</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/torylanez/i-95-prod-rl-grime</music:url>
+    <music:description>DOWNLOAD : LOST CAUSE 
+swavenation.com/lostcause
+http://www.hotnewhiphop.com/tory-lanez-lost-cause-new-mixtape.115502.html
+
+LOST CAUSE TOUR: swavenation.com</music:description>
+    <music:title>I-95 (Prod. RL Grime, Tory Lanez, Noah Breakfast x Grave Goods)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music0">
+    <music:genre>Ground Up</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >113244778</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/groundupsounds/breakfast</music:url>
+    <music:description>Breakfast by Ground Up featuring G-Eazy (Produced by Bij Lincs)&#xD;
+www.groundupsounds.com&#xD;
+&#xD;
+Support Ground Up and G-Eazy &amp; Buy 'Breakfast' here&#xD;
+http://bit.ly/1lp2hye</music:description>
+    <music:title>Ground Up ft. G-Eazy - Breakfast (prod. by Bij Lincs)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music37">
+    <music:genre>bbc6</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >190251954</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/racing-minds/britain-tonight-live-on-bbc-radio-6-breakfast</music:url>
+    <music:description>The BBC kindly (and unwisely) let us have a bash at the airwaves, unleashing our improvised mayhem on a live audience at the Edinburgh Festival. 'Britain Tonight' was the result. Enjoy. </music:description>
+    <music:title>'Britain Tonight!' Live on BBC Radio 6 Breakfast</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music25">
+    <music:genre>brought that bounce back</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >179815581</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/noahbreakfast/know-snippet-prod-by-tunji-noah-breakfast</music:url>
+    <music:description>@Tunji_Ige - Know (Snippet)
+
+'brought that bounce back'
+
+From the end of Track 1 "For Us" on Tunji Ige's "The Love Project" Mixtape.
+
+DL 'The Love Project' Here: www.tunjiige.com
+</music:description>
+    <music:title>Know (Snippet) (Prod. by Tunji &amp; Noah Breakfast)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music17">
+    <music:genre>Reggae</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >90169674</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/ub40-official/breakfast-in-bed</music:url>
+    <music:description>Breakfast In Bed is the second collaboration with Chrissy Hynde off the Album "UB40" released in 1988.</music:description>
+    <music:title>Breakfast In Bed</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music4">
+    <music:genre>club</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >129822774</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/noahbreakfast/wet-no-lie-noah-breakfast</music:url>
+    <music:description>It was so fun working on the Wet EP, I had to do this remix. Shouts out to Spank Rock. Free Download.&#xD;
+&#xD;
+Mixed by Noah B &amp; Ryan Schwabe for Rare MP3s Co.&#xD;
+Mastered by Ryan Schwabe</music:description>
+    <music:title>Wet - No Lie (Noah Breakfast Remix Ft. Spank Rock)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music29">
+    <music:genre>Sally</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >199964085</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/wearebreakfast/sally-hansen</music:url>
+    <music:description>http://breakfastamulet.com</music:description>
+    <music:title>Sally Hansen</music:title>
+  </rdf:Description>
+</rdf:RDF>

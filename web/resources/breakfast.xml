@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:video="https://schema.org/VideoObject#">
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video0">
+    <video:id>kz3hdymRlXw</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/kz3hdymRlXw/hqdefault.jpg</video:thumbnail>
+    <video:description>Let's get this to 15000 likes! Here are some healthy breakfast ideas for school! Which of these school breakfast ideas was your favorite? Comment below!</video:description>
+    <video:title>Healthy &amp; Easy Breakfast Ideas for School!</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video1">
+    <video:id>F6ehyV7kqv8</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/F6ehyV7kqv8/hqdefault.jpg</video:thumbnail>
+    <video:description>10 Healthy Breakfast ideas and Lunch Ideas on how to cook that healthy food! In this quick and easy how to healthy breakfast ideas and healthy lunch ideas ...</video:description>
+    <video:title>How to Cook Healthy Food! 10 Breakfast Ideas,  Lunch Ideas &amp; Snacks for School, Work!</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video6">
+    <video:id>837yGlLsHVY</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/837yGlLsHVY/hqdefault.jpg</video:thumbnail>
+    <video:description>Subscribe! http://bit.ly/ACSReactions It's the most important meal of the day. Or is it? Breakfast has been the topic of much debate. For years, we were told to eat ...</video:description>
+    <video:title>What is a Complete Breakfast?</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video7">
+    <video:id>QyQi__utmgU</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/QyQi__utmgU/hqdefault.jpg</video:thumbnail>
+    <video:description>Make a full English cooked breakfast in the oven using one tray! Subscribe for regular videos http://goo.gl/CbsOCc Twitter http://www.twitter.com/myvirginkitchen ...</video:description>
+    <video:title>FULL ENGLISH BREAKFAST RECIPE - ONE TRAY &amp; BAKED!</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video8">
+    <video:id>XLetalz0IJY</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/XLetalz0IJY/hqdefault.jpg</video:thumbnail>
+    <video:description>Australian health coach and cook Dan Churchill is taking the world by storm with his delicious and nutritious recipes. These Breakfast Bacon Stacks of lean meat ...</video:description>
+    <video:title>Breakfast Bacon Stacks | Dan Churchill</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video9">
+    <video:id>GTtuynSIvFo</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/GTtuynSIvFo/hqdefault.jpg</video:thumbnail>
+    <video:description>Today I made a Steven Universe Together Breakfast with a twist! I really enjoy making nerdy themed goodies and decorating them. I'm not a pro, but I love ...</video:description>
+    <video:title>STEVEN UNIVERSE TOGETHER BREAKFAST - NERDY NUMMIES</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video2">
+    <video:id>3HL9TLH0uEM</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/3HL9TLH0uEM/hqdefault.jpg</video:thumbnail>
+    <video:description>Black pudding is made of blood? Lovely!â€? Check out more awesome videos at BuzzFeedVideo! http://bit.ly/YTbuzzfeedvideo MUSIC Get Up, Get Down Licensed ...</video:description>
+    <video:title>Americans Try An English Breakfast For The First Time</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video3">
+    <video:id>zRIDcCLxdRI</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/zRIDcCLxdRI/hqdefault.jpg</video:thumbnail>
+    <video:description>This is some stuff that is sometimes eaten for breakfast in Japan, like miso soup, rice and umeboshi, natto!, tako-san wieners (octopus weiner), and tamagoyaki ...</video:description>
+    <video:title>What Japanese Breakfast is Like</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video4">
+    <video:id>st21dIMaGMs</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/st21dIMaGMs/hqdefault.jpg</video:thumbnail>
+    <video:description>An enthusiastic hotel guest takes full advantage of the complimentary continental breakfast. The Comedy Central app has full episodes of your favorite shows ...</video:description>
+    <video:title>Key &amp; Peele - Continental Breakfast</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video5">
+    <video:id>RFqTteBgkuQ</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/RFqTteBgkuQ/hqdefault.jpg</video:thumbnail>
+    <video:description>Which sandwich is the breakfast champ? Check out more awesome videos at BuzzFeedVideo! http://bit.ly/YTbuzzfeedvideo MUSIC Progressive Electric ...</video:description>
+    <video:title>Fast Food Breakfast Sandwich Taste Test</video:title>
+  </rdf:Description>
+</rdf:RDF>

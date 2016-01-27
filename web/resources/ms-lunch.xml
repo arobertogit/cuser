@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:music="https://schema.org/AudioObject#">
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music40">
+    <music:genre>Techno</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >187477117</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/a-paul/naked-lunch-podcast-136-klaudia-gawlas</music:url>
+    <music:description>Naked Lunch Podcast is proud to have Klaudia Gawlas back, with another mind blowing set. This techno maven became one of Europe's leading artists, both as DJ and producer granting her a legion of fans. Get ready to move!
+
+For bookings in Portugal or more info on this artist please visit: http://nakedlunchagency.com/website/klaudia-gawlas
+
+Tracklisting:
+
+01. Yan Cook - Flame
+02. John V - Secret Door 
+03. Raphael Dincsoy, Niereich - Frozen Dub Reality
+04. David Temessi - Berghain
+05. Efector, D.Noyse - Theories (Loudon Kleer Remix)
+06. Keith Carnal - Irrational Behavior
+07. Coldgeist - Artefacts (Developer Remix)
+08. David Temessi - Break Me
+09. A.Paul - Caliber (Dolby D Remix)
+10. Wex 10 - XS
+11. M.I.D.I. - Day be South (Sync Therapy Rework)
+12. Julian Brand - Bleary
+13. Spiros Kaloumenos - Armageddon (The Advent &amp; Industrialyzer Remix)
+14. Matt Mus, Lexem - Black Shadows
+
+</music:description>
+    <music:title>Naked Lunch PODCAST #136 - KLAUDIA GAWLAS</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music20">
+    <music:genre>Instrumental Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >207242428</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/letsdolunch/for-sale</music:url>
+    <music:description></music:description>
+    <music:title>For Sale</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music44">
+    <music:genre>999</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >131409109</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/gnar6gang/lunch</music:url>
+    <music:description></music:description>
+    <music:title>Lunch</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music32">
+    <music:genre>Dubstep</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >87246924</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/neversaydie/schoolboy-lunch-money-ft</music:url>
+    <music:description>Never Say Die UKF Vol.2 album and Super Deluxe Edition pack here:&#xD;
+http://wewillneversaydie.com/&#xD;
+iTunes USA:&#xD;
+http://bit.ly/10LsoWt&#xD;
+iTunes UK:&#xD;
+http://bit.ly/Zi7RVR&#xD;
+&#xD;
+“NEVER SAY DIE, VOLUME TWO�? SET FOR RELEASE ON APRIL 21.&#xD;
+&#xD;
+ALBUM WILL INCLUDE NEW TRACKS FROM ZOMBOY, SKISM, BAR9, EPTIC AND MANY OTHERS...&#xD;
+&#xD;
+After the successful joint venture of last year’s “Never Say Die�? compilation album, Never Say Die Records and UKF are collaborating again to showcase the best and most cutting-edge sounds in bass music.  &#xD;
+&#xD;
+The core NSD roster is ever-present and is joined by a hand picked selection of special guests. Label head of A&amp;R SKisM heads up the affair and delivers the continuous mix on the deluxe edition, while Zomboy, Eptic, 501 and Dodge &amp; Fuski offer up the trademark sounds that have put the label at the forefront of the Dubstep scene in recent years. &#xD;
+&#xD;
+Seizing the opportunity to broaden it’s musical scope, the label has opened it’s doors to feature exclusive tracks by some of the hottest artists in the EDM scene right now including Antiserum &amp; Mayhem, Schoolboy, Figure, Buku, Killagraham, Habstrakt, Virus Syndicate and the legendary BAR9.&#xD;
+&#xD;
+The album will be released digitally (and on super limited edition Double CD) on April 21st. </music:description>
+    <music:title>SchoolBoy - Lunch Money Ft. Hyro Da Hero</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music24">
+    <music:genre>Rock</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >34119564</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/lunch-3/bottle-rocket</music:url>
+    <music:description></music:description>
+    <music:title>Bottle Rocket</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music12">
+    <music:genre>lunch</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >238287496</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/lunch-917109609/lunch-the-meeting-of-life</music:url>
+    <music:description></music:description>
+    <music:title>LUNCH - The Meeting Of Life</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music7">
+    <music:genre>CIA </music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >197442238</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/sporkful/listen-to-this-dramatic-reading-of-a-cia-spys-complaint-about-his-lunch-salad</music:url>
+    <music:description>Dan talks to two guys who used Freedom of Information Requests to unearth the contents of the CIA cafeteria suggestion box, this week on The Sporkful podcast. It turns out even spies hate stale bread. And as you'll hear in this clip, you don't even want to get folks at the CIA started on something called a Jazz Salad. Listen to the whole episode and subscribe to The Sporkful at https://itunes.apple.com/us/podcast/the-sporkful/id350709629 -- or wherever you get your podcasts.</music:description>
+    <music:title>Listen To This Dramatic Reading Of A CIA Spy’s Complaint About His Lunch Salad</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music48">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >32619796</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/alex-harford/lunch</music:url>
+    <music:description></music:description>
+    <music:title>Lunch</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music36">
+    <music:genre>Jersey Club Music</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >195029210</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/dj-tim-dolla/i-got-bills-dj-tim-dolla-x-dj-problem</music:url>
+    <music:description></music:description>
+    <music:title>Lunch Money Lewis - Bills (DJ Tim Dolla X DJ Problem)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music28">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >242319722</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/letsdolunch/columbia</music:url>
+    <music:description>2 Beats</music:description>
+    <music:title>Columbia</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music16">
+    <music:genre>Rock</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >34116218</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/lunch-3/lfm</music:url>
+    <music:description></music:description>
+    <music:title>LFM</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music3">
+    <music:genre>Kick Bass</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >222289886</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/trp-bootlegs/whipit</music:url>
+    <music:description>Just a simple booty.
+
+Hope you enjoy :)
+
+Also, thanks for 3.5k on my main account! @trp-music
+
+
+Download: http://bit.ly/1INWNGj
+
+inb4 someone says this is just Brynnys style, and I'm fully aware lmao.</music:description>
+    <music:title>Lunch Money Lewis - Whip It (TRP Bootleg)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music31">
+    <music:genre>Hopsin</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >163601000</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/rattpacking/hopsin-lunch-time-cypher-ft-passionate-mc-g-mo-skee</music:url>
+    <music:description></music:description>
+    <music:title>Hopsin - Lunch Time Cypher Ft. Passionate MC &amp; G Mo Skee</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music11">
+    <music:genre>LUNCH</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >238287270</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/lunch-917109609/lunch-say-say-say</music:url>
+    <music:description></music:description>
+    <music:title>LUNCH - SAY SAY SAY</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music43">
+    <music:genre>Rock</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >62956185</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/66th/lunch</music:url>
+    <music:description>Part of the recording we did in lunch time</music:description>
+    <music:title>Lunch Session 10.Oct.2012</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music35">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >93631953</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/chillchildren/lunch-lightsabers</music:url>
+    <music:description>Beat by - https://soundcloud.com/weirddough&#xD;
+&#xD;
+Facebook - http://bit.ly/chillchildren</music:description>
+    <music:title>JETϟON - Lunch &amp; Lightsabers</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music23">
+    <music:genre>Rock</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >34116558</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/lunch-3/the-heist</music:url>
+    <music:description></music:description>
+    <music:title>The Heist</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music15">
+    <music:genre>nat king cole</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >233238370</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/letsdolunch/nat-king-cole-the-christmas-song-hiphop-remix</music:url>
+    <music:description>Had some fun remixing this classic Christmas song. </music:description>
+    <music:title>Nat King Cole - The Christmas Song (hiphop remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music47">
+    <music:genre>Bounce</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >240620226</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/jesseblochmusic/whipitjesseblochbootleg</music:url>
+    <music:description></music:description>
+    <music:title>Lunch Money Lewis - Whip It (Jesse Bloch Bootleg) [FREE DOWNLOAD]</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music39">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >14332766</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/yanaunique/dj-rhymer-ft-lunch-money-young</music:url>
+    <music:description></music:description>
+    <music:title>DJ Rhymer ft. Lunch Money, Young Cartoon - Wham</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music2">
+    <music:genre>mashup</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >139946019</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/sssshawnnnn/shawn-wasabi-uncool-lunch</music:url>
+    <music:description>WATCH: http://www.youtube.com/watch?v=IAAh4s5JrAs
+
+recess album is pretty cool yeah
+
+http://soundcloud.com/sssshawnnnn
+http://facebook.com/shawnwasabi
+http://twitter.com/shawnwasabi
+http://instagram.com/sssshawnnnn
+
+I changed my alias to Shawn Wasabi just recently! Most of you probably know me as sssshawnnnn, but I and most other people found it difficult trying to remember how to spell that. The reason I chose Shawn Wasabi was because it's easier to spell and remember, it's a lot more closer to my actual name, and it much more closely follows what I feel is the theme of my music. :) Just a heads up that I'll be posting music under this name from now on, thanks for being a cool fan!
+
+Played live on a Midi Fighter Spectra going into Ableton Live 8.
+
+Tracklist(basically the entire Skrillex-Recess album):
+
+Skrillex - All is Fair in Love and Brostep (ft. Ragga Twins)
+Skrillex - Recess (ft. Kill the Noise, Fatman Scoop and Michael Angelakos)
+Skrillex - Stranger (with KillaGraham ft. Sam Dew)
+Skrillex - Try It Out (with Alvin Risk) (Neon Mix)
+Skrillex - Coast Is Clear (ft. Chance The Rapper and The Social Experiment)
+Skrillex - Dirty Vibe (with Diplo ft. G-Dragon and CL)
+Skrillex - Ragga Bomb (ft. Ragga Twins)
+Skrillex - Doompy Poomp
+Skrillex - Fuck That
+Skrillex - Ease My Mind (ft. Niki &amp; The Dove)
+Skrillex - Fire Away (with Kid Harpoon)</music:description>
+    <music:title>Shawn Wasabi - Uncool Lunch Tables (live Skrillex Recess Mashup)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music27">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >228298532</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/letsdolunch/big-words</music:url>
+    <music:description></music:description>
+    <music:title>Big Words</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music19">
+    <music:genre>Instrumental Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >207191739</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/letsdolunch/evening-stroll</music:url>
+    <music:description></music:description>
+    <music:title>Evening Stroll</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music6">
+    <music:genre>House</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >231441348</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/gin-0_o/lunch-money-lewis-whip-it-mp-edit</music:url>
+    <music:description></music:description>
+    <music:title>Lunch Money Lewis - Whip It (MP DANCE EDIT)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music42">
+    <music:genre>Indie Pop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >24366962</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/kotki-dwa/lunch</music:url>
+    <music:description></music:description>
+    <music:title>Lunch</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music30">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >228427614</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/letsdolunch/deedee</music:url>
+    <music:description></music:description>
+    <music:title>DeeDee</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music22">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >242319717</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/letsdolunch/strap</music:url>
+    <music:description>2 Beats</music:description>
+    <music:title>Strap</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music10">
+    <music:genre>lunch</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >242133088</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/lunch-917109609/lunch-scream-of-my-soul</music:url>
+    <music:description>релиз 2016 год</music:description>
+    <music:title>LUNCH - Scream Of My Soul</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music46">
+    <music:genre>Radiospot</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >59339342</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/silke-skukies/lunch</music:url>
+    <music:description></music:description>
+    <music:title>Lunch ...</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music34">
+    <music:genre>Lunch</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >120206335</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/realhousemaids/episode-11-serious-lunch</music:url>
+    <music:description>Serious Lunch (see-ree-OS LUN-ch)
+
+Noun
+
+A fun lunch with your best friend that takes a serious turn.
+When you think you’re going to a casual lunch, but your bestie has something unexpected and important to get off her chest
+This weeks episode starts with a blues riff in the key of MAID. 
+
+Sponge lends her generous ears as Rag tells his recent tales of woe and deceit. 
+
+Lies, betrayal, court dates and redemption, all to be found in the first 20 minutes of this episode
+
+Then the maids turn their frowns upside down and welcome DR. STEVEN  (@gossipbabies, soundcloud/greatskin), resident sluts-pert in for a MAJOR sex/relationship advice segment. We asked you to email, tweet and facebook us your queeries to be answered by our panel of experts and the response was overwhelmingly amazing. Thank you for your questions, we love our fans.
+
+Topics covered: Therapists, double-d’s, vegan girlfriends, lesbian sex and much, much more. Sponge even touches a condom for the first time EVER. 
+
+AS ALWAYS, SEND YOUR QUESTIONS, COMMENTS, PICTURES AND STORIES TO:</music:description>
+    <music:title>Episode 11  Serious Lunch</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music9">
+    <music:genre>Stealing Sheep</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >226447693</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/lunchsounds/stealing-sheep-apparition-lunch-remix</music:url>
+    <music:description></music:description>
+    <music:title>Stealing Sheep - Apparition (Lunch Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music26">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >217968195</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/letsdolunch/bill</music:url>
+    <music:description></music:description>
+    <music:title>Bill</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music14">
+    <music:genre>Club</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >192331854</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/djtony-varnado/lunch-money-lewis-bills-dj-tony-vees-club-bills-dub</music:url>
+    <music:description>U Can Relate…</music:description>
+    <music:title>Lunch Money Lewis - Bills (Dj TONY VEE's Club Bills Dub)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music1">
+    <music:genre>Club</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >192331408</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/djtony-varnado/lunch-money-lewis-bills-dj-tony-vees-club-bills-mix</music:url>
+    <music:description>"You know you can relate" </music:description>
+    <music:title>Lunch Money Lewis - Bills (Dj TONY VEE's Club Bills Mix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music38">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >86963079</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/schoolboyofficial/lunch-money-preview</music:url>
+    <music:description>Out April 21st on Never Say Die / UKF! &#xD;
+&#xD;
+Pre Order now: www.wewillneversaydie.com</music:description>
+    <music:title>Lunch Money Ft. Hyro Da Hero (Preview)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music18">
+    <music:genre>Rock</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >34121727</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/lunch-3/walk-it-off</music:url>
+    <music:description></music:description>
+    <music:title>Walk it off</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music5">
+    <music:genre>Rugraps</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >181863503</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/willhoward1225/ralphy-london-x-lunch-money-gang-rugraps</music:url>
+    <music:description></music:description>
+    <music:title>Ralphy London X Lunch Money Gang - RUGRAPS</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music41">
+    <music:genre>lunch</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >203862281</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/theunfinishedpickle/lunch</music:url>
+    <music:description></music:description>
+    <music:title>Lunch</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music33">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >219614678</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/goonmario/lunch-money-gang-rugraps</music:url>
+    <music:description></music:description>
+    <music:title>Lunch Money Gang - Rugraps</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music21">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >214638075</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/letsdolunch/dont-be-confused</music:url>
+    <music:description>hip hop beat for sale. </music:description>
+    <music:title>DON'T BE CONFUSED</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music13">
+    <music:genre>gg</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >234461006</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/gabriellespells/accent</music:url>
+    <music:description></music:description>
+    <music:title>Accent</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music45">
+    <music:genre>lunch</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >141208437</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/jensenhaldrup/lunch</music:url>
+    <music:description></music:description>
+    <music:title>Lunch</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music8">
+    <music:genre>Electro</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >150435807</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/lunch-4/eden</music:url>
+    <music:description>Old mix of this song</music:description>
+    <music:title>Eden</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music0">
+    <music:genre>Lunch money Pusha T KingPush</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >178336510</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/pushat/lunch-money</music:url>
+    <music:description>Available on itunes. smarturl.it/iLunchMoney</music:description>
+    <music:title>Lunch Money</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music37">
+    <music:genre>Hungry</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >131110183</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/please-hold/lunch</music:url>
+    <music:description></music:description>
+    <music:title>Lunch</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music25">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >218376472</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/letsdolunch/ashleys-nest</music:url>
+    <music:description></music:description>
+    <music:title>Ashley's Nest</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music17">
+    <music:genre>Rock</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >34115538</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/lunch-3/popcorn-chicken</music:url>
+    <music:description></music:description>
+    <music:title>Popcorn Chicken</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music49">
+    <music:genre>Lo-Fi/Folk</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >88843244</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/hongkonghongkong/lunch</music:url>
+    <music:description>now the wind has switched its course&#xD;
+loud voices turn into whispers&#xD;
+i've noticed no one wants to be alone&#xD;
+not one, not a single soul&#xD;
+but if only you could step in my shoes and i to step in your own&#xD;
+but i'm afraid&#xD;
+i've grown too used&#xD;
+to what i've only known&#xD;
+&#xD;
+when the tides all reach the shore&#xD;
+their cries mutating to laughter&#xD;
+they all want a skinny hand to hold&#xD;
+well i'd piss on a little flame through the cold&#xD;
+maybe it's far beyond my control&#xD;
+a seed embedded way before it was grown&#xD;
+&#xD;
+i'd hate to feel disappointment&#xD;
+even more so for you&#xD;
+and i'd hate to expect for something&#xD;
+not anything from you&#xD;
+though solitude may do its part&#xD;
+it's still a narrow road to start&#xD;
+when you sit within&#xD;
+the gaps of you and everything</music:description>
+    <music:title>Lunch</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music4">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >120122365</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/funkvolume/lunch-time-cypher-ft-passiona</music:url>
+    <music:description>Knock Madness available November 26th
+
+“The whole thing that got me here was controversy,�? admits Hopsin. In 2010, the Panorama City, California native’s back was against the wall. He was unhappily signed to Eazy-E’s former label with a debut ('Gazing at the Moonlight') failing to meet his artistic and commercial expectations after years of acting on a major network and a feature film. Hardly a “kiddie rapper,�? the emcee took to the Internet and released, “Sag My Pants,�? an instant rewind. “I lashed out against Ruthless Records. I knew that would have some shock value. But at the time, I had to do whatever I could do.�? Hopsin’s survival mechanisms have guided him through life. As a youth placed in special education classes, Hop overcame the obstacles to become a video editor, music producer in addition to rapper. He is also co-founder of the low profile indie-powerhouse Funk Volume, currently with 600,000 Youtube subscribers and 1.2 Million Facebook Likes. This 2012 XXL Freshman is at the top of his class.
+In the three years since 'Raw', Hopsin has steadily supplied his thousands of album-buying fans with free music, notably his “Ill Mind of Hopsin�? series. The artist is still fearless in maintaining the spirit of lunchroom battles with SwizZz years ago; “I don’t care to burn a bridge if I didn’t want to cross it anyway.�? In the meantime, he appeared on Tech N9ne’s video single “Am I a Psycho?�? as well as a top 3 album by Insane Clown Posse, the Mighty Death Pop. “The key thing is I don’t hang around bullshit artists who convince me to make bullshit songs. I just hang in my basement with the same people I’ve always hanged with. I’m the same guy; I haven’t changed.�?
+With cover stories and a plethora of seven-figure Youtube content, the self-made talent is sticking to his formula on his third LP, Knock Madness. “It’s gonna be hard to top—I’m calling it right now,�? he boasts, claiming it’s just “an enhancement�? of his work. Moreover, he wants to punctuate his career. “this will probably be my last album for a long time.�? elaborating, the recluse promises “the biggest tour I’ve ever done, and I’m leavin’ for a while�? as devotes his attention to Funk Volume.
+While controversy may have made Hopsin a star, skill and courage made him a fan favorite. Hopsin has the attitude and charisma that makes hip hop unpredictable again.</music:description>
+    <music:title>Lunch Time Cypher ft. Passiona</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music29">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >242625768</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/letsdolunch/whats-for-dinner</music:url>
+    <music:description></music:description>
+    <music:title>What's For DInner?</music:title>
+  </rdf:Description>
+</rdf:RDF>

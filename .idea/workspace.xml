@@ -8,28 +8,27 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8d305c2-3cc7-4693-ac07-c8c07eb808f1" name="Default" comment="Added resources">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/american.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/breakfast.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/chicken.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/fish.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/french.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/italian.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/lunch.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/meat.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/menu.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ms-american.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ms-breakfast.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ms-chicken.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ms-fish.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ms-french.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ms-italian.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ms-lunch.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ms-meat.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ms-pasta.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/ms-romanian.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/pasta.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/romanian.nt" afterPath="" />
+    <list default="true" id="b8d305c2-3cc7-4693-ac07-c8c07eb808f1" name="Default" comment="Added resources in RDF/XML format">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/american.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/breakfast.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/chicken.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/fish.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/french.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/italian.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/lunch.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/meat.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/ms-american.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/ms-breakfast.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/ms-chicken.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/ms-fish.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/ms-french.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/ms-italian.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/ms-lunch.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/ms-meat.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/ms-pasta.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/ms-romanian.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/pasta.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/romanian.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cuser6.iws" />
@@ -54,14 +53,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Request.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Request.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/request/Request.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44690266">
+            <state vertical-scroll-proportion="0.0">
               <caret line="115" column="27" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fish.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/resources/fish.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ms-french.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/resources/ms-french.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.29565218">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -290,17 +309,17 @@
     <property name="SearchEverywhereHistoryKey" value="commit&#9;ACTION&#9;ChangesView.Commit&#10;JDK&#9;FILE&#9;file://C:/Users/Ervin/IdeaProjects/cuser/.idea/libraries/jdk1_7.xml&#10;build&#9;ACTION&#9;CompileProject" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ervin\IdeaProjects\cuser\web\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\mine\ideaProjects\cuser\src\main\java\fii\odiunu" />
+      <recent name="C:\mine\ideaProjects\cuser\web" />
+      <recent name="$PROJECT_DIR$/web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="fii.odiunu.facebook" />
       <recent name="fii.odiunu.auth" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\mine\ideaProjects\cuser\src\main\java\fii\odiunu" />
-      <recent name="C:\mine\ideaProjects\cuser\web" />
-      <recent name="$PROJECT_DIR$/web" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ervin\IdeaProjects\cuser\web\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Unnamed">
@@ -835,7 +854,7 @@
       <workItem from="1453652670032" duration="2226000" />
       <workItem from="1453810943527" duration="976000" />
       <workItem from="1453882531103" duration="898000" />
-      <workItem from="1453883442507" duration="10000" />
+      <workItem from="1453883442507" duration="142000" />
     </task>
     <task id="LOCAL-00001" summary="first working version on aws">
       <created>1453110050197</created>
@@ -885,11 +904,17 @@
       <option name="project" value="LOCAL" />
       <updated>1453882915582</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added resources">
+      <created>1453883457591</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1453883457591</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27245000" />
+    <option name="totallyTimeSpent" value="27377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1041" extended-state="0" />
@@ -897,6 +922,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3251073" sideWeight="0.4925" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32818532" sideWeight="0.5075" order="7" side_tool="true" content_ui="tabs" />
@@ -908,6 +934,7 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3834746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -918,10 +945,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39809927" sideWeight="0.62625" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3251073" sideWeight="0.4925" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3351235" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -972,7 +997,9 @@
     <MESSAGE value="Added .nt files in resources, as RDF database" />
     <MESSAGE value="Small changes in the request" />
     <MESSAGE value="Changed .nt in/out to XML/RDF" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed .nt in/out to XML/RDF" />
+    <MESSAGE value="Added resources" />
+    <MESSAGE value="Added resources in RDF/XML format" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added resources in RDF/XML format" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1317,11 +1344,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/request/Request.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44690266">
+        <state vertical-scroll-proportion="0.0">
           <caret line="115" column="27" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/fish.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/ms-french.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29565218">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

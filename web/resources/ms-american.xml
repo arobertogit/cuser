@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:music="https://schema.org/AudioObject#">
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music40">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >29906836</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/electricguest/american-daydream</music:url>
+    <music:description></music:description>
+    <music:title>American Daydream</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music20">
+    <music:genre>progressive house</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >169916611</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/hardwell/i-am-hardwell-north-american-tour-mix</music:url>
+    <music:description>Hardwell presents Revealed Vol. 6 → http://hwl.dj/REVRVol6
+Hardwell - United We Are (Album) → http://bit.ly/UNITEDWEARE
+
+Get your tickets now! → www.bit.ly/iamhardwell-USA
+For worldwide dates &amp; tickets check: http://iamhardwell.com/
+In April 2013 Robbert van de Corput, also known as Hardwell, launched his most ambitious project to date when he unveiled his I Am Hardwell World Tour concept at Amsterdam's Heineken Music Hall to a capacity crowd. A spectacle of unprecedented musical vision and production detail, the entire show was broadcast live to hundreds of thousands of fans around the world. After the successful kick off of his I Am Hardwell World Tour in Amsterdam last April, Hardwell has sold-out shows in 19 countries around the world including dates in Singapore, Guatemala, Istanbul, Tel Aviv, Bangalore, Mumbai, Lisbon and London, and is now poised to take over North America.
+
+Tourdates:
+Oct. 31 Chicago, IL UIC Pavilion
+Nov. 7 San Francisco, CA Bill Graham Civic Auditorium
+Nov. 8 Los Angeles, CA The Forum
+Nov. 10 Vancouver, BC Pacific Coliseum
+Nov. 14 Miami, FL Klipsch Amphitheatre at Bayfront
+Nov. 15 New York, NY Madison Square Garden
+
+Tracklist
+01. Hardwell feat. Matthew Koma - Dare You (Concert Edit)
+02. Dannic &amp; TV Noise - Solid
+03. Hardwell &amp; W&amp;W - The Dance Floor Is Yours
+04. Bingo Players vs Hardwell vs Tommy Trash &amp; Sebastian Ingrosso- Knock You Out Reload (Hardwell Mashup)
+05. Deorro &amp; J-Trick - Rambo (Hardwell Edit)
+06. Hardwell &amp; W&amp;W feat. Fatman Scoop - Don't Stop The Madness
+07. Hardwell &amp; Joey Dale feat. Luciana - Arcadia (Thomas Newson Remix)
+08. KSHMR &amp; DallasK - Burn
+09. Coldplay - A Sky Full Of Stars (Hardwell Remix)
+
+For more info:
+www.iamhardwell.com
+www.djhardwell.com
+www.facebook.com/djhardwell
+www.twitter.com/HARDWELL
+www.youtube.com/robberthardwell</music:description>
+    <music:title>I AM HARDWELL North American Tour Mix</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music44">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >31981861</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/amandapadamoose/tate-american-horror-story</music:url>
+    <music:description></music:description>
+    <music:title>Tate, American Horror Story - Sweet Dreams.</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music32">
+    <music:genre>StevieNickis</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >137978190</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/vin-cius-falc-o-1/stevie-nicks-seven-wonders</music:url>
+    <music:description></music:description>
+    <music:title>Stevie Nicks - Seven Wonders (AMERICAN HORROR STORY 3 SEASON)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music24">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >98421918</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/atlanticrecords/skillet-american-noise</music:url>
+    <music:description>RISE (Deluxe) on iTunes: smarturl.it/risedlx&#xD;
+RISE (Standard) on iTunes: smarturl.it/skilletrise</music:description>
+    <music:title>Skillet - American Noise</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music12">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >149381095</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/jimmyeatworld/bleed-american</music:url>
+    <music:description>iTunes: smarturl.it/bleed-american&#xD;
+Vinyl: bit.ly/bleed-american-vinyl&#xD;
+Amazon: bit.ly/bleed-american-amazon</music:description>
+    <music:title>Bleed American</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music7">
+    <music:genre>Lovestep</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >132979346</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/just-a-gent/bestdayofmylife</music:url>
+    <music:description>&lt;b&gt;Like the track? Click the [↻ Repost] button!&lt;b&gt;&#xD;
+&#xD;
+Support the Original: http://bit.ly/1o5d0An&#xD;
+&#xD;
+&#xD;
+More American Authors&#xD;
+&#xD;
+https://twitter.com/aauthorsmusic&#xD;
+https://soundcloud.com/american-authors&#xD;
+https://www.facebook.com/americanauthors&#xD;
+&#xD;
+Art by: elizavetas.deviantart.com</music:description>
+    <music:title>American Authors - Best Day Of My Life (Just A Gent Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music48">
+    <music:genre>Hudson Mohawke</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >149523275</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/hudsonmohawke/amen-hudmo</music:url>
+    <music:description>signed american men to our label and did this remix and now claude speeed and sevendeaths make solo music which is good</music:description>
+    <music:title>American Men - AM System (Hud Mo RMX) [2010]</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music36">
+    <music:genre>rock</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >199105936</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/ekhvkhv/asking-alexandria-not-the-american-average</music:url>
+    <music:description></music:description>
+    <music:title>Asking Alexandria - Not The American Average</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music28">
+    <music:genre>Trapstyle</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >121983650</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/3fk/american-horror-story-whistle</music:url>
+    <music:description></music:description>
+    <music:title>American Horror Story - "Whistle Song" (Twisted Nerve - 3FK Trap Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music16">
+    <music:genre>Progressive House</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >141018071</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/housemusic/best-day-of-my-life-by</music:url>
+    <music:description>&lt;b&gt;Like the track? Click the [&lt;i&gt;↻ Repost&lt;/i&gt;] button!&lt;/b&gt;
+
+&lt;b&gt;Join the Movement @ &lt;a href=�?http://www.edm.com�?&gt;EDM.com&lt;/a&gt;&lt;/b&gt;
+
+Get It Here: http://bit.ly/1riaQPD
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+Follow EDM.com:
+www.Facebook.com/edmcom
+www.twitter.com/TheEDMNetwork
+www.youtube.com/EDM
+www.instagram.com/edm
+plus.google.com/+EDM
+SC: http://soundcloud.com/EDM
+
+Follow Gazzo:
+http://www.facebook.com/GazzoMusic
+http://twitter.com/djgazzo
+SC: https://soundcloud.com/djgazzo
+http://www.gazzomusic.com/
+
+Follow American Authors:
+https://www.facebook.com/americanauthors
+https://twitter.com/aauthorsmusic
+SC: https://soundcloud.com/american-authors
+http://weareamericanauthors.com/
+
+Follow The Island Def Jam:
+http://facebook.com/IslandRecords
+http://twitter.com/islandrecords
+SC: https://soundcloud.com/islanddefjam
+http://www.islanddefjam.com/
+
+Follow Us @ &lt;a href=�?http://www.edm.com�?&gt;EDM.com&lt;/a&gt;
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+Send all demos to Dropbox@House.NET to have your track featured!
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••</music:description>
+    <music:title>Best Day Of My Life by American Authors (Gazzo Radio Edit)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music3">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >35129656</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/ironandwine/flightless-bird-american-mouth</music:url>
+    <music:description></music:description>
+    <music:title>Flightless Bird, American Mouth</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music31">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >139120015</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/user92283220/all-american-girl-carrie</music:url>
+    <music:description></music:description>
+    <music:title>All American Girl- Carrie Underwood! NOT A COVER!</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music11">
+    <music:genre>Alternative</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >80677407</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/american-authors/best-day-of-my-life</music:url>
+    <music:description>Download American Authors debut album "Oh, What A Life" on iTunes - http://smarturl.it/iOWAL&#xD;
+&#xD;
+Click To Subscribe - http://bit.ly/1jdvbRw&#xD;
+&#xD;
+Sign Up: http://smarturl.it/SUAmericanAuthors&#xD;
+For upcoming tour dates, visit - http://smarturl.it/AATourDates&#xD;
+Official Website - http://weareamericanauthors.com/&#xD;
+Facebook - https://www.facebook.com/americanauthors&#xD;
+Twitter - https://twitter.com/aauthorsmusic</music:description>
+    <music:title>Best Day of My Life</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music43">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >62262773</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/bigsmo/american-made-kuntry-boys-feat</music:url>
+    <music:description>FROM THE "AMERICAN MADE" ALBUM.FEATURING FELLOW TENNESSEE ARTISTS LIL WYTE AND JELLY ROLL</music:description>
+    <music:title>American Made - Kuntry Boys feat. Lil' Wyte &amp; Jelly Roll</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music35">
+    <music:genre>5sos</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >154117460</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/beatrizcardosoo/5-seconds-of-summer-american-idiot-cover</music:url>
+    <music:description></music:description>
+    <music:title>5 Seconds of Summer Cover- American Idiot</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music23">
+    <music:genre>Melodic Dubstep</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >133378285</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/dubstep/best-day-of-my-life-by</music:url>
+    <music:description>&lt;b&gt;Like the track? Click the [&lt;i&gt;↻ Repost&lt;/i&gt;] button!&lt;/b&gt;&#xD;
+&#xD;
+&lt;b&gt;Join the Movement @ http://EDM.com&lt;/b&gt;&#xD;
+&#xD;
+Support Just A Gent: https://www.facebook.com/JustaGent/app_190322544333196?ref=br_rs&#xD;
+••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••&#xD;
+Follow EDM.com:&#xD;
+www.Facebook.com/edmcom&#xD;
+www.twitter.com/TheEDMNetwork&#xD;
+www.youtube.com/EDM&#xD;
+www.instagram.com/edm&#xD;
+plus.google.com/+EDM&#xD;
+SC: http://soundcloud.com/EDM&#xD;
+&#xD;
+Follow Just A Gent:&#xD;
+https://www.facebook.com/justagent&#xD;
+https://twitter.com/JustAGentDJ&#xD;
+SC: https://soundcloud.com/just-a-gent&#xD;
+&#xD;
+Follow American Authors:&#xD;
+https://www.facebook.com/americanauthors&#xD;
+https://twitter.com/aauthorsmusic&#xD;
+SC; https://soundcloud.com/american-authors&#xD;
+&#xD;
+Follow Us @ http://EDM.com&#xD;
+••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••&#xD;
+Send all demos to dropbox@Dubstep.NET to have your track featured!&#xD;
+&#xD;
+Send unreleased tracks to exclusive@Dubstep.NET to be considered for Exclusive release!&#xD;
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••&#xD;
+</music:description>
+    <music:title>Best Day Of My Life by American Authors (Just A Gent Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music15">
+    <music:genre>hip hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >24389823</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/g-eazy/mercedes-benz-the-american</music:url>
+    <music:description>I was digging through my mom's record collection and stumbled upon Janis Joplin's 'Pearl' record. I had heard "Mercedes Benz" before, but it had been a few years. It was one of those moments where I instantly jumped up, and decided it would be a dope song to flip. The concept is so relatable, and the passion is so present in her voice. The original is an acapella, so I wrote some chords and called my homie John Michael over to lay down some acoustic guitar parts down behind her vocal. I'm stoked on how it came out.</music:description>
+    <music:title>Mercedes Benz (The American Dream) ft. Janis Joplin</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music47">
+    <music:genre>Alternative Rock</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >35080298</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/interscope/the-all-american-rejects-7</music:url>
+    <music:description>Available Now - http://www.smarturl.it/BeekeepersDaughter&#xD;
+http://www.allamericanrejects.com/splash/&#xD;
+www.allamericanrejects.com/&#xD;
+www.facebook.com/AllAmericanRejects&#xD;
+twitter.com/therejects</music:description>
+    <music:title>The All American Rejects - Beekeeper's Daughter</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music39">
+    <music:genre>Trilhas sonoras</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >32700767</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/camiseteiro-camisetas-diversas/american-horror-story-theme</music:url>
+    <music:description>Ouça o tema de sua série favorita aqui!</music:description>
+    <music:title>American Horror Story Theme</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music2">
+    <music:genre>Hiphop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >32314612</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/atlanticrecords/estelle-american-boy-feat</music:url>
+    <music:description></music:description>
+    <music:title>Estelle - American Boy [Feat. Kanye West] Album Version)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music27">
+    <music:genre>☂</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >226783791</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/soundbyezra/americanboyrmx</music:url>
+    <music:description>tweet at @EstelleDarlings so she sees this &lt;3
+
+shouts out to liam for convincing me to remix this</music:description>
+    <music:title>Estelle - American Boy (EZRA Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music19">
+    <music:genre>Alternative Rock</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >26318708</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/interscope/the-all-american-rejects-move</music:url>
+    <music:description>www.allamericanrejects.com/&#xD;
+www.facebook.com/AllAmericanRejects&#xD;
+twitter.com/therejects</music:description>
+    <music:title>The All-American Rejects - Move Along</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music6">
+    <music:genre>ta-ku</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >228585978</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/takugotbeats/american-girl-ft-wafia</music:url>
+    <music:description>American Girl started as a joke when I was watching old Kobe Bryant highlights and Estelle's ''American Boy'' was the soundtrack. I really wanted to make a stripped back #emotional version that would play on its really great melodic structure. I reached out to my lovely friend @Wafia to sing a duet with me &amp; mustered enough courage to jump on the first verse. I'm very proud of this song. I hope you enjoy it.  
+
+Produced by Ta-ku, Daniel Crawford &amp; Will Langer.
+
+iTunes: smarturl.it/AmericanGirliTunes
+Apple Music: smarturl.it/AmericanGirlApple
+Spotify: smarturl.it/AmericanGirlSpotify
+BandCamp: smarturl.it/AmercianGirlBandCamp
+Beatport: Coming soon</music:description>
+    <music:title>American Girl ft. Wafia</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music42">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >190727565</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/chad-heinzerling/brantley-gilbert-take-it</music:url>
+    <music:description></music:description>
+    <music:title>Brantley Gilbert - Take It Outside featuring The True American Bad Ass__AAC_256k.m4a</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music30">
+    <music:genre>PBR&amp;B</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >72028196</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/everything-frank-ocean/american-wedding</music:url>
+    <music:description></music:description>
+    <music:title>American Wedding</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music22">
+    <music:genre>soundtrack</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >167034474</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/karlsounds/ahsfreakshow-soundtrack-carousel</music:url>
+    <music:description>"CAROUSEL" by Melanie Martinez (AHS Freak Show Official Soundtrack)
+
+American Horror Story: Freak Show Soundtrack | CAROUSEL Official Season 4 Trailer.
+Watch on Youtube:http://youtu.be/mF7XtwYhZhc</music:description>
+    <music:title>American Horror Story: Freak Show Soundtrack | CAROUSEL Official Season 4</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music10">
+    <music:genre>Bootleg</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >202093143</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/vogueofc/rihanna-american-oxygen-vogue-bootleg</music:url>
+    <music:description></music:description>
+    <music:title>RIHANNA - AMERICAN OXYGEN (VØGUE BOOTLEG)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music46">
+    <music:genre>Rattle &amp; Roll Tour</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >114243955</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/bingoplayers/rattle-roll-mix-2013</music:url>
+    <music:description>1	Bingo Players	Out Of My Mind	[Hysteria Records]&#xD;
+2	Sick Individuals vs Fedde Le Grand &amp; Sultan &amp; Ned Shepard	Chase No Good (Carl Tricks Mash Up)	 &#xD;
+3	 TJR vs Foreigner 	Cold As Suckaz (Bingo Players Mash Up)	 &#xD;
+4	Hardwell &amp; MAKJ	Countdown	[Revealed Recordings]&#xD;
+5	Carl Tricks 	Say What Now	[Hysteria Records]&#xD;
+6	Bassjackers	Crackin'	 &#xD;
+7     Bingo Staar vs Alesso &amp; Dirty South	Get Up City Of Dreams (Bingo Players Mash Up)	 &#xD;
+8      Bingo Players	Rattle	[Hysteria Records]&#xD;
+9     Alesso vs Imagine Dragons	If I Lose Radioactive (Bingo Players Mash Up)	 &#xD;
+10	 Loken	Calut	  [Hysteria Records]&#xD;
+11	 Danny Avila	Tronco	[Musical Freedom]&#xD;
+12	 Bassjackers &amp; Kenneth G	Duckface	[Hysteria Records]&#xD;
+13	MAKJ	Springen	[Hysteria Records]&#xD;
+14	Bingo Players	Cry Buzzcut A Little (Bingo Players Mash Up)	 &#xD;
+15	Henry Fong, Mike Hawkins &amp; Pablo Oliveros	Jump	 [Hysteria Records]&#xD;
+16     Dash Berlin vs Ralvero vs SHM	Fuck The Dragon Fly Antidote (Bingo Players Mash Up)	 &#xD;
+17	 Stafford Brothers vs DJ Snake	Are You Ready For The Birdmachine (Bingo Players Mash Up)</music:description>
+    <music:title>Bingo Players - Rattle &amp; Roll North American Tour Mix</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music34">
+    <music:genre>Thrash Metal</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >50850539</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/nuclearblastrecords/testament-true-american-hate</music:url>
+    <music:description>DARK ROOTS OF EARTH is out on July 27th (EU) and July 31, 2012 (NA) via Nuclear Blast Records.</music:description>
+    <music:title>TESTAMENT - True American Hate</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music9">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >32287270</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/nmemagazine/frank-ocean-american-wedding</music:url>
+    <music:description></music:description>
+    <music:title>Frank Ocean - 'American Wedding'</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music26">
+    <music:genre>tv</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >111032463</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/ostwald-j-montilla-guill-n/american-horror-story-coven</music:url>
+    <music:description>More: http://somosbastardos.blogspot.com/
+
+Follow me: https://twitter.com/OstwaldGuillen
+
+Facebook: https://www.facebook.com/unblogbastardo</music:description>
+    <music:title>American Horror Story- Coven Soundtrack - House Of The Rising Sun - Lauren O'Connell</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music14">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >413137</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/demonofrock/kid-rock-american-bad-ass</music:url>
+    <music:description></music:description>
+    <music:title>Kid Rock - American Bad Ass</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music1">
+    <music:genre>Country </music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >11774477</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/ladyantebellum/american-honey</music:url>
+    <music:description></music:description>
+    <music:title>American Honey</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music38">
+    <music:genre>pop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >119410744</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/rifaisempat/fifa-14-american-authors-hit-1</music:url>
+    <music:description></music:description>
+    <music:title>FIFA 14 - American Authors - Hit It   Soundtrack</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music18">
+    <music:genre>steve</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >139869216</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/steveaoki/bonnie-mckee-american-girl-2</music:url>
+    <music:description>Vote for Steve Aoki for DJ Mag’s Top 100 Poll: http://bit.ly/AokiTop100&#xD;
+&#xD;
+Pre-order Neon Future I now! http://smarturl.it/NeonFuture1</music:description>
+    <music:title>Bonnie McKee - American Girl (Steve Aoki DUB Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music5">
+    <music:genre>Rock</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >158920039</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/kelly-grevler/gives-you-hell-the-all-american-rejects</music:url>
+    <music:description>"Gives You Hell" &#xD;
+Written by Tyson Ritter and Nick Wheeler&#xD;
+Performed by The All- American Rejects &#xD;
+© Universal Music Publishing &#xD;
+© Universal Music Group&#xD;
+Used by permission &#xD;
+&#xD;
+1. Please kindly listen to the songs.&#xD;
+2. Make a comment at the exact point you think is the 'catchiest' part of the VOCAL MELODY. &#xD;
+3. The comment must indicate WHY you think this is the catchiest part. &#xD;
+ie, it gets stuck in your head, you connect with it emotionally, you like the lyrics, you like the melody etc.</music:description>
+    <music:title>Gives You Hell - The All-American Rejects</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music41">
+    <music:genre>Alternative Rock</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >26317874</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/interscope/the-all-american-rejects-swing</music:url>
+    <music:description>www.allamericanrejects.com/&#xD;
+www.facebook.com/AllAmericanRejects&#xD;
+twitter.com/therejects</music:description>
+    <music:title>The All-American Rejects - Swing, Swing</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music33">
+    <music:genre>Alternative Rock</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >26318711</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/interscope/the-all-american-rejects-it</music:url>
+    <music:description>www.allamericanrejects.com/&#xD;
+www.facebook.com/AllAmericanRejects&#xD;
+twitter.com/therejects</music:description>
+    <music:title>The All-American Rejects - It Ends Tonight</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music21">
+    <music:genre>Don Mclean</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >179589115</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/kalo_beast/don-mclean-american-pie-the-real-song-no-cover</music:url>
+    <music:description>I'm Australian and I like this music and I know you don't have to be American to like American music.</music:description>
+    <music:title>Don McLean- American Pie [THE REAL SONG] (NO COVER)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music13">
+    <music:genre>Alternative Rock</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >20676495</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/jesus_w02033/the-all-american-rejects-it</music:url>
+    <music:description>alternative</music:description>
+    <music:title>The All American Rejects   It Ends Tonight</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music45">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >15431941</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/parachute/american-secrets</music:url>
+    <music:description></music:description>
+    <music:title>American Secrets</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music8">
+    <music:genre>Alternative Rock</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >26318705</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/interscope/the-all-american-rejects-dirty</music:url>
+    <music:description>www.allamericanrejects.com/&#xD;
+www.facebook.com/AllAmericanRejects&#xD;
+twitter.com/therejects</music:description>
+    <music:title>The All-American Rejects - Dirty Little Secret</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music0">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >55972876</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/rockeritoo/green-day-american-idiot</music:url>
+    <music:description></music:description>
+    <music:title>Green Day American idiot</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music37">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >82428465</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/5hbr/fifth-harmony-american-lana-del-rey-cover</music:url>
+    <music:description></music:description>
+    <music:title>Fifth Harmony - American (Lana Del Rey Cover)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music25">
+    <music:genre>steve</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >117026681</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/steveaoki/bonnie-mckee-american-girl-1</music:url>
+    <music:description>Pre-order Neon Future I now! smarturl.it/NeonFuture1</music:description>
+    <music:title>Bonnie McKee - American Girl (Steve Aoki Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music17">
+    <music:genre>Pop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >98396702</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/bonniemckee/american-girl</music:url>
+    <music:description></music:description>
+    <music:title>American Girl</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music49">
+    <music:genre>AHS-SOUNDTRACK</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >172296000</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/andre-ribeiro-22/01-life-on-mars-from-american-horror-story-feat-jessica-lange</music:url>
+    <music:description></music:description>
+    <music:title>01 Life On Mars (from American Horror Story) [feat. Jessica Lange]</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music4">
+    <music:genre>punkrock</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >153840363</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/princesscuteaf/american-idiot-5sos</music:url>
+    <music:description>American Idiot cover by 5 Seconds Of Summer</music:description>
+    <music:title>American Idiot-5SOS</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music29">
+    <music:genre>Hip Hop </music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >36975233</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/hoodieallenmusic/no-interruption</music:url>
+    <music:description>Buy on iTunes http://smarturl.it/NoInterruption&#xD;
+All American drops 4.10.12 everywhere</music:description>
+    <music:title>No Interruption</music:title>
+  </rdf:Description>
+</rdf:RDF>

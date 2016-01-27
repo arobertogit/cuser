@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:video="https://schema.org/VideoObject#">
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video0">
+    <video:id>ZpGqLSAaOw0</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/ZpGqLSAaOw0/hqdefault.jpg</video:thumbnail>
+    <video:description>There are those who say we cannot defeat a corrupt political system and fix a rigged economy. But I believe we need to lift our vision above the obstacles in ...</video:description>
+    <video:title>American Horizon | Bernie Sanders</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video1">
+    <video:id>qsyhtzKLxkw</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/qsyhtzKLxkw/hqdefault.jpg</video:thumbnail>
+    <video:description>Kids try school lunches from around the world. For licensing and media inquiries: rudy@cut.com Produced, Directed, and Edited by Cut.com Talent: Chase ...</video:description>
+    <video:title>American Kids Try - Episode 2: School Lunches from Around the World</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video6">
+    <video:id>XBKZnFdrOBs</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/XBKZnFdrOBs/hqdefault.jpg</video:thumbnail>
+    <video:description>Who has it worse when it comes to school? America or the UK? LET'S FIND OUT! ▻SUBSCRIBE for new videos every week! http://goo.gl/65evwQ Emma: ...</video:description>
+    <video:title>School! British VS American! | Evan Edinger &amp; Emma Blackery</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video7">
+    <video:id>hiOKoDshKE4</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/hiOKoDshKE4/hqdefault.jpg</video:thumbnail>
+    <video:description>Give this video a thumbs up if you have an excellent badonkadonk. For those of you who were wondering... this is the song that Lucy was "singing"...</video:description>
+    <video:title>BRITISH vs AMERICAN SLANG!</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video8">
+    <video:id>iZQnhUYEPoY</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/iZQnhUYEPoY/hqdefault.jpg</video:thumbnail>
+    <video:description>Learn how to prepare for a job interview in America. Study common questions and practice and prepare you answers for a successful job interview. Make sure to ...</video:description>
+    <video:title>How to Interview for a Job in American English, part 2/5</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video9">
+    <video:id>jRh_9he922E</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/jRh_9he922E/hqdefault.jpg</video:thumbnail>
+    <video:description>Grace and Mary Ellen both think that their food is the best. Let's see what the judges think! A lot of people have asked me to make another American Girl video so ...</video:description>
+    <video:title>American Girl - My Food Rules!</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video2">
+    <video:id>b8QbaCIskM0</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/b8QbaCIskM0/hqdefault.jpg</video:thumbnail>
+    <video:description>Aluminium or aluminum? Check out more awesome videos at BuzzFeedVideo! http://bit.ly/YTbuzzfeedvideo MUSIC Slip N Slide Two Step Licensed via Warner ...</video:description>
+    <video:title>Americans React to People Trying American Accents</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video3">
+    <video:id>yHnBV3lHMg8</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/yHnBV3lHMg8/hqdefault.jpg</video:thumbnail>
+    <video:description>A chocolate revolution. Check out Buzzfeed's new Cute Or Not app! http://bit.ly/1LDoO7H Check out more awesome videos at BuzzFeedVideo!</video:description>
+    <video:title>American Teens Try British Chocolates</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video4">
+    <video:id>Igk4XvzwOCw</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/Igk4XvzwOCw/hqdefault.jpg</video:thumbnail>
+    <video:description>한글�?막�?� CC를 키시면 보입니다.Filmed at APU. This video is stereotypical stereotype video, which is inaccurate af. It's joking, don't get too serious. This video ...</video:description>
+    <video:title>How to distinguish Americans (한글 �?막) 미국�?��?� 구분하는 방법</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video5">
+    <video:id>ryFFB-dt04Q</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/ryFFB-dt04Q/hqdefault.jpg</video:thumbnail>
+    <video:description>iPHONE BABY BOTTLE CASE: http://heyeonni.com/collections/new-arrivals/products/baby-bottle-iphone-case INTENSIVE CARE UNIT ...</video:description>
+    <video:title>Koreans React to American Female Celebrities</video:title>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:video="https://schema.org/VideoObject#">
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video0">
+    <video:id>MxXTCrXFRK0</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/MxXTCrXFRK0/hqdefault.jpg</video:thumbnail>
+    <video:description>You want a piece of lasagna? Check out more awesome BuzzFeedYellow videos! http://bit.ly/YTbuzzfeedyellow Get all 12 episodes of the BuzzFeed Violet ...</video:description>
+    <video:title>Signs You Grew Up Italian-American</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video1">
+    <video:id>UVyhE3-_lCM</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/UVyhE3-_lCM/hqdefault.jpg</video:thumbnail>
+    <video:description>Who the f*ck made this? Check out more awesome BuzzFeedYellow videos! http://bit.ly/YTbuzzfeedyellow MUSIC Markets Of Naples Licensed via Warner ...</video:description>
+    <video:title>Italian Grandmas Try Olive Garden For The First Time</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video6">
+    <video:id>s0PL9IINwR4</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/s0PL9IINwR4/hqdefault.jpg</video:thumbnail>
+    <video:description>We're trying some Italian candy &amp; snacks! â–»SUBSCRIBE: http://bit.ly/SubscribeNikiNSammyâ—… â–»Subscribe to Chai: http://youtube.com/MyNamesChai ...</video:description>
+    <video:title>BRITISH TWINS TRYING ITALIAN CANDY &amp; SNACKS ft. MyNamesChai | NikiNSammy</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video7">
+    <video:id>Wwgx0DwhPiY</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/Wwgx0DwhPiY/hqdefault.jpg</video:thumbnail>
+    <video:description>Sabrina De Sousa is one of nearly two-dozen CIA officers who was prosecuted, convicted, and sentenced by Italian courts in absentia in 2009 for the role she ...</video:description>
+    <video:title>An Ex-CIA Officer Speaks Out: The Italian Job</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video8">
+    <video:id>awaw0d5G0VQ</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/awaw0d5G0VQ/hqdefault.jpg</video:thumbnail>
+    <video:description>ã?“ã?®å‹•ç”»ã?¯ã‚¤ãƒˆãƒ¼ãƒ¨ãƒ¼ã‚«ãƒ‰ãƒ¼æ§˜ã?¨ã?®ã‚¿ã‚¤ã‚¢ãƒƒãƒ—ä¼?ç”»ã?§ã?™ã€‚ ã?”äºˆç´„ã?¯ã‚³ãƒ?ãƒ©ã?‹ã‚‰ï¼?2016å¹´1æœˆ30æ—¥(åœŸ)16ï¼š00ã?¾ã?§â†“ http://bit.ly/1lmXPVw â­?  æ–°ã?—ã?„ï¼’ï¼?ï¼‘ï¼–...</video:description>
+    <video:title>Kinoshita Yuka [OoGui Eater] Italian-Japanese Fusion Maki Rolls.</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video9">
+    <video:id>RVAX5pa6-SE</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/RVAX5pa6-SE/hqdefault.jpg</video:thumbnail>
+    <video:description>Get cosy for the new year with a warming slow-cooked lamb recipe from the father of flavour - Gennaro Contaldo. Filmed in beautiful Malta and made with love ...</video:description>
+    <video:title>Gennaro's Classic Italian Lamb Stew</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video2">
+    <video:id>kHUJwVB0nRU</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/kHUJwVB0nRU/hqdefault.jpg</video:thumbnail>
+    <video:description>It's made with the same ingredients but does it taste the same? Check out more awesome videos at BuzzFeedVideo! http://bit.ly/YTbuzzfeedvideo MUSIC ...</video:description>
+    <video:title>Italian Vs. American Nutella Taste Test</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video3">
+    <video:id>uOBZUFMszIw</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/uOBZUFMszIw/hqdefault.jpg</video:thumbnail>
+    <video:description>In this lesson, you'll learn Top 25 Italian Verbs that are used every day in Italy. Subscribe for more videos: http://j.mp/ItalianPod101 Find out more about this ...</video:description>
+    <video:title>Learn the Top 25 Must-Know Italian Verbs!</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video4">
+    <video:id>akwk4wKXaR0</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/akwk4wKXaR0/hqdefault.jpg</video:thumbnail>
+    <video:description>I've been sent a box of Italian treats to taste test Subscribe for regular videos http://goo.gl/CbsOCc Twitter http://www.twitter.com/myvirginkitchen Website ...</video:description>
+    <video:title>TASTING ITALIAN TREATS</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video5">
+    <video:id>YJLbilow2LA</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/YJLbilow2LA/hqdefault.jpg</video:thumbnail>
+    <video:description>aka come cani arrabbiati Director: Mario Imperioli Cast: Jean-Pierre Sabagh, Annarita Grapputo, Paola Senatore, Cesare Barro Italy 1976 Like Rabid Dogs ...</video:description>
+    <video:title>Wild dogs Full Movie original italian version with english sub</video:title>
+  </rdf:Description>
+</rdf:RDF>

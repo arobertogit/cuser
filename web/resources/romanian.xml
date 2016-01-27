@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:video="https://schema.org/VideoObject#">
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video0">
+    <video:id>Lh9RHH6jG7s</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/Lh9RHH6jG7s/hqdefault.jpg</video:thumbnail>
+    <video:description>Learn the things not to say to Romanian women in Amsterdam. A complaint that the Shallow Man often hears from Expat Romanian women in Amsterdam, ...</video:description>
+    <video:title>Things not to say to Romanian women in Amsterdam</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video1">
+    <video:id>ZRqeilwzJjg</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/ZRqeilwzJjg/hqdefault.jpg</video:thumbnail>
+    <video:description>Heading back to Bucharest from Brasov, Romania allowed us to eat all of our favorite Romanian dishes one last time before leaving the country. With this in ...</video:description>
+    <video:title>Our Favorite Romanian Food in Bucharest, Romania</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video6">
+    <video:id>o_UD5VkV4oU</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/o_UD5VkV4oU/hqdefault.jpg</video:thumbnail>
+    <video:description>Learn how technology can show you how to improve your posture. Click here to find out about the hottest new wearable on the market: http://bit.ly/1O98iMq Like ...</video:description>
+    <video:title>How to Do a Romanian Dead Lift | Female Bodybuilding</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video7">
+    <video:id>3LopmMSA08w</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/3LopmMSA08w/hqdefault.jpg</video:thumbnail>
+    <video:description>Here finally is the song "Stronger Than You" in Romanian. I want to thank Bogdan for recording and sending me the episode so that I could bring you guys this ...</video:description>
+    <video:title>Steven Universe - Stronger Than You (CC) (Romanian) (Steven Univers)</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video8">
+    <video:id>RyqLOFEXFSk</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/RyqLOFEXFSk/hqdefault.jpg</video:thumbnail>
+    <video:description>How well can you learn a language from scratch in two months? I put in about 2 hours a day working on LingQ and listening on my mp3 player. Starting the ...</video:description>
+    <video:title>Two months to fluency? Not really - Romanian interview</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video9">
+    <video:id>CkUSK3rmK4Q</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/CkUSK3rmK4Q/hqdefault.jpg</video:thumbnail>
+    <video:description>Like us on Facebook! : https://goo.gl/cHcgQo Follow us on Instagram! : https://goo.gl/gJrWOF And check out our second channel https://goo.gl/VlDpj3 Dirt Bike ...</video:description>
+    <video:title>TER Films - Romanian Countryside (on dirtbike)</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video2">
+    <video:id>qw_1auOQuyg</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/qw_1auOQuyg/hqdefault.jpg</video:thumbnail>
+    <video:description>Having visited Romania twice this year we've had ample time to sample a variety of different traditional dishes. While visiting Brasov, Transylvania we checked ...</video:description>
+    <video:title>Traditional Romanian Food in Brasov, Romania</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video3">
+    <video:id>rkkFe-vvZTQ</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/rkkFe-vvZTQ/hqdefault.jpg</video:thumbnail>
+    <video:description>Click CC for the English subtitle. Ahn Jae Hyun speaks Romanian on the 1st episode of Blood. What can you say? Like, comment, subscribe. :)</video:description>
+    <video:title>Ahn Jae Hyun Speaking Romanian (블러드)</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video4">
+    <video:id>EehgY7PW-Qw</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/EehgY7PW-Qw/hqdefault.jpg</video:thumbnail>
+    <video:description>This project is made possible by donations from viewers like you. Please donate to the project at: http://www.gofundme.com/Ask-Project . Want to know what ...</video:description>
+    <video:title>Ethnicities of Israel: Romanian Israelis</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video5">
+    <video:id>JDT24Z6k6Q0</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/JDT24Z6k6Q0/hqdefault.jpg</video:thumbnail>
+    <video:description>Our first video in english. Spread the love and show it to your foreign friends. Or not. Whatever! Maybe we can change their preconceptions about Romania.</video:description>
+    <video:title>Things people never say about Romania</video:title>
+  </rdf:Description>
+</rdf:RDF>

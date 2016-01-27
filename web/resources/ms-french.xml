@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:music="https://schema.org/AudioObject#">
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music40">
+    <music:genre>CHRISBROWN</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >204866275</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/tm88-808mafia/french-montana-ft-chris-brown-x-migos-x-travis-scott-moses-prod-by-tm88-dj-spinz-southside-kmajor</music:url>
+    <music:description></music:description>
+    <music:title>French Montana ft Chris Brown x Migos x Travis Scott - Moses-PROD BY TM88 DJ SPINZ SOUTHSIDE KMAJOR</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music20">
+    <music:genre>Rap/hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >79119057</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/badboyentertainment/french-montana_nickiminaj_freaks</music:url>
+    <music:description>"Freaks" by French Montana featuring Nicki Minaj, from the upcoming album "Excuse My French" available online and in stores May 21st</music:description>
+    <music:title>French Montana ft. Nicki Minaj - "Freaks" (Explicit)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music44">
+    <music:genre>Rap</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >89495203</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/badboyentertainment/french-montana-freaks-remix-1</music:url>
+    <music:description>"Freaks" (Remix) by French Montana featuring DJ Khaled, Rick Ross, Mavado, Wale and Nicki Minaj.</music:description>
+    <music:title>French Montana - "Freaks" (Remix) (Dirty)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music32">
+    <music:genre>G-Eazy</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >160337547</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/g-eazy/say-ft-french-montana</music:url>
+    <music:description>G-Eazy "Say" ft. French Montana&#xD;
+http://G-Eazy.com</music:description>
+    <music:title>Say Ft. French Montana</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music24">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >47154710</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/interscope/mgk-ft-2chainz-meek-mill</music:url>
+    <music:description>www.mgklaceup.com&#xD;
+www.facebook.com/machinegunkellymusic&#xD;
+twitter.com/machinegunkelly</music:description>
+    <music:title>MGK ft. 2Chainz, Meek Mill, French Montana, Mystikal, Yo Gotti - Wild Boy (Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music12">
+    <music:genre>LILJON</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >146974284</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/lil_jon/turn-down-for-what-remix-dirty-lil-jon-dj-snake-feat-juicy-j-2chainz-french-montanna</music:url>
+    <music:description></music:description>
+    <music:title>{Turn Down For What REMIX Dirty} Lil Jon &amp; DJ SNAKE FEAT JUICY J, 2CHAINZ &amp; FRENCH MONTANNA</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music7">
+    <music:genre>Hip-hop/rap</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >66501643</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/defjam/rick-ross-hold-me-back-remix</music:url>
+    <music:description></music:description>
+    <music:title>Rick Ross - "Hold Me Back" Remix ft. Gunplay, French Montana, Yo Gotti, Lil Wayne</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music48">
+    <music:genre>Meek Mill</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >108897402</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/dreamchasersrecords/meek-mill-i-b-on-that-feat</music:url>
+    <music:description></music:description>
+    <music:title>Meek Mill - I B On That (Feat Nicki Minaj, Fabolous French Montana)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music36">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >165349713</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/b2obaofficiel/12-lacrim-awa-feat-french-montana</music:url>
+    <music:description>Corleone dispo en précommande sur itunes ► http://po.st/CorleoneIT et dans les bacs le 1er Septembre</music:description>
+    <music:title>12 - Lacrim - A.W.A. Feat French Montana</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music28">
+    <music:genre>Rap</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >150874751</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/otgenasis/touchdown-remix</music:url>
+    <music:description>Download on iTunes: http://smarturl.it/touchdownremix
+
+Site: http://otgenasis.com
+Follow: twitter.com/otgenasis 
+Like: facebook.com/otgenasis 
+Follow: instagram.com/otgenasis 
+Watch: youtube.com/otgenasis
+Listen: @otgenasis</music:description>
+    <music:title>Touchdown (Remix) ft. Busta Rhymes and French Montana</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music16">
+    <music:genre>Hip-Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >121937415</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/empire/mally-mall-tyga-wake-up-in-it</music:url>
+    <music:description>Available on iTunes: https://itunes.apple.com/us/album/wake-up-in-it-feat.-sean-kingston/id766222927</music:description>
+    <music:title>Mally Mall &amp; Tyga - Wake Up In It (ft. Sean Kingston, French Montana &amp; Pusha T)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music3">
+    <music:genre>bad boy</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >109805306</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/badboyentertainment/bout-that-life-rick-ross</music:url>
+    <music:description></music:description>
+    <music:title>Bout That Life - Rick Ross, French Montana, Meek Mill, Diddy</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music31">
+    <music:genre>Rap</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >58283359</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/badboyentertainment/french-montana-shot-caller-1</music:url>
+    <music:description>"Shot Caller" by French Montana featuring Charlie Rock&#xD;
+&#xD;
+Website: http://www.frenchmontanamusic.com&#xD;
+Facebook: http://www.facebook.com/frenchmontanaofficial&#xD;
+Twitter: http://www.youtube.com/frenchmontana&#xD;
+YouTube: http://www.youtube.com/frenchmontanavevo</music:description>
+    <music:title>French Montana - "Shot Caller"</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music11">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >63301616</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/8wizkhalifa/wiz-khalifa-french-inhale-ft</music:url>
+    <music:description></music:description>
+    <music:title>Wiz khalifa-French Inhale (Ft.Mike Posner)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music43">
+    <music:genre>Wash</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >170503001</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/djsecret863/cant-trust-thots-wash-x-french-montana</music:url>
+    <music:description></music:description>
+    <music:title>Cant Trust Thots - Wash X French Montana</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music35">
+    <music:genre>Rap</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >34907067</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/pushat/untouchables-feat-ace-hood</music:url>
+    <music:description>DJ Absolut&#xD;
+Pusha T&#xD;
+www.pusha-t.com</music:description>
+    <music:title>Untouchables (Feat. Ace Hood, French Montana, Pusha T &amp; Nathaniel)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music23">
+    <music:genre>poppin</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >210564355</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/fillmoered/poppin-remix-meek-mill-x-french-montana-x-chris-brown</music:url>
+    <music:description>REMIX</music:description>
+    <music:title>Poppin (Remix) Meek Mill x French Montana x Chris Brown</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music15">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >32806111</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/bigosmusicsource-com-11/stay-schemin-feat-drake-french</music:url>
+    <music:description></music:description>
+    <music:title>Stay Schemin (feat. Drake &amp; French Montana)- Rick Ross</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music47">
+    <music:genre>HIP HOP</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >93318593</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/acehood/ace-hood-bugatti-remix</music:url>
+    <music:description>ACE HOOD "BUGATTI REMIX" FEATT MEEK MILL, TI, WIZ KHALIFA, BIRDMAN, FRENCH MONTANA, BIRDMAN, DJ KHALED, 2 CHAINZ&#xD;
+&#xD;
+Download new mixtape “Starvation 3�? now at:&#xD;
+http://www.datpiff.com/Ace-Hood-Starvation-3-mixtape.557340.html&#xD;
+&#xD;
+Watch music videos for Buss Guns feat. Mavado, Fear, &amp; Lyrical Exercise &amp; more:&#xD;
+http://www.youtube.com/AceHood&#xD;
+&#xD;
+Get HOOD NATION merch now at:&#xD;
+http://iamhoodnation.com/store/ &#xD;
+&#xD;
+http://www.twitter.com/AceHood&#xD;
+http://www.facebook.com/AceHood&#xD;
+http://www.instagram.com/AceHood&#xD;
+http://www.youtube.com/AceHood&#xD;
+http://www.soundcloud.com/AceHood</music:description>
+    <music:title>BUGATTI REMIX FT. MEEK MILL, T.I., WIZ KHALIFA, BIRDMAN, FRENCH MONTANA &amp; 2 CHAINZ</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music39">
+    <music:genre>GANGSTAWAY </music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >220871710</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/team-breezy-br/chris-brown-ft-french-montana-gangsta-way</music:url>
+    <music:description>Download: bit.ly/gangstaway</music:description>
+    <music:title>Chris Brown ft. French Montana – Gangsta Way</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music2">
+    <music:genre>DJ KHALED</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >146962699</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/wethebestmusicgroup/dj-khaled-they-dont-love-you-no-more-ft-jay-z-rick-ross-meek-mill-french-montana</music:url>
+    <music:description></music:description>
+    <music:title>DJ KHALED "THEY DONT LOVE YOU NO MORE" FT. JAY Z, RICK ROSS, MEEK MILL, FRENCH MONTANA</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music27">
+    <music:genre>Rnb</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >34438675</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/robhines/trey-songz-french-kiss</music:url>
+    <music:description>Trey Songz French Kiss</music:description>
+    <music:title>Trey Songz-French Kiss</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music19">
+    <music:genre>Rap Hiphop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >97077823</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/patron-b-a/french-montana-ft-wiz-khalifa</music:url>
+    <music:description>Mashup made by me. Aint worried bout nothing. Banger beat, now with banger lyrics as well! Check out the video on youtube too! 
+https://www.youtube.com/watch?v=dNsTRKyYy0w
+Follow me on Instagram: 
+http://instagram.com/patron_ba</music:description>
+    <music:title>French Montana Ft. Wiz Khalifa, Lil Wayne &amp; T.I. - Ain't Worried About Nothin</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music6">
+    <music:genre>french montana</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >149395901</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/yogottikom/snootie-wild-yayo-remix-ft-fabolous-jadakiss-yg-french-montana</music:url>
+    <music:description>Listen to Snootie Wild's "Yayo" (Remix) featuring Fabolous, Jadakiss, YG and French Montana.&#xD;
+&#xD;
+Follow Snootie!&#xD;
+www.snootiewild.com&#xD;
+www.twitter.com/snootiewild&#xD;
+www.facebook.com/snootiewild&#xD;
+www.instagram.com/snootiewild</music:description>
+    <music:title>Snootie Wild - "Yayo" (Remix) ft. Fabolous, Jadakiss, YG &amp; French Montana</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music42">
+    <music:genre>Rap/Hip Hop/R&amp;B</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >101804766</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/bowwowymcmb/bow-wow-french-montana-tyga</music:url>
+    <music:description></music:description>
+    <music:title>Bow Wow French Montana Tyga &amp; Gudda Gudda (Panties To The Side) Rich Gang Album</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music30">
+    <music:genre>FrenchMontana</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >199985970</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/badboyentertainment/french-montana-bad-btch-remix</music:url>
+    <music:description>"Bad B*tch" (Remix) by French Montana featuring Rick Ross, Fabolous and Jeremih</music:description>
+    <music:title>French Montana - "Bad B*tch" (Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music22">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >181657611</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/dj-freddy-decor/french-montana-bad-bitch-ft-jeremih</music:url>
+    <music:description>French Montana - Bad Bitch Ft. Jeremih</music:description>
+    <music:title>French Montana - Bad Bitch Ft. Jeremih</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music10">
+    <music:genre>jeremih</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >167966348</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/officialjeremih/jeremih-dont-tell-em-featuring-french-montana-ty-dolla-ign</music:url>
+    <music:description></music:description>
+    <music:title>Jeremih - "Don't Tell 'Em" featuring French Montana &amp; Ty Dolla $ign</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music46">
+    <music:genre>R&amp;Bay, </music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >63897123</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/4jonnhart/who-booty-ft-french-montana</music:url>
+    <music:description>Listen to Jonn Hart's "Who Booty" (Remix) featuring French Montana! Who Booty is it?!&#xD;
+&#xD;
+Download "Who Booty" on iTunes: http://smarturl.it/jonnhartwhobooty&#xD;
+&#xD;
+Follow @4JonnHart on Twitter!&#xD;
+www.instagram.com/4JonnHart&#xD;
+www.youtube.com/4JonnHart&#xD;
+www.jonnhartmusic.com</music:description>
+    <music:title>"Who Booty" ft. French Montana (Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music34">
+    <music:genre>Rap</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >154902863</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/badboyentertainment/puff-daddy-we-dem-boyz-remix</music:url>
+    <music:description>"We Dem Boyz" (Remix) (Clean) by Puff Daddy featuring Meek Mill &amp; French Montana&#xD;
+&#xD;
+© 2014 Bad Boy Records</music:description>
+    <music:title>Puff Daddy | "We Dem Boyz" (Remix) ft. Meek Mill &amp; French Montana (Clean)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music9">
+    <music:genre>Hip-Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >129337764</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/tydollasign/paranoid-remix-ft-trey-songz</music:url>
+    <music:description>Debut album 'Free TC' available now! 
+iTunes: http://smarturl.it/FreeTC?IQid=ty.sc
+Google Play: http://smarturl.it/FreeTCGP?IQid=ty.sc
+Stream: http://smarturl.it/StreamFreeTC?IQid=ty.sc
+
+Join Ty Dolla $ign's mailing list for exclusive updates: http://dollasignworld.com/mailing-list
+
+Download: http://smarturl.it/BeachHouseEP?IQid=ty.sc
+
+Connect with Ty Dolla $ign
+Website: http://dollasignworld.com
+Facebook: http://fb.com/tydollasign
+Twitter: http://twitter.com/tydollasign
+Instagram: http://instagram.com/tydollasign 
+SoundCloud: http://soundcloud.com/tydollasign</music:description>
+    <music:title>Paranoid [Remix] ft. Trey Songz, French Montana, and DJ Mustard [Clean]</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music26">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >189867493</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/nickyjamcol/j-balvin-ft-nicky-jam-y-french</music:url>
+    <music:description></music:description>
+    <music:title>J Balvin Ft. Nicky Jam Y French Montana - Ay Vamos (Official Remix).mp3</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music14">
+    <music:genre>music</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >118680797</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/mcyruscom/feeling-myself-feat-will-iam</music:url>
+    <music:description></music:description>
+    <music:title>Feeling Myself (feat. will.iam, French Montana &amp; Wiz Khalifa)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music1">
+    <music:genre>wash</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >173227393</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/firstmaejor/cant-trust-thots-wash-x-french-montana</music:url>
+    <music:description>@theofficialwash
+@firstmaejor
+@frenchmontana
+@iamkingcheftone</music:description>
+    <music:title>Cant Trust Thots - Wash X French Montana (prod. by Maejor and Chef Tone)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music38">
+    <music:genre>meek mill</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >113110799</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/hotnewexclusive/meek-mill-my-life-ft-french</music:url>
+    <music:description>Check Out DC's New Artist "YoungGla$$ Tha PoloKing" New Dance Song "No Games" Now https://soundcloud.com/young-glass419/younggla-tha-poloking-no-games-dance-song</music:description>
+    <music:title>Meek Mill- My Life Ft French Montana (DreamChasers 3)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music18">
+    <music:genre>OMARION KIDINK FRENCHMONTANA REASON</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >221452365</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/omarionmmg-1/im-up-ft-kid-ink-french-montana</music:url>
+    <music:description></music:description>
+    <music:title>I'm Up Ft Kid Ink &amp; French Montana</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music5">
+    <music:genre>Cokeboys</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >162682771</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/waelbnh/french-montana-dont-panic-prod-by-dj-mustard</music:url>
+    <music:description>Prod. by DJ Mustard
+https://www.facebook.com/COKEBOYSOFFICIAL.NY
+https://twitter.com/waelbnh</music:description>
+    <music:title>FRENCH MONTANA – ‘DON’T PANIC’ (Prod. by DJ Mustard)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music41">
+    <music:genre>FrenchMontana</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >199985403</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/badboyentertainment/french-montana-bad-btch</music:url>
+    <music:description>"Bad B*tch" by French Montana featuring Jeremih</music:description>
+    <music:title>French Montana - "Bad B*tch"</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music33">
+    <music:genre>electronic</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >177803472</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/hudsonmohawke/chimes-rmx</music:url>
+    <music:description>CHIMES RMX (ft. @pushat @futureisnow @travisscott-2 French Montana), premiered by Zane Lowe on BBC Radio 1, HotNewHipHop, DJ Reflex on Power 106, Sway at Shade45, Triple J in Australia, Inter FM in Tokyo, Studio Brussel, 3Voor12, Byte.FM and others.
+
+http://hudsonmohawke.com/
+
+Download CHIMES RMX --&gt;
+Bleep - http://smarturl.it/chimes_rmx-bleep
+iTunes - http://smarturl.it/chimes_rmx-itunes
+Google Play - http://smarturl.it/chimes_rmx-play
+
+More Hudson Mohawke --&gt;
+Bleep - http://smarturl.it/hudmo-bleep
+iTunes - http://smarturl.it/hudmo-itunes
+Amazon - http://smarturl.it/hudmo-amazon
+Google Play - http://smarturl.it/hudmo-play</music:description>
+    <music:title>CHIMES RMX ft Pusha T, Future, Travi$ Scott, French Montana</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music21">
+    <music:genre>Rap</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >154902459</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/badboyentertainment/puff-daddy-wedemboyzremix-ft-meekmill-frenchmontana-dirty</music:url>
+    <music:description>"We Dem Boyz" (Remix) (Dirty) by Puff Daddy featuring Meek Mill &amp; French Montana&#xD;
+&#xD;
+© 2014 Bad Boy Records</music:description>
+    <music:title>Puff Daddy | "We Dem Boyz" (Remix) ft. Meek Mill &amp; French Montana (Dirty)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music13">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >79125509</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/interscope/french-montana-ft-nicki-minaj</music:url>
+    <music:description>http://www.frenchmontanamusic.com&#xD;
+www.facebook.com/FrenchMontanaOfficial&#xD;
+https://twitter.com/FrencHMonTanA</music:description>
+    <music:title>French Montana ft. Nicki Minaj - Freaks</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music45">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >57986688</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/peter-hosszu/snoop-dogg-wiz-khalifa-french</music:url>
+    <music:description></music:description>
+    <music:title>Snoop Dogg &amp; Wiz Khalifa  French Inhale</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music8">
+    <music:genre>Rap</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >68926231</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/badboyentertainment/french-montana-ocho-cinco</music:url>
+    <music:description>French Montana - "Ocho Cinco" featuring Diddy, Red Cafe, MGK, and LOS&#xD;
+&#xD;
+From French Montana's upcoming debut album "Excuse My French" available online and in stores May 21st</music:description>
+    <music:title>French Montana - "Ocho Cinco" Featuring Diddy, Red Cafe, MGK, LOS</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music0">
+    <music:genre>Hip Hop </music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >49462602</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/interscope/pop-that-feat-rick-ross-drake</music:url>
+    <music:description>www.facebook.com/FrenchMontanaOfficial&#xD;
+https://twitter.com/FrencHMonTanA</music:description>
+    <music:title>French Montana - Pop That (feat. Rick Ross, Drake &amp; Lil Wayne)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music37">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >49384463</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/badboyentertainment/french-montana-pop-that-feat</music:url>
+    <music:description>Check out "Pop That" on iTunes! http://smarturl.it/PopThat</music:description>
+    <music:title>French Montana - Pop That feat. Rick Ross, Drake &amp; Lil Wayne (Explicit)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music25">
+    <music:genre>Rap Hiphop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >91442129</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/moroccanhiphop/french-montana-fuck-what</music:url>
+    <music:description>Get the new Album Of French Montana : itunes.apple.com/us/album/excuse-…luxe/id632787196&#xD;
+Check out the website: www.moroccanhiphop.com&#xD;
+NR.1 Moroccan urban media and hip-hop site&#xD;
+Follow on twitter : twitter.com/moroccanhiphop&#xD;
+Facebook page : www.facebook.com/MoroccanHiphopSwag&#xD;
+Downlad Mac &amp;cheese 3 : www.moroccanhiphop.com/2012/11/20/fr…ree-download/</music:description>
+    <music:title>French Montana - Fuck What Happens Tonight (Ft. Mavado, Ace Hood, Snoop Dogg &amp; Scarface) [CDQ]</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music17">
+    <music:genre>"rap" "hip Hop" </music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >56425982</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/bangers-only-music/wale-ft-rick-ross-t-pain-bag-of-money-remix</music:url>
+    <music:description></music:description>
+    <music:title>Wale ft. Rick Ross, T-Pain, Omarion, Yo Gotti, Lil' Wayne, French Montana &amp; Black Cobain</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music49">
+    <music:genre>Steve French</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >117669892</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/flux-pavilion/flux-pavilion-feat-steve-aoki</music:url>
+    <music:description>'Steve French' by Flux Pavilion and Steve Aoki is part of the Freeway EP, released 11th November.&#xD;
+&#xD;
+Buy 'Freeway' EP: http://smarturl.it/FreewayEP&#xD;
+&#xD;
+Check out what's happening on the Freeway US Tour: youtu.be/Po_xOxqkPHw&#xD;
+&#xD;
+Freeway Tour (US and UK) Tickets and details: cncrt.ly/FreewayTour&#xD;
+&#xD;
+Follow Flux Pavilion:&#xD;
+Facebook: fb.com/fluxpavilion&#xD;
+Twitter: twitter.com/fluxpavilion&#xD;
+YouTube: youtube.com/fluxpavilion&#xD;
+&#xD;
+Follow Steve Aoki:&#xD;
+Facebook: http://on.fb.me/1bzT6Fv&#xD;
+Twitter: http://bit.ly/17vaI6I&#xD;
+&#xD;
+Follow Circus Records:&#xD;
+Site: circus-records.co.uk&#xD;
+Facebook: fb.com/circusrecords&#xD;
+Twitter: twitter.com/circusrecords&#xD;
+YouTube: youtube.com/circusrecords&#xD;
+SoundCloud: @soundcloud.com/circusrecords&#xD;
+&#xD;
+Follow Big Beat Records:&#xD;
+Site: wearebigbeat.com&#xD;
+Facebook: fb.com/wearebigbeat&#xD;
+Twitter: twitter.com/wearebigbeat&#xD;
+YouTube: youtube.com/wearebigbeat&#xD;
+SoundCloud: @soundcloud.com/wearebigbeat</music:description>
+    <music:title>Flux Pavilion feat. Steve Aoki - Steve French</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music4">
+    <music:genre>K Camp</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >134845574</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/kcamp427/money-baby-feat-french-montana</music:url>
+    <music:description>Money Baby Remix</music:description>
+    <music:title>Money Baby feat. French Montana &amp; Ty $</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music29">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >53306032</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/finesse-u/wale-meek-mill-feat-french</music:url>
+    <music:description></music:description>
+    <music:title>Meek Mill &amp;amp; Wale Ft. French Montana - Actin' Up</music:title>
+  </rdf:Description>
+</rdf:RDF>

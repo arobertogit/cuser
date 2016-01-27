@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:music="https://schema.org/AudioObject#">
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music40">
+    <music:genre>Metal</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >239894093</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/meat-640472836/01-a-beggining-that-never-ends</music:url>
+    <music:description>Para preparar terreno para o álbum completo, disponibilizamos um EP com 3 faixas para a galera curtir.
+
+Curta nossa página: https://www.facebook.com/meatbrazil</music:description>
+    <music:title>01 - A Beggining That Never Ends</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music20">
+    <music:genre>Disco</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >170351558</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/gillespetersonworldwide/horse-meat-disco</music:url>
+    <music:description>These guys have DJed with Gilles so much of the last few years, it's about time they dropped in for a Worldwide Family Mixtape. 
+
+With the Eagle in Vauxhall as their stronghold, Horse Meat Disco have become ambassadors for all things disco, funk and soul. This mix is another wild affair and just the thing as the weekend beckons. 
+
+Tracklist:
+1) Mavis Brody - Use My Body
+2) Kitty and The Haywoods - You Can't Say I Didn't Try
+3) Minnie Ripperton - Adventures In Paradise
+4) Love Unlimited Orchestra - Midnight Groove
+5) Eli's Second Coming - Why Don'Cha
+6) Lady Zu - Hora Da União
+7) Ju-Par Universal Orchestra - Funky Music
+8) Letta Mbulu - Baile Baneso
+9) Angela Bofil - Angel Of The Night
+10) Sister Sledge - As
+11) Van McCoy - Born Into Slavery 
+12) Sarah - Ação Super
+13) Seawind - We Got Away
+14) Marc LeRoi Cummings - Struggling Together 
+15) The Valentine Brothers - I'll Make You Happy
+16) Urszula Dudziak - Papaya</music:description>
+    <music:title>Horse Meat Disco Mix on Gilles Peterson Worldwide (GPWW914)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music44">
+    <music:genre>House</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >62752890</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/meat/meat-chris-woods-holicmix</music:url>
+    <music:description>Playlist.....
+
+1. Losoul - Gridlock
+2. Schatrax - Champagne Dancer
+3. Nathan Loles - Slinger Dinger
+4. Consequential Theorist - What
+5. Rick Wade - Prime Time (Edit)
+6. Dirty Gringo - Circus Freak
+7. Floorplan - Funky Souls
+8. Chris Wood &amp; Meat - JR Juniors
+9. Chez Damier (Edit)
+10. Deeper - Definitif
+11. Ron Trent - Altered States (Terry Hunter Remix)</music:description>
+    <music:title>Meat &amp; Chris Wood's HolicMix</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music32">
+    <music:genre>Sick Jesse</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >209930056</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/coxncrendor/episode-104-horse-meat-helicopter</music:url>
+    <music:description>Still sick with the super flu Jesse returns with a moderately normal Crendor to record another episode cause people be wantin' episodes. </music:description>
+    <music:title>Episode 104 - Horse Meat Helicopter</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music24">
+    <music:genre>Soundtrack</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >136103022</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/aivisura/steven-universe-arcade-mania-3</music:url>
+    <music:description>Funland Arcade tunes from Arcade Mania!&#xD;
+&#xD;
+Composed by Aivi &amp; Surasshu&#xD;
+</music:description>
+    <music:title>Steven Universe - ARCADE MANIA - Meat Beat Mania: Over Easy</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music12">
+    <music:genre>Woop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >154816298</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/mediumraregang/07-woop-meat-store-prod-by</music:url>
+    <music:description></music:description>
+    <music:title>07 - Woop - Meat Store Prod By Young Haz On Da Beat</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music7">
+    <music:genre>90's</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >153941716</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/altor1112/olives-and-beets-promo</music:url>
+    <music:description></music:description>
+    <music:title>Meat Loaf - I'd Do Anything For Love (But I Won't Do That) [Single Edit]</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music48">
+    <music:genre>House Music</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >108925005</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/meat/b-chris-wood-meat-tonis-pipe</music:url>
+    <music:description>CHRIS WOOD &amp; MEAT&#xD;
+A1. Cock robin ( Mr G �?s RA Dub Mix ) B1 . Tonis Pipe&#xD;
+Since 2004 Chris Wood has been working as a successful&#xD;
+producer and remixer for labels including Souvenir, Below,&#xD;
+Kindisch, MurMur, be_chosen or levelNONzero and in 2009&#xD;
+he started working with his long-time friend, fellow&#xD;
+producer and co-owner of Freebase Records in&#xD;
+Frankfurt, Meat (Carsten Schuchmann).&#xD;
+Coming just a short time after the release of his collated&#xD;
+singles collection, Retrospective, the first track on this&#xD;
+new 12�? from Chris Wood &amp; Meat comes courtesy of deep&#xD;
+house don, Mr. G. His remix provides a sparse take on the&#xD;
+original ‘Cock Robin,’ jacking straight ahead into a hard-&#xD;
+hitting house rhythm, complete with finger-clicks and vocal&#xD;
+stabs. A definite dance-floor roller.&#xD;
+On the flip, the duo have provided a brand new cut, ‘Tony’s&#xD;
+Pipe,’ which rattles with drilling percussion and soaks&#xD;
+itself in a modulating, acid-tinged synth line, all built&#xD;
+around emerging, muffled vocal samples.&#xD;
+www.souvenir-music.com https://www.facebook.com/souvenirmusic https://soundcloud.com/souvenir-music</music:description>
+    <music:title>B Chris Wood &amp; Meat - Tonis Pipe</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music36">
+    <music:genre>The Broadest Beats</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >162954338</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/ninja-tune/solid-steel-radio-show-2282014-part-1-2-horse-meat-disco</music:url>
+    <music:description>Solid Steel (22nd August) It's bank holiday weekend and no better time to have Horse Meat Disco as our guests in Hour 1. It's a full on underground Disco excursion from the guys who certainly know how to hold down a party. The London DJ collective have regular club dates across the world along with residences in London and Berlin and have recently released their fourth compilation on Strut records. They collectively told us ""A synthed out selection of more leftfield and cosmic vibes, from the electronic wedge of the disco spectrum, that lurk in the darker crevices of our collections" And we love it!
+
+Check out the Solid Steel website www.solidsteel.net for track lists and archive shows and you can follow Solid Steel on facebook.com/pages/Solid-Steel/175027509192663 instagram.com/solidsteelradi and twitter.com/SolidSteelRadio
+
+PART 1 + 2 - 	Horse Meat Disco		https://twitter.com/horsemeatdisco
+				
+Tom Tom Club	_	Elephant	_	Island
+XR7	_	XR7	_	Quality
+Todd Terje	_	Swing Star (pt2) 	_	Smalltown Supersound
+Dr Cat	_	Feel The Drive (Foolish Felix Edit)	_	Il Discotto Productions
+Paradise Girls	_	Holding Back (Paul Simpson Dubmental)	_	Easy Street 
+Mim Suleman	_	Maji	_	unknown
+Fun Boy Three	_	Faith Hope and Charity	_	EMI
+Shock	_	R.E.R.B	_	RCA
+Donna Summer	_	Working The Midnight Shift	_	Casablanca
+David Astri	_	Dancing Digits (Dance Mix) 	_	Award Records
+Mu	_	white label	_	unknown
+Urszula Dudziak	_	Funk Rings	_	Arista
+Rinder and Lewis	_	Lust	_	AVI
+Felix	_	Tiger Stripes	_	Sleeping Bag Records</music:description>
+    <music:title>Solid Steel Radio Show 22/8/2014 Part 1 + 2 - Horse Meat Disco</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music28">
+    <music:genre>Meat Loaf</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >149242066</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/jordan_smith95/paradise-by-the-dashboard-light-meat-loafguitar-cover</music:url>
+    <music:description></music:description>
+    <music:title>Paradise By The Dashboard Light - Meat Loaf(Guitar Cover)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music16">
+    <music:genre>Progressivecomplextroelectrowobblehouse</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >10739818</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/mordfustang/super-meat-freeze</music:url>
+    <music:description></music:description>
+    <music:title>Mord Fustang - Super Meat Freeze</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music3">
+    <music:genre>in concert</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >34170787</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/capj1970/meat-loaf-i-would-do-anything</music:url>
+    <music:description></music:description>
+    <music:title>Meat Loaf - I Would Do Anything For Love</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music31">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >20407722</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/meat/chris-wood-meat-triple-s</music:url>
+    <music:description>Coming out soon: Chris Wood &amp;amp; Meat - Triple S Ep on Souvenir038</music:description>
+    <music:title>Chris Wood &amp;amp; Meat - Triple S</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music11">
+    <music:genre>Booty</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >24132483</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/adoxographist/soulja-boy-booty-meat</music:url>
+    <music:description>Bootyful jams for your bootylicious booty.</music:description>
+    <music:title>Soulja Boy - Booty Meat</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music43">
+    <music:genre>Radioshow</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >86935064</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/meat/chris-wood-meat-live-you-fm</music:url>
+    <music:description></music:description>
+    <music:title>Chris Wood &amp; Meat Live @ You Fm Clubnight 2013</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music35">
+    <music:genre>Metal</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >27451291</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/metalbladerecords/cannibal-corpse-meat-hook</music:url>
+    <music:description>"Meat Hook Sodomy" from "Butchered At Birth".</music:description>
+    <music:title>Cannibal Corpse "Meat Hook Sodomy"</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music23">
+    <music:genre>Hip-Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >143554055</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/foolsgoldrecs/01-dog-meat</music:url>
+    <music:description>Ghetto Cuisine is a potent strain of hybrid California bass from Davinci and Sweet Valley (aka Joel and Nathan Williams). Fans of both artists' past work might find the pairing unlikely at first, but these low end theorists are true kindred spirits. On Ghetto Cuisine, the SV bros take their melted-Nintendo-cartridge aesthetic in awesomely dark new directions, setting a black-lit stage for Davinci's sharpest street narratives yet, and the end result is twelve THC-fueled trunk rattlers featuring guest appearances from 100s and Main Attrakionz. Grab a fork and get busy.
+
+Sign up for The Goldmine to receive this release and others in HQ WAV format! drip.fm/foolsgoldrecs</music:description>
+    <music:title>DaVinci &amp; Sweet Valley - Dog Meat</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music15">
+    <music:genre>Smosh</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >151326032</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/unoriginal_url/meat-in-your-mouth-smosh</music:url>
+    <music:description>Enjoy :)</music:description>
+    <music:title>Meat In Your Mouth- Smosh</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music47">
+    <music:genre>MEAT</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >221589853</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/meat-640472836/the-reality-of-a-dream</music:url>
+    <music:description></music:description>
+    <music:title>The reality of a dream</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music39">
+    <music:genre>Metal</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >239894091</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/meat-640472836/02-and-he-knows-whats-spoken</music:url>
+    <music:description>Para preparar terreno para o álbum completo, disponibilizamos um EP com 3 faixas para a galera curtir.
+
+Curta nossa página: https://www.facebook.com/meatbrazil</music:description>
+    <music:title>02 - And He Knows Whats Spoken</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music2">
+    <music:genre>ugly god</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >216507225</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/imrealugly/ibeatmymeat</music:url>
+    <music:description>Instagram: ImRealUgly
+Twitter: @ImRealUgly</music:description>
+    <music:title>I Beat My Meat</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music27">
+    <music:genre>House Music</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >101390291</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/meat/chris-wood-meat-love-family</music:url>
+    <music:description>...live broadcast by Radio Ibiza Sonica at Love Family Park 2013 !!!&#xD;
+</music:description>
+    <music:title>CHRIS WOOD &amp; MEAT - LOVE FAMILY PARK 2013</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music19">
+    <music:genre>Complextro</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >196567686</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/electro/mord-fustang-ultra-meat-freeze</music:url>
+    <music:description>Like the track? Click the [↻ Repost] button!&#xD;
+&#xD;
+Join the Movement @ EDM.com&#xD;
+&#xD;
+Free Download: http://artistintelligence.agency/artist/mord-fustang-ultra-meat-freeze-vip-edm-com-premiere&#xD;
+--------------------------------------------------------------------------&#xD;
+Follow @mordfustang&#xD;
+http://facebook.com/mordfustang&#xD;
+http://twitter.com/mordfustang&#xD;
+&#xD;
+Follow Us @ EDM.com&#xD;
+www.Facebook.com/edmcom&#xD;
+www.twitter.com/TheEDMNetwork&#xD;
+www.youtube.com/EDM&#xD;
+www.instagram.com/edm&#xD;
+plus.google.com/+EDM&#xD;
+SC: @EDM&#xD;
+--------------------------------------------------------------------------&#xD;
+Send all demos to Todd@TheEDMNetwork.com to have your track featured!&#xD;
+--------------------------------------------------------------------------&#xD;
+</music:description>
+    <music:title>Mord Fustang - Ultra Meat Freeze (VIP) [EDM.com Premiere]</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music6">
+    <music:genre>Strange Music</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >97820203</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/ugly-smiley/brotha-lynch-hung-meat-cleaver</music:url>
+    <music:description>Manniballector</music:description>
+    <music:title>Brotha Lynch Hung - Meat Cleaver</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music42">
+    <music:genre>Punk</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >80439369</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/big-joy-records/palm-reader-baby-meat-grinder</music:url>
+    <music:description>Baby Meat Grinder from "Unlucky" Cassette by Palm Reader&#xD;
+&#xD;
+Big Joy Records, 2013</music:description>
+    <music:title>Palm Reader "Baby Meat Grinder"</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music30">
+    <music:genre>Metal</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >39965638</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/metalbladerecords/cattle-decapitation-a-living</music:url>
+    <music:description>Cattle Decapitation "A Living, Breathing Piece of Defecating Meat" from the album "Monolith of Inhumanity"</music:description>
+    <music:title>Cattle Decapitation "A Living, Breathing Piece of Defecating Meat"</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music22">
+    <music:genre>Myq Kaplan</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >109595732</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/comedycentral/chivalry-and-chicks-myq-kaplan</music:url>
+    <music:description>Showcasing his wickedly smart and witty brand of humor, Kaplan’s “Meat Robot�? is the comedian’s newest fast-paced, mind-melting and side-splitting stand-up comedy album. Kaplan delves into his grandmother’s attempts to make grammar fun, how to avoid being axe-murdered and his love for fake meat names. Other topics include “Open Relationships and Tigers,�? “Chuck Norris and Owls,�? and “Super Mario and Will Smith.�?</music:description>
+    <music:title>Chivalry and Chicks | MYQ KAPLAN | Meat Robot</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music10">
+    <music:genre>Soundtrack</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >136103023</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/aivisura/steven-universe-arcade-mania-4</music:url>
+    <music:description>Funland Arcade tunes from Arcade Mania!&#xD;
+&#xD;
+Composed by Aivi &amp; Surasshu&#xD;
+</music:description>
+    <music:title>Steven Universe - ARCADE MANIA - Meat Beat Mania: FLAMBÉE!</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music46">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >10935358</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/meat/meats-212nd-mix</music:url>
+    <music:description>Playlist Meat's 212nd Mix
+
+-	Black Jazz Consortium (Soul People Music)
+-	Efdemin - Chicago (Koze Rmx) (Dial)
+-	Nina Kraviz - Tanya (Rekids)
+-	Michael Stavöstrad (Meat + Chris Wood Rmx)(Retrospect)
+-	Thomas Fröhlich (Uncanny Valley)
+-	Tony Lionni - Deep Fields (Losoul Rmx) (Freerange)
+-	Christian Burhardt - Channel (Cocoon)
+-	Chris Wood &amp;amp; Meat - Sour (Hive Audio)
+-	Lorenzo - Get Deep (Draft)
+-	Jon McMillion - Solette Simms (San Proper Rmx)
+-	Andy Ash - Dance (Foto)
+-	Michaal Jackson - Thriller (Ooft Rmx)</music:description>
+    <music:title>Meat's 212nd Mix</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music34">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >47519909</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/meat/meat-chris-wood-ponyhof</music:url>
+    <music:description>Live recorded @Ponyhof....!!</music:description>
+    <music:title>Meat &amp; Chris Wood @ Ponyhof - Podcast #1</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music9">
+    <music:genre>Comedy</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >95250989</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/comedycentral/poops-and-popes-myq-kaplan</music:url>
+    <music:description>Showcasing his wickedly smart and witty brand of humor, Kaplan’s “Meat Robot�? is the comedian’s newest fast-paced, mind-melting and side-splitting stand-up comedy album.  Kaplan delves into his grandmother’s attempts to make grammar fun, how to avoid being axe-murdered and his love for fake meat names.  Other topics include “Open Relationships and Tigers,�? “Chuck Norris and Owls,�? and “Super Mario and Will Smith.�?.</music:description>
+    <music:title>Poops and Popes | Myq Kaplan | MEAT ROBOT</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music26">
+    <music:genre>House Music</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >74119193</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/meat/chris-wood-meat-cock-robin</music:url>
+    <music:description>Coming soon on the new Souvenir compilation!
+Watch out!!!</music:description>
+    <music:title>Chris Wood &amp; Meat - Cock Robin</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music14">
+    <music:genre>Comedy</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >96472878</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/comedycentral/jesus-and-grandmothers</music:url>
+    <music:description>Showcasing his wickedly smart and witty brand of humor, Kaplan’s “Meat Robot�? is the comedian’s newest fast-paced, mind-melting and side-splitting stand-up comedy album. Kaplan delves into his grandmother’s attempts to make grammar fun, how to avoid being axe-murdered and his love for fake meat names. Other topics include “Open Relationships and Tigers,�? “Chuck Norris and Owls,�? and “Super Mario and Will Smith.�?.</music:description>
+    <music:title>Jesus and Grandmothers | Myq Kaplan | MEAT ROBOT</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music1">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >46091305</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/tenaciousd/so-which-one-of-you-is-the</music:url>
+    <music:description></music:description>
+    <music:title>So which one of you is the meat in the sandwich you've got going on?</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music38">
+    <music:genre>MEAT</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >221227866</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/meat-640472836/meat-workshop</music:url>
+    <music:description></music:description>
+    <music:title>Meat workshop</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music18">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >36513</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/nysoul/rolling-stones-emotional-rescue-meat-matter-edit</music:url>
+    <music:description>An edit of one of my favourite Stones tracks. Made more spacious for the dancers.</music:description>
+    <music:title>Rolling Stones - Emotional Rescue (Meat Matter edit)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music5">
+    <music:genre>Dubstep</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >205620430</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/mrsuicidesheep/piece-of-meat-quasar-feat-laura-leaves</music:url>
+    <music:description>Piece Of Meat
+https://soundcloud.com/pieceofmeatofficial
+https://www.facebook.com/pieceofmeat.official
+https://twitter.com/pieceofmeatEDM
+</music:description>
+    <music:title>Piece Of Meat - Quasar (feat. Laura Leaves)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music41">
+    <music:genre>Metal</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >239894079</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/meat-640472836/03-you-are-not-the-silver</music:url>
+    <music:description>Para preparar terreno para o álbum completo, disponibilizamos um EP com 3 faixas para a galera curtir.
+
+Curta nossa página: https://www.facebook.com/meatbrazil</music:description>
+    <music:title>03 - You Are Not The Silver</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music33">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >68941345</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/maxmusicmedia/rybacks-7th-wwe-meat-on-the</music:url>
+    <music:description></music:description>
+    <music:title>Ryback 7th Theme Song - Meat on The Table (Intro V2)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music21">
+    <music:genre>Cass McCombs</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >164895430</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/dominorecordco/meat-puppets-hey-baby-que-paso</music:url>
+    <music:description>Two generations of maverick artists join together in cahoots for a full US tour this autumn and we’re going to commemorate it with a special limited edition single with two new tracks from Cass McCombs and two new covers from the Meat Puppets plus some tripped-out artwork from Cris Kirkwood.
+
+Tune in, turn on, wig out.
+
+Tue. Oct. 21 - St. Louis, MO @ Duck Room at Blueberry Hill 
+Wed. Oct. 22 - Madison, WI @ High Noon Saloon 
+Thu. Oct. 23 - Chicago, IL @ Empty Bottle 
+Fri. Oct. 24 - Columbus, OH @ The A&amp;R Music Bar 
+Sat. Oct. 25 - Pittsburgh, PA @ Club Cafe 
+Mon. Oct. 27 - Philadelphia, PA @ Underground Arts 
+Tue. Oct. 28 - Pawtucket, RI @ The Met Cafe 
+Wed. Oct. 29 - Cambridge, MA @ The Sinclair 
+Thu. Oct. 30 - South Burlington, VT @ Higher Ground Showcase Lounge 
+Fri. Oct. 31 - Brooklyn, NY @ Rough Trade 
+Sat. Nov. 1 - Brooklyn, NY @ Rough Trade 
+Sun. Nov 2 - Washington, DC @ The Black Cat 
+Tue. Nov. 4 - Chapel Hill, NC @ Local 506 
+Wed. Nov. 5 - Atlanta, GA @ Vinyl 
+Fri. Nov. 7 - Houston, TX @ Fitzgerald’s Downstairs 
+Fri. Nov. 28 - Phoenix, AZ @ The Crescent Ballroom 
+Sat. Nov. 29 - San Diego, CA @ The Casbah 
+Tue. Dec. 2 - West Hollywood, CA @ Troubadour 
+Wed. Dec. 3 - San Francisco, CA @ The Independent 
+Fri. Dec. 5 - Seattle, WA @ Neumos 
+Sat. Dec. 6 - Portland, OR @ Doug Fir Lounge </music:description>
+    <music:title>Meat Puppets - (Hey Baby) Que Paso</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music13">
+    <music:genre>Dungeon Meat</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >111996111</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/dungeonmeat/dungeon-meat-the-fuck-off</music:url>
+    <music:description>Straight out of the darkest depths of the underground comes a new project from Brawther and Tristan da Cunha ... dropping tracky house hammers for DJ abuse only . This is a low res vers .... full release will be end of September. Keep em peeled for the new Dungeon Meat label with it's first execution coming soon.&#xD;
+&#xD;
+Remember ... if you can't take the Meat .... stay out of the Dungeon.</music:description>
+    <music:title>DUNGEON MEAT - THE FUCK OFF TRACK  (My Love Is Underground 015)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music45">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >23979798</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/meat/meat4food-mix</music:url>
+    <music:description>Playlist Meat4Food Mix
+
+1.	Inro
+2.	Anthony Collins - Tango Bizarre (Losoul Remix)
+3.	Deep Space Orchestra - Ghetto Science Institute
+4.	Roman Flügel - Dishes &amp; Wishes
+5.	Festland - WeltVerbrennt (Manuel Tur Remix)
+6.	Freaks - Conscious Of My Conscience (Johnny D Remix)
+7.	Chris Wood &amp; Meat - The Girl With The Blue
+8.	Robert Dietz - Pandemic - Amesons Dub
+9.	Chris Wood &amp; Meat - Triple S Dub
+10.	Pearson Sound 
+11.	Mr G - Jet Black
+12. 	Smash TV - Steroids To Heaven
+13.	Guy Gerber feat Puff Daddy
+14.	Maya Jane Coles - Humming Bird
+15.	Danny Daze - Fall Away From Love </music:description>
+    <music:title>Meat's Meat4Food Mix</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music8">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >13161383</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/dada-life/white-noise-red-meat1</music:url>
+    <music:description>OUT NOW:  http://beatport.com/s/t729sf</music:description>
+    <music:title>White Noise/Red Meat</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music0">
+    <music:genre>Soundtrack</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >71664519</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/mario-caesar/ryback-6th-and-new-wwe-theme</music:url>
+    <music:description></music:description>
+    <music:title>Ryback 6th and New WWE Theme Song 2012 (Meat On The Table)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music37">
+    <music:genre>House Music</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >108771674</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/meat/meats-hot-croatian-summer-mix</music:url>
+    <music:description>Tracklisting:&#xD;
+	1.	Philippe Cam - Douze Printemps&#xD;
+	2.	Vera - Take Me&#xD;
+	3.	Farmer Gabriel (Edward Desert Mix)&#xD;
+	4.	ZPH - Dirty Lines (Secret)&#xD;
+	5.	Clapton Dance Party - Washout&#xD;
+	6.	Tiefschwarz - Sensation - Chris Wood &amp; Meat Remix&#xD;
+	7.	Paulo C &amp; Paolo Martini - We Repeat&#xD;
+	8.	The Shutters feat. Sasha Perera - Roll On (Dapayk Remix)&#xD;
+	9.	Joy Orbison - Elipsis&#xD;
+	10.	Reno feat. Osunlade - Muwekma&#xD;
+	11.	Yamen &amp; Eda - All Out&#xD;
+	12.	Frank Wiedermann - Shortline</music:description>
+    <music:title>Meat's Hot Croatian Summer Mix</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music25">
+    <music:genre>Hit</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >106738013</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/fielding-voice-record/meat-loaf-bat-out-of-hell-bat</music:url>
+    <music:description></music:description>
+    <music:title>Meat Loaf - Bat Out Of Hell (Bat Out Of Hell - Original Tour) - [www Flvto Com] - 1</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music17">
+    <music:genre>Disco</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >127274082</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/joeynegro/joey-negro-live-at-horsemeat</music:url>
+    <music:description>the first hour and half of a 3 hour set</music:description>
+    <music:title>Joey Negro live at Horse Meat Disco Dec 8th 2013 - Free Download</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music49">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >62042535</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/meat/davide-vario-inside-me-chris</music:url>
+    <music:description>A new Remix we did for our friends from KAATO Music!
+Coming soon....!!
+http://soundcloud.com/kaatomusic</music:description>
+    <music:title>Davide Vario - Inside Me (Chris Wood and Meat Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music4">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >88449627</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/sofie-kadanati/brotha-lynch-hung-meat</music:url>
+    <music:description>I DO NOT OWN ANY RIGHTS OR THIS SONG!&#xD;
+Just uploaded this for the fun of listening it.</music:description>
+    <music:title>Brotha lynch hung - meat cleaver</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music29">
+    <music:genre>noisepunk</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >147133700</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/hozac-records/nones-wife-meat</music:url>
+    <music:description>from the debut LP 'Midwestern Family Values' out 5/2014 on HoZac Records</music:description>
+    <music:title>NONES - Wife Meat</music:title>
+  </rdf:Description>
+</rdf:RDF>

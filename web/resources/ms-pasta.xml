@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:music="https://schema.org/AudioObject#">
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music40">
+    <music:genre>firstperson</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >169392074</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/ethanardalan/pasta</music:url>
+    <music:description>This is the debut mixtape of 16 year old rapper, Ethan Ardalan.</music:description>
+    <music:title>Pasta</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music20">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >190270225</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/wallabee</music:url>
+    <music:description></music:description>
+    <music:title>Wallabee</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music44">
+    <music:genre>creepy</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >174592890</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/kasia-jasi-ska-2/pasta</music:url>
+    <music:description></music:description>
+    <music:title>Pasta</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music32">
+    <music:genre>the bay</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >214180501</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/the-bay/keepers-pasta-free-download</music:url>
+    <music:description>Other channels you might like...&#xD;
+▶ @EDM&#xD;
+▶ @HouseMusic&#xD;
+▶ @Tech&#xD;
+--------------------------------------------------------------------------------&#xD;
+Follow @keepersdjs&#xD;
+http://facebook.com/keepersmusic&#xD;
+http://www.twitter.com/keepersdjs&#xD;
+&#xD;
+Follow @EDM&#xD;
+http://EDM.com&#xD;
+http://Facebook.com/edmcom&#xD;
+http://twitter.com/TheEDMNetwork&#xD;
+http://youtube.com/EDM&#xD;
+http://instagram.com/edm&#xD;
+http://plus.google.com/+EDM&#xD;
+&#xD;
+Photo Credit : Trey Ratcliff&#xD;
+--------------------------------------------------------------------------------&#xD;
+Submit music to the email found in the sidebar of the channel info!&#xD;
+</music:description>
+    <music:title>Keepers. - Pasta [Premiere]</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music24">
+    <music:genre>beat</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >190453752</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/saudadesunrise</music:url>
+    <music:description></music:description>
+    <music:title>Saudade Sunrise</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music12">
+    <music:genre>Beat</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >203903456</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/sendwhitesoxformore</music:url>
+    <music:description></music:description>
+    <music:title>Send White Sox For More</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music7">
+    <music:genre>mecna</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >225785985</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/mecna-roar-instr-prod-pasta</music:url>
+    <music:description>This is the instrumental beat i've made for Mecna (and Pat Cosmo), hear the whole song here: https://www.youtube.com/watch?v=R4aJhS5wIok
+
+more info:
+http://www.mecnamusic.com</music:description>
+    <music:title>Mecna - Roar (Instrumental) [prod. by Pasta]</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music48">
+    <music:genre>pasta</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >207055340</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/neurogod/pasta</music:url>
+    <music:description></music:description>
+    <music:title>Pasta</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music36">
+    <music:genre>Dubstep</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >160837490</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/vexare/cold-pasta</music:url>
+    <music:description>If you've been consuming pasta more sinister than this, you're eating it raw</music:description>
+    <music:title>Cold Pasta</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music28">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >187779319</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/pasta-8/recording-01-25-2015-14-25-49</music:url>
+    <music:description>Recorded with Helium Voice for Windows Phone.</music:description>
+    <music:title>Recording 01-25-2015 14.25.49</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music16">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >191119623</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/nutmeg</music:url>
+    <music:description></music:description>
+    <music:title>Nutmeg</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music3">
+    <music:genre>derp house</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >139676949</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/pasta-pb-j</music:url>
+    <music:description>Hello Amigos, i'm currently working on some thing you might call "album" but in the meantime you can still enjoy this, as it's a free download &lt;3 !!!
+
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+Produced by Pasta Amari
+Mixed by Enrico Berto @ Mushroom Studio
+Cover picture by Leroy Alicandro
+Graphics by Pasta
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\</music:description>
+    <music:title>PB&amp;J</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music31">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >188320794</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/pasta-8/recording-01-28-2015-18-40-37</music:url>
+    <music:description>Recorded with Helium Voice for Windows Phone.</music:description>
+    <music:title>Recording 01-28-2015 18.40.37</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music11">
+    <music:genre>Beat</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >205892263</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/sunday-chores</music:url>
+    <music:description></music:description>
+    <music:title>Sunday Chores</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music43">
+    <music:genre>Llamada</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >109477242</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/daniel-gonzalez-suarez/pasta</music:url>
+    <music:description></music:description>
+    <music:title>Pasta</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music35">
+    <music:genre>asaprocky</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >207310050</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/der-witz/asap-rocky-jukebox-joints-ft-kanye-west-at-long-last-asap-instagram-thiscoolblackdude-1</music:url>
+    <music:description>My name is Der Witz, and I'm beginning to get some buzz in LA. I am quickly building a fan base, please enjoy my music. I have attached links to my New Album and Music Video.  
+Album: https://derwitz.bandcamp.com/album/this-cool-black-dude-album
+ Soundcloud : https://soundcloud.com/der-witz/mushrooms
+ Instagram: https://instagram.com/mfthemadvillain/
+ Youtube: https://www.youtube.com/watch?v=RejadrMPezE
+ Twitter: https://twitter.com/DerWitzSpitz
+ Thank you for your time and consideration, have a nice day,
+
+Der Witz</music:description>
+    <music:title>Pasta [Der Witz]</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music23">
+    <music:genre>beat</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >190950471</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/woody</music:url>
+    <music:description></music:description>
+    <music:title>Woody</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music15">
+    <music:genre>Beat</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >204681671</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/knight-drops</music:url>
+    <music:description></music:description>
+    <music:title>Knight Drops</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music47">
+    <music:genre>Pasta</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >70839303</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/misterboy/pasta</music:url>
+    <music:description>Pasta</music:description>
+    <music:title>Pasta</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music39">
+    <music:genre>4u</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >221739093</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/iampalmetto/pasta</music:url>
+    <music:description>this is 4 the fans,&#xD;
+thank you so much.&#xD;
+— @iampalmetto</music:description>
+    <music:title>Pasta</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music2">
+    <music:genre>Chill</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >228336815</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/dry-spell</music:url>
+    <music:description>Spotify : https://open.spotify.com/album/6R2LP7FmAzYdnT5oenPFtG
+-----------------
+Youtube video here:  https://youtu.be/rWMkvfSiGKE
+-----------------
+Hypemachine &lt;3 &lt;3 &lt;3 http://hypem.com/track/2e97v/PASTA+-+Dry+Spell
+-----------------
+redbull.com interview (sorry italian only!): http://www.redbull.com/it/it/music/stories/1331759017668/premiere-pasta-dry-spell</music:description>
+    <music:title>Dry Spell</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music27">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >188320891</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/pasta-8/recording-01-28-2015-18-40</music:url>
+    <music:description>Recorded with Helium Voice for Windows Phone.</music:description>
+    <music:title>Recording 01-28-2015 18.40.37</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music19">
+    <music:genre>piano</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >189825763</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/6-am-piano</music:url>
+    <music:description></music:description>
+    <music:title>6 AM Piano</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music6">
+    <music:genre>Indie</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >193089983</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/thelastbookian/alt-j-portrait</music:url>
+    <music:description></music:description>
+    <music:title>Alt - J   - Portrait</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music42">
+    <music:genre>TECHNO</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >165647519</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/sashoderama/pasta</music:url>
+    <music:description></music:description>
+    <music:title>Quentin Dourthe - Pasta (SASHO DERAMA REMIX) DSR</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music30">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >187945185</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/pasta-8/recording-01-26-2015-15-15-27</music:url>
+    <music:description>Recorded with Helium Voice for Windows Phone.</music:description>
+    <music:title>Recording 01-26-2015 15.15.27</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music22">
+    <music:genre>Beats</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >211799658</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/mels</music:url>
+    <music:description></music:description>
+    <music:title>Mels</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music10">
+    <music:genre>Beats</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >212663305</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/pimms</music:url>
+    <music:description></music:description>
+    <music:title>Pimms</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music46">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >169068125</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/kody-wigle/pasta</music:url>
+    <music:description></music:description>
+    <music:title>- Pasta -</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music34">
+    <music:genre>8-bit</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >193089580</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/thelastbookian/tree-village-8-bit-remix-dance-gavin-dance</music:url>
+    <music:description></music:description>
+    <music:title>Tree Village [8 - Bit Remix] - Dance Gavin Dance</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music9">
+    <music:genre>Experimental</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >193089822</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/thelastbookian/the-sound-of-animals-fighting-act-3-modulate-back-to-to-the-tonic</music:url>
+    <music:description></music:description>
+    <music:title>The Sound Of Animals Fighting   Act 3 Modulate Back To To The Tonic</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music26">
+    <music:genre>pasta</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >200129404</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/cool-eagle</music:url>
+    <music:description></music:description>
+    <music:title>Cool Eagle</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music14">
+    <music:genre>italo</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >105751709</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/sammy-barbot-di-di-no</music:url>
+    <music:description></music:description>
+    <music:title>Sammy Barbot - Di Di No (LINTERNET Edit)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music1">
+    <music:genre>electronic</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >195719847</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/thelastbookian/hotline-miami-2-wrong-number-soundtrack-run</music:url>
+    <music:description></music:description>
+    <music:title>Hotline Miami 2- Wrong Number Soundtrack - Run</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music38">
+    <music:genre>Trap</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >159852226</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/justlikesam/bello-figo-gu-pasta-con-tonno</music:url>
+    <music:description>Bello Figo Gu:
+https://www.facebook.com/pages/Bello-FiGo-SWAG/115538248621369</music:description>
+    <music:title>Bello FiGo Gu - Pasta Con Tonno</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music18">
+    <music:genre>rough</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >188968372</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/mortal-komb</music:url>
+    <music:description></music:description>
+    <music:title>Mortal Komb</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music5">
+    <music:genre>electronic</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >191344199</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/thelastbookian/hotline-miami-2-wrong-number-trailer-music-extended</music:url>
+    <music:description></music:description>
+    <music:title>Hotline Miami 2 Wrong Number Trailer Music EXTENDED</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music41">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >22233254</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/est-est-est/pasta</music:url>
+    <music:description></music:description>
+    <music:title>Е�?ть Е�?ть Е�?ть - Зубна�? Па�?та</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music33">
+    <music:genre>Edit</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >109149659</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/ron-lascia-stare-linternet</music:url>
+    <music:description></music:description>
+    <music:title>Ron - Lascia Stare (LINTERNET Edit)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music21">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >189330055</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/yolk</music:url>
+    <music:description></music:description>
+    <music:title>Yolk</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music13">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >189039816</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/pink-oreos</music:url>
+    <music:description></music:description>
+    <music:title>Pink Oreos</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music45">
+    <music:genre>Dubstep</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >205918321</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/electrostepnetwork/killher-novapasta_esn</music:url>
+    <music:description>�? Download: http://www.supportify.ch/dl/index.php?track=444
+�?�♫ Like/Stream/ On YouTube: https://youtu.be/OwYrNpXAED8
+�? Add Me On Snapchat: zacelectrostep
+
+�? For Electrostep Network updates &amp; future releases, follow us at: 
+ - Soundcloud: http://soundcloud.com/electrostepnetwork
+ - Twitter: https://twitter.com/ElectrostepLIFE
+ - Snapchat: ZacElectrostep
+ - Instagram: @ElectrostepNetwork - http://bit.ly/1j3g6EG
+ - Facebook: http://www.facebook.com/ElectrostepNetwork
+ - YouTube: http://www.youtube.com/user/ElectrostepNetwork
+�? Add Me On Facebook: https://www.facebook.com/ZacElectrode
+
+�? Follow KillHer:
+ - SoundCloud: https://soundcloud.com/killhermusic
+ - Twitter: https://twitter.com/imkillher
+ - Facebook: https://www.facebook.com/KillHerOfficial
+�? Follow RAVEU:
+ - SoundCloud: https://soundcloud.com/raveurecords
+ - Facebook: https://www.facebook.com/raveurecords
+
+�? Contact/Demo info *NOTE* We only accept unreleased demos for our label, no bootlegs or unofficial remixes, ORIGINALS ONLY. We will get back to you if we are interested.
+
+ - Demos: demos@electrostepnetwork.net
+ - Business Inquiries: zac@electrostepnetwork.net</music:description>
+    <music:title>KillHer - Nova Pasta [Electrostep Network &amp; RAVEU EXCLUSIVE]</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music8">
+    <music:genre>Beat</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >202834919</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/mangopeachesandlime</music:url>
+    <music:description></music:description>
+    <music:title>Mango Peaches And Lime</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music0">
+    <music:genre>tapezai</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >199525708</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/gulaloo-yousafzai/khula-de-da-gurri-na-pasta-da-bakhtiar-khattak</music:url>
+    <music:description></music:description>
+    <music:title>Khula de da gurri na pasta da - Bakhtiar Khattak</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music37">
+    <music:genre>Rap Rock Soul</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >13887643</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/santaflow/14-santaflow-jura-por-tu-dios</music:url>
+    <music:description>Cuenta la leyenda que el ave Fénix renació de sus cenizas poderoso, ardiente e inmortal. La leyenda del pájaro de fuego. Así es como Santaflow vuelve tras su tormentosa batalla discográfica, más sincero, adictivo y brutal que nunca. Ave fénix�?, su nuevo álbum es un compendio de historias, emociones, sensaciones, imaginación,… perfectamente ensamblado a través de rimas trepidantes, incendiarias y matemáticamente perfectas. Un viaje del cielo al mismísimo infierno en 16 canciones. producido enteramente por él mismo en Más Sabor Estudios para Magnos Enterprise, cuenta con las colaboraciones de Norykko, Aitor, Dani Reus, Porta, Eneyser y Curricé que le acompañan en esta cromática travesía. Poco a poco, iremos subiendo novedades al renovado: 
+www.myspace.com/santaflow (con chat y todo, diseñado por Crema) 
+www.youtube.com/satanflow (como por ejemplo karaokes de los temas) 
+
+Así que no dejéis de estar conectados. abróchense los cinturones… el ave Fénix, despega!</music:description>
+    <music:title>Santaflow - Enséñame la pasta</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music25">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >191259473</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/zulu-refrigeration</music:url>
+    <music:description></music:description>
+    <music:title>Zulu Refrigeration</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music17">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >189124666</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/punchline-pizza</music:url>
+    <music:description></music:description>
+    <music:title>Punchline Pizza</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music49">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >181759444</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/funnypunny/pasta</music:url>
+    <music:description></music:description>
+    <music:title>Pasta</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music4">
+    <music:genre>Hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >221762233</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/latenightpastamari/life-as-a-sitcom-the-mixtape</music:url>
+    <music:description>100% original beats made by me,
+mixed altogether for your listening pleasure :D
+
+FREE DOWNLOAD HERE: http://www50.zippyshare.com/v/4tvYxw4f/file.html
+--------------------------------------------------------------------------------
+CONTACTS: ilpasta @ farraginoso . com
+--------------------------------------------------------------------------------
+LIKE ON FACEBOOK RRRIGHT HERE: https://goo.gl/vmHjEy
+--------------------------------------------------------------------------------
+HAVE FUN ON YOUTUBE: https://goo.gl/H5wQcq</music:description>
+    <music:title>Life As A SitCom - THE MIXTAPE</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music29">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >187909720</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/pasta-8/recording-01-25-2015-14-25</music:url>
+    <music:description>Recorded with Helium Voice for Windows Phone.</music:description>
+    <music:title>Recording 01-25-2015 14.25.49</music:title>
+  </rdf:Description>
+</rdf:RDF>

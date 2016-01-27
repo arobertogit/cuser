@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:music="https://schema.org/AudioObject#">
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music40">
+    <music:genre>country rap</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >181561904</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/carlos662-2/redneck-souljers-fish-in-a-barrel-feat-d-thrash</music:url>
+    <music:description></music:description>
+    <music:title>Redneck Souljers - Fish In A Barrel  Feat. D. Thrash</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music20">
+    <music:genre>Bootleg</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >177044854</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/fishbassmusic/fka-twigs-hows-that-fishs-blissfully-fragmented-bootleg</music:url>
+    <music:description></music:description>
+    <music:title>FKA Twigs - How's That (Fish's Blissfully Fragmented Bootleg)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music44">
+    <music:genre>Premiere</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >159100441</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/i-d-online-1/premiere-kelis-friday-fish-fry-darq-e-freaker-remix</music:url>
+    <music:description>Following on from his heavyweight release on Jackmaster's Numbers imprint, technicolor grime producer &lt;a rel="nofollow" target="_blank"&gt;Darq E Freaker&lt;/a&gt;'s remix for &lt;a href="http://www.iamkelis.com/" rel="nofollow" target="_blank"&gt;Kelis &lt;/a&gt;follows a calmer path whilst still retaining some of his signature style. Friday Fish Fry also comes complete with remixes from Mount Kimbie, Visionist, Machinedrum and Rob Garza and is set to drop 11th August on Ninja Tune. Ahead of her headline show at Latitude Festival this weekend, press play on this exclusive remix of Friday Fish Fry.&amp;#13;
+https://soundcloud.com/iamkelis&amp;#13;
+https://soundcloud.com/darqefreaker&amp;#13;
+&amp;#13;
+Connect to i-D's world! Like us on &lt;a href="https://www.facebook.com/iDmagazineofficial?fref=nf" rel="nofollow" target="_blank"&gt;Facebook,&lt;/a&gt; follow us on &lt;a href="https://twitter.com/i_D" rel="nofollow" target="_blank"&gt;Twitter&lt;/a&gt; and &lt;a href="http://instagram.com/id_magazine" rel="nofollow" target="_blank"&gt;Instagram.&lt;/a&gt;&amp;#13;
+&lt;a href="http://www.i-d.co" rel="nofollow" target="_blank"&gt;i-d.co&lt;/a&gt;</music:description>
+    <music:title>Premiere: Kelis - Friday Fish Fry (Darq E Freaker Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music32">
+    <music:genre>Comedy</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >84364992</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/analyzephish/analyze-fish-pt-2</music:url>
+    <music:description>Paul F. Tompkins, Howard Kremer, and Shelby Fero aka The Jaws Family are back for the thrilling conclusion of Analyze Fish! After something shocking happened during Shelby’s first viewing of Jaws, she decided to watch it a couple of more times in order to get a fresh take on the 1975 classic. Tune in to find out if Shelby enjoyed the movie as much as Paul &amp;amp; Howard, which characters they identify themselves as, and which fish related movies Shelby thinks Paul &amp;amp; Howard haven’t seen.</music:description>
+    <music:title>Analyze Fish Pt. 2</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music24">
+    <music:genre>Radio Show</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >124625335</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/danish-sait/funniest-asgar-cleans-a-fish</music:url>
+    <music:description></music:description>
+    <music:title>Funniest - Asgar cleans a fish tank with Chlorine - Prank by Danish Sait on Fever 104FM</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music12">
+    <music:genre>Cinematic</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >117162049</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/thaikkudam-bridge/fish-rock-mix-2</music:url>
+    <music:description></music:description>
+    <music:title>FISH ROCK</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music7">
+    <music:genre>Rap</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >7097954</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/ghostfacekillah/fish</music:url>
+    <music:description>http://twitter.com/GhostfaceKillah</music:description>
+    <music:title>Fish</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music48">
+    <music:genre>ಠ_ಠ</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >214559653</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/whoiskev/fish-out-of-water-w-alec-good</music:url>
+    <music:description>FOLLOW ALEC! VERY TALENTED: @alecgoodmusic
+
+Alec's Twitter: https://twitter.com/AlecGoodMusic
+Alec's old EP is fire: https://thenorcalvibe.bandcamp.com/album/heart-of-the-ocean-ep-2
+
+LEARN THE WORDS:
+
+Sometimes when life gets too hard
+I start to think I’m too weak
+I put my faith in the stars
+Sometimes I fall to my knees
+
+I had to go through all that, hope I don’t have to go back
+I swear it hurt me so bad
+I felt so brokenhearted, I felt so unimportant
+I swear I almost lost it
+
+I feel like a fish out of water, I’m trying to breath
+I’m a fish out of water, and that’s just how I feel
+I’m a fish out of water, they took me out the ocean
+I’m a fish out of water
+</music:description>
+    <music:title>Fish Out of Water (w/ Alec Good)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music36">
+    <music:genre>Comedy</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >125077590</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/danish-sait/funny-son-of-a-fish-prank-by</music:url>
+    <music:description></music:description>
+    <music:title>Funny - Son of a fish - Prank by Danish Sait on Fever 104FM</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music28">
+    <music:genre>Bootleg</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >197948010</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/fishbassmusic/skepta-nasty-fish-bootleg</music:url>
+    <music:description>Ripped from Toddla T's Radio 1 show on 24/05/15.</music:description>
+    <music:title>Skepta - Nasty (Fish Bootleg) Toddla T Radio 1 Rip</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music16">
+    <music:genre>Electro House</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >140427129</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/housemusic/lovers-on-the-run-by-nihils</music:url>
+    <music:description>&lt;b&gt;Like the track? Click the [&lt;i&gt;↻ Repost&lt;/i&gt;] button!&lt;/b&gt;&#xD;
+&#xD;
+&lt;b&gt;Join the EDM Movement @ http://EDM.com&lt;/b&gt;&#xD;
+&#xD;
+Coming out on April 4th!&#xD;
+••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••&#xD;
+Follow EDM.com:&#xD;
+www.Facebook.com/edmcom&#xD;
+www.twitter.com/TheEDMNetwork&#xD;
+www.youtube.com/EDM&#xD;
+www.instagram.com/edm&#xD;
+www.lockerdome.com/edm&#xD;
+plus.google.com/+EDM&#xD;
+SC: http://soundcloud.com/EDM&#xD;
+&#xD;
+Follow Naked Fish:&#xD;
+https://www.facebook.com/fishofficial&#xD;
+http://twitter.com/NakedFishArtist&#xD;
+SC: @naked-fish&#xD;
+&#xD;
+Follow Nihils:&#xD;
+http://www.facebook.com/nihilsmusic&#xD;
+http://twitter.com/nihilsmusic&#xD;
+SC: @nihils&#xD;
+&#xD;
+Follow Us @ http://EDM.com&#xD;
+••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••&#xD;
+Send all demos to dropbox@House.NET to have your track featured!&#xD;
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••</music:description>
+    <music:title>Lovers On The Run by Nihils (Naked Fish Remix) - EDM.com Premiere</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music3">
+    <music:genre>Dance</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >216847995</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/doornrecords/ftampa-the-fish-house-031-original-mix-available-august-3</music:url>
+    <music:description>Grab your copy on Beatport here: http://btprt.dj/1VR3aTL
+
+Ftampa &amp; The Fish House ready to rock your world here, as they bring a nicely grooving piece of work and build this up to a heavy electro assault. Nice piano chords take things back to the floor, enhanced by some huge synth stabs. You’ll love this, 031 is your lucky number!</music:description>
+    <music:title>FTampa, The Fish House - 031 (Original Mix) [Out Now]</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music31">
+    <music:genre>Rock and Roll</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >86883401</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/thesneakerbombs/bad-fish-sublime</music:url>
+    <music:description></music:description>
+    <music:title>Bad Fish (Sublime)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music11">
+    <music:genre>dance</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >221864566</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/maddecent/big-fish-aquadrop-dont-you-say-you-love-me</music:url>
+    <music:description>Get It Now: http://MadDecent.lnk.to/MidnightExpress
+
+Platinum award-winning, Italian producer Big Fish launches himself into international waters with Midnight Express. The two-track release roots itself in traditional house but effortlessly blends in crisp, melodic sequences and catchy vocals.  Teaming up again with Aquadrop, “Don’t You Say You Love Me�? is a booming dance floor-ready track. “Theron" dips into a tech sound with choppier vocals, but is equally as catchy. Midnight Express takes us on a smooth ride to the future of House music. 
+
+Follow Big Fish
+Facebook: https://www.facebook.com/bigfishofficial
+Twitter: https://twitter.com/realfishbeats
+Soundcloud: https://soundcloud.com/bigfish-donermusic
+
+Follow Aquadrop
+Facebook: http://www.facebook.com/AquadropMusic
+Twitter: http://www.twitter.com/1aquadrop1
+Soundcloud: https://soundcloud.com/aquadrop</music:description>
+    <music:title>Big Fish &amp; Aquadrop - Don't You Say You Love Me</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music43">
+    <music:genre>106.8FM</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >226108709</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/fishbassmusic/fish_rinse_fm_guestmix</music:url>
+    <music:description>My guestmix for Marcus Nasty on Rinse FM. The first 30 mins is nothing but my own productions or remixes of my tracks, the second 30 mins I'm b2b with Marcus Nasty playing a mixture of mine and others.
+
+...and for those that have been asking, here's the tracklist of everything I played...
+
+Fish - Wasted Time
+Fish - Calling (Killjoy Remix)
+Fish x Holy Goof - Prince Albert
+Fish - Take Me Back
+Fish - Battle Dub (Dubplate Version)
+Fish &amp; Sherry S - Life (feat. Dread MC)
+Fish - Quiver (Lucent Remix)
+Fish - Calling (Doctor Jeep Remix)
+Fish - Wind Up
+Fish - Get High (Carpainter Remix)
+Fish - Tricknology (Dubplate Version)
+Fish - Bad Luck on Dem VIP
+Skepta - Nasty (Fish Bootleg)
+Fish &amp; Sherry S - You Get Bun (feat. Dread MC)
+Fish - Bad Luck on Dem (James Mannion Remix)
+Fish - Move Ya Body
+&gt;&gt; Marcus Nasty 3 Tunes
+Fish - Bad Luck on Dem (Rossi B &amp; Luca Remix)
+Fish - Sin
+Fish - Hold On
+&gt;&gt; Marcus Nasty 3 Tunes
+Plastician - Intensive Snare (feat. Skepta)
+Tempa T - Next Hype (Plastician Instrumental Remix)
+Killjoy - Lockdown
+Swifta - Move
+U Know &amp; The Drill - Stackin' Papers
+&gt;&gt; Marcus Nasty 3 Tunes
+Lucent - Make Me Wonder (Fish Remix)
+Zinc - Flim (Skream Remix)</music:description>
+    <music:title>100% Fish Mix (Rinse FM w/ Marcus Nasty)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music35">
+    <music:genre>Big Fish</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >241409169</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/bigfish-donermusic/big-fish-guest-mix-diplo-friends</music:url>
+    <music:description>Tracklist:
+
+1. Hooverphonic - Unfinished Sympathy (Massive Attack cover) [EMI]
+2. Big Fish feat. David Blank – Walk Away [Demo]
+3. Moksi – In The Rave [Barong Family]
+4. Aquadrop – Love [Demo]
+5. Tony Romera – Rollin Like A Wheel [Mad Decent]
+6. Kharfi, Dopesquad – Nke Na We [forthcoming Doner Music]
+7. Rhade – Nova [Doner Music]
+8. JVST SAY YES – Ill Behavior [Free download]
+9. Low Pros X Que – Who Wanna Play (Salva &amp; GZ Remix) [Fool's Gold]
+10. Big Fish &amp; Aquadrop – Intuition [Demo]
+11. Big Fish X Anastacia – I'm Outta Love 2015 [Bootleg]
+12. Crookers feat. Willis – Withdrawals [Defected]
+13. Goldie – Timeless [FFRR Records]
+14. Diplo &amp; Sleepy Tom – Be Right There (Big Fish Remix) [Mad Decent]
+15. Yellow Claw &amp; Mightyfools – No Class (Moksi Remix) [Mad Decent]
+16. Big Fish feat. Shystie, Jay Royal – I Can Love You [Demo]
+17. Brillz &amp; LAXX feat. Gangsta Boo – Buck [Mad Decent]
+18. Madeaux feat. Vada – Empathy [Fool's Gold]
+19. Wuki – Front2Back [Mad Decent]
+20. Nina Las Vegas &amp; Swick – Cool Sports [Fool's Gold]
+21. Sophie – Msmsmsm [Numbers]
+22. INARI – Rise Again (Big Fish Edit) [Doner Music]
+23. Big Fish feat. Elisa – Vain [forthcoming Doner Music]
+24. URAMESHI! - Indoor Fish [Doner Music]
+25. Underworld – Born Slippy [Junior Boy's Own]
+26. Bonkaz – You Don't Know (Bonkaz) [Pitched Up]
+27. Rusko – Cockney Thug (Big Fish Edit) [Sub Soldiers]
+28. Lethal Bizzle &amp; Stormzy – Dude [Stay Dench Records]
+29. Show N Prove &amp; Big Narstie – Gas Pipe [Dice Recordings]
+30. Dizzee Rascal – I Luv U [XL Recordings]
+31. Jammz – Final Warning [Local Action Records]
+32. Big Fish x Fabri Fibra – Qui Dentro [forthcoming Doner Music]
+33. True Tiger &amp; Big Narstie – Baracuda [Stripes Records]
+34. Tinie Tempah – Been The Man [Parlophone]
+35. Yungen – You Don't Know Me Like Dat [Yungen Music]
+36. Emis Killa feat. Gue Pequeno – Superman [Carosello Records / Blocco Recordz]
+37. Stormzy – WickedSkengMan 4 [Stormzy]
+38. Magnetic Man feat- Angela Hunte – I Need Air [Columbia]
+39. Chase &amp; Status feat- Liam Bailey – Blind Faith [MTA]
+
+https://www.facebook.com/bigfishofficial
+https://twitter.com/realfishbeats
+https://instagram.com/bigfish12</music:description>
+    <music:title>Big Fish guest mix @ Diplo &amp; Friends</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music23">
+    <music:genre>Dance</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >213787423</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/doornrecords/ftampa-the-fish-house-031-hardwell-on-air-available-august-3</music:url>
+    <music:description>Highlight of many festival sets, FTampa &amp; The Fish House proudly present 031 as premiered by Hardwell in his radioshow Hardwell on Air! Out now on Beatport; http://btprt.dj/1VR3aTL</music:description>
+    <music:title>FTampa &amp; The Fish House - 031 (Hardwell on Air) [Out Now]</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music15">
+    <music:genre>Remix</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >133778358</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/listentotriillion/ice-jj-fish-on-the-floor-mixed</music:url>
+    <music:description>Share This Song Of This Guy Singing To This Song ! Its Funny ! But Give Em Props Cuz He Doing His Thang ! </music:description>
+    <music:title>Ice JJ Fish - On The Floor ( Mixed Version )</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music47">
+    <music:genre>Classical</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >166923899</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/andiyi/fish</music:url>
+    <music:description>The ocean is deep and the fish have their own ideas about things.&#xD;
+&#xD;
+ Full fathom five thy father lies; &#xD;
+              Of his bones are coral made; &#xD;
+    Those are pearls that were his eyes: &#xD;
+              Nothing of him that doth fade, &#xD;
+    But doth suffer a sea-change &#xD;
+    Into something rich and strange. &#xD;
+&#xD;
+Cover artwork adapted from Alewives Fish Tank by Duncan Rawlinson. Creative Commons license https://creativecommons.org/licenses/by-nc/2.0/ Logo design by Liu Fang.</music:description>
+    <music:title>Fish</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music39">
+    <music:genre>Comedy</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >84364969</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/analyzephish/analyze-fish</music:url>
+    <music:description>Harris Wittels and Scott Aukerman are back to catch up on Harris’ recent Phish experience and to pass the figurative torch. Paul F. Tompkins and Howard Kremer are comedians who love the 1975 classic film Jaws. Paul &amp;amp; Howard have decided to introduce Jaws to Shelby Fero, who has not seen the film but has absorbed aspects of the film through pop culture. We’ll learn how much Shelby knows about Jaws, which classic films she has seen, and why her fear of jellyfish is higher than her fear of sharks. Will Shelby love Jaws as much as Paul and Howard? You’ll have to listen to find out!</music:description>
+    <music:title>Analyze Fish</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music2">
+    <music:genre>tbtl</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >125500819</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/tbtl/1493-swedish-fish-with-swedish</music:url>
+    <music:description>Sean DeTore swings by with stories of awkwardly hosting a Swedish indie band at his apartment over the weekend.</music:description>
+    <music:title>#1493 - Swedish Fish with Swedish Houseguests</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music27">
+    <music:genre>fish hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >818961</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/mr-scruff/fish</music:url>
+    <music:description>taken from the album 'keep it unreal'</music:description>
+    <music:title>Mr Scruff 'Fish'</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music19">
+    <music:genre>Electronic</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >154170304</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/iamlegionmusic/i-am-legion-jelly-fish-eprom-remix-out-june-17th-1</music:url>
+    <music:description>Beatport: http://bit.ly/IALRMXBP&#xD;
+iTunes UK: http://bit.ly/IALRMXITUK&#xD;
+iTunes US: http://smarturl.it/IALRemixes&#xD;
+Spotify: http://bit.ly/IALRMXSPOT&#xD;
+Google Play: http://bit.ly/IALRMXGOOGLE&#xD;
+Amazon: http://bit.ly/IALRMXAM&#xD;
+&#xD;
+The I Am Legion Remix EP is out now via @DivisionRecordings @ParExcellenceMusic @OWSLAofficial&#xD;
+&#xD;
+Tracklist&#xD;
+1. I Am Legion - Farrda (Alix Perez Remix) - Hip Hop &#xD;
+2. I Am Legion - Farrda (Starkey Remix) - Dubstep&#xD;
+3. I Am Legion - Make Those Move (Suburban Dark Remix) - Electronica&#xD;
+4. I Am Legion - Make Those Move (Teddy Killerz Remix) - Drum n Bass &#xD;
+5. I Am Legion - Jelly Fish (Eprom Remix) - Hip Hop&#xD;
+6. I Am Legion - Loose on the Leaves (dBridgesploitation Remix) - Drum n Bass &#xD;
+7. I Am Legion - Choosing For You (Nightwatch Remix) - Electro&#xD;
+8. I Am Legion - Warp Speed Thuggin’ (Sui Generis Remix) - House&#xD;
+9. I Am Legion - Warp Speed Thuggin’ (Phace Remix) - Drum n Bass&#xD;
+10. I Am Legion - Dust Descends (Alix Perez Remix) - Drum n Bass&#xD;
+&#xD;
+I Am Legion [@Noisia x @ForeignBeggars]&#xD;
+Summer Tour → iamlegion.co.uk/tour&#xD;
+Music &amp; Merch → iamlegion.co.uk/store&#xD;
+Facebook → facebook.com/iamlegionmusic&#xD;
+Twitter → twitter.com/IAmLegionMusic&#xD;
+&#xD;
+Follow Eprom here:&#xD;
+Facebook → https://www.facebook.com/eprombeats&#xD;
+Twitter → https://twitter.com/eprombeats&#xD;
+&#xD;
+See I Am Legion live at the following festivals:&#xD;
+14.06.2014 Sonar, Barcelona, ES http://bit.ly/IALSonar&#xD;
+22.06.2014 EDC Vegas, Las Vegas, US http://bit.ly/IALEDC&#xD;
+27.06.2014 Electric Forest, Rothbury, US http://bit.ly/IALEForest&#xD;
+28.06.2014 Digital Dreams, Toronto, CA http://bit.ly/IALDDreams&#xD;
+03.07.2014 Volt Festival, Sopron, HU http://bit.ly/IALVolt&#xD;
+04.07.2014 Urban Artforms, Graz, AT http://bit.ly/IALUArtforms&#xD;
+06.07.2014 Eurokennes, Belfort, FR http://bit.ly/IALEurock&#xD;
+02.08.2014 Solar, Roermond, NL http://bit.ly/IALSolar&#xD;
+07.08.2014 Way Out West, Göteborg, SE http://bit.ly/IALWOWest&#xD;
+09.08.2014 Dreambeach, Villaricos, ES http://bit.ly/IALDBeach&#xD;
+15.08.2014 Lowlands, Biddinghuizen, NL http://bit.ly/IALLowlands&#xD;
+16.08.2014 Pukkelpop, Hasselt, BE http://bit.ly/IALPukkelpop&#xD;
+22.08.2014 Reading Festival, Reading, UK http://bit.ly/IALReading&#xD;
+23.08.2014 Leeds Festival, Leeds, UK http://bit.ly/IALLeeds&#xD;
+06.09.2014 INOX Festival, Paris, FR http://bit.ly/IALInox</music:description>
+    <music:title>I Am Legion- Jelly Fish (Eprom Remix) [OUT NOW]</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music6">
+    <music:genre>HOUSE</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >198976123</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/tommymcmusic/garreth-maher-djoko-aint-nobody-tommy-mc-remix-pink-fish-records-1mast1</music:url>
+    <music:description>COMING SOON ON PINK FISH!!
+
+Please leave your comments, like, re-post &amp; share!
+
+REMIXES / LICENSING: djtommymcf@hotmail.com 
+DJ BOOKINGS: info@industryentertainment.ie
+
+www.Twitter.com/TommyMcMusic 
+www.Facebook.com/TommyMcMusic
+@TommyMcMusic</music:description>
+    <music:title>Garreth Maher &amp; DJOKO - Ain't Nobody (Tommy Mc Remix) [Pink Fish Records] OUT NOW, HIT BUY!!!</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music42">
+    <music:genre>Electro</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >122787459</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/electro/dead-fish-by-dead-battery</music:url>
+    <music:description>&lt;b&gt;Like the track? Click the repost button&lt;/b&gt;&#xD;
+&#xD;
+&lt;b&gt;Join the movement @ http://EDM.com&lt;/b&gt;&#xD;
+&#xD;
+An exemplary mashing of styles between The EDM Network regulars, Dead Battery and Naked Fish, "Dead Fish" is a perfect example of what can come of 2 masterful producers joining forces to create something completely new, original, and out of their element. Ferocious electro with a delightful melodic tint, "Dead Fish" has distinct influences from a wide variety of genres, but their manifestation as a dirty electro anthem is a testament to the extraordinary cross-genre capabilities of these next-level Network favorites. &#xD;
+&#xD;
+Download The EP: http://bit.ly/Spotlight3&#xD;
+&#xD;
+Purchase: http://bit.ly/iSpotlight3&#xD;
+ ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••&#xD;
+ Follow Dead Battery:&#xD;
+http://www.facebook.com/deadbatterymusic&#xD;
+http://twitter.com/Dead_Battery&#xD;
+SC: https://soundcloud.com/deadbattery&#xD;
+&#xD;
+Follow Naked Fish:&#xD;
+https://www.facebook.com/pages/Naked-Fish/251632198215379&#xD;
+http://twitter.com/NakedFishArtist&#xD;
+SC: https://soundcloud.com/naked-fish&#xD;
+&#xD;
+Follow edmSpotlight:&#xD;
+http://facebook.com/edmSpotlight&#xD;
+http://twitter.com/edmSpotlight&#xD;
+http://youtube.com/edmSpotlight&#xD;
+&#xD;
+Follow us soon @ www.Electro.NET&#xD;
+ ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• &#xD;
+Send all demos to Todd@Electro.NET to have your track featured! &#xD;
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••</music:description>
+    <music:title>Dead Fish by Dead Battery &amp; Naked Fish - Electro.NET Exclusive</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music30">
+    <music:genre>new bollywood song 2015</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >193492555</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/desirapuhrs/drink-like-a-fish-millind-gaba-2015</music:url>
+    <music:description></music:description>
+    <music:title>Drink Like A Fish - Millind Gaba (2015)| NEW PUNJABI SONG</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music22">
+    <music:genre>house music</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >236004519</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/diplo/diplo-sleepy-tom-be-right-there-big-fish-remix</music:url>
+    <music:description>Diplo and Sleepy Tom’s “Be Right There�? gets a twist with the release of new remixes by @MarcKinchen, @BoomboxCartel, @Flava_d, @GentandJawns, @itsnaderi and @bigfish-donermusic - aficionados of every genre are sure to be satisfied. 
+
+get diplo gear
+webstore - http://smarturl.it/DiploMerch
+amazon (free prime shipping) - http://smarturl.it/supermarketteAZ
+
+stream and download - https://MadDecent.lnk.to/BeRightThereRemixes
+
+follow diplo
+website - http://www.diplo.com
+facebook - http://smarturl.it/DiploFB
+twitter - http://smarturl.it/DiploTW
+instagram - http://smarturl.it/DiploIG
+
+diplo on tour - http://smarturl.it/DiploTour
+
+Follow Sleepy Tom:
+Facebook: facebook.com/reallysleepytom
+Twitter: twitter.com/sleepytom
+Soundcloud: @sleepytom</music:description>
+    <music:title>Diplo &amp; Sleepy Tom - Be Right There (Big Fish Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music10">
+    <music:genre>♫</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >229114789</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/sodaisland/ramzoid-virtual-fish-market</music:url>
+    <music:description>'Virtual Fish Market' by @ramzoid
+
+Listen on Spotify: http://open.spotify.com/album/1XTCBfPn3HeuJzsH6nzZb0
+
+Support on iTunes:
+https://itunes.apple.com/album/id1051010726?ls=1&amp;app=itunes
+
+Connect with us ✨
+SoundCloud: @sodaisland
+Twitter: https://twitter.com/sodaisland
+Facebook: https://facebook.com/sodaislandcollective
+
+Follow Ramzoid ✨
+SoundCloud: @ramzoid
+Twitter: https://twitter.com/ramzoidmusic
+Facebook: https://facebook.com/ramzoidmusic
+
+Look out 2016</music:description>
+    <music:title>Ramzoid - Virtual Fish Market</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music46">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >45360785</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/skyetownsend/go-fish-ft-karina-pa</music:url>
+    <music:description></music:description>
+    <music:title>Go Fish! ft. Karina Pasian &amp; Chris O'Bannon</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music34">
+    <music:genre>Bass Music</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >16431009</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/ill-gates/die-antwoord-fish-paste-ill</music:url>
+    <music:description>Sooo much new music headed your way. In the meantime, here’s a sassy little bootleg to tide you over… a bass heavy re-rub of one of my favorite Die Antwoord tracks: Fish Paste. Free Download. Enjoy!</music:description>
+    <music:title>[FREE DL] Die Antwoord - Fish Paste (ill.Gates Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music9">
+    <music:genre>Deep House</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >157022304</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/mrsuicidesheep/kelis-friday-fish-fry-maribou-state-pedestrian-remix</music:url>
+    <music:description>Maribou State
+https://soundcloud.com/mariboustate
+https://www.facebook.com/mariboustate
+https://twitter.com/mariboustate
+
+Pedestrian
+https://soundcloud.com/pedestriansound
+https://www.facebook.com/pedestriansound
+
+Kelis
+https://soundcloud.com/iamkelis
+http://kelis-official.com
+http://facebook.com/iamkelis
+https://twitter.com/iamkelis
+
+Released by Ninja Tune
+https://twitter.com/iamkelis
+http://ninjatune.net
+https://www.facebook.com/ninjatuneofficial</music:description>
+    <music:title>Kelis - Friday Fish Fry (Maribou State &amp; Pedestrian Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music26">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >101732927</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/smbls/lindsay-lowend-wind-fish-ep</music:url>
+    <music:description>Lindsay Lowend - Wind Fish EP (SMBL022)&#xD;
+Release Date: August 6th, 2013&#xD;
+&#xD;
+01. GT40&#xD;
+02. Sass Mouth&#xD;
+03. It's George&#xD;
+04. Wind Fish&#xD;
+&#xD;
+What do you get when you mix bass music with jazz fusion and a Super Nintendo? Meet Lindsay Lowend, a 20-year old bass music prodigy from Washington, D.C. Describing his sound as "neon music", this young artist is largely inspired by video games such as Dance Dance Revolution and Beatmania IIDX. His production methods prove to be just as interesting which stem from the demoscene/tracker music scene. While extremely computer and programming driven, each of the tracks on this debut EP pack an enormous amount of soul and depth. He has built his own unique soundscape of bright synthesizers, chords, and melodies overtop very rhythmic and often times unpredictable beats.&#xD;
+&#xD;
+Follow http://soundcloud.com/lindsay-lowend:&#xD;
+http://www.twitter.com/Lindsay_Lowend&#xD;
+http://www.facebook.com/LindsayLowend&#xD;
+&#xD;
+Artwork by Joyce Su:&#xD;
+http://www.joycesu.com&#xD;
+</music:description>
+    <music:title>Lindsay Lowend - Wind Fish EP (SMBL022)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music14">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >22228299</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/thefishhouse/fergie-glamorous-ft-ludacris</music:url>
+    <music:description></music:description>
+    <music:title>FERGIE - Glamorous ft. Ludacris (THE FISH HOUSE Bootleg)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music1">
+    <music:genre>Rap/hip Hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >60030248</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/tylerthecreator-official/fish</music:url>
+    <music:description></music:description>
+    <music:title>Fish</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music38">
+    <music:genre>Afro</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >137669193</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/soundway-records/ibibio-sound-machine-the</music:url>
+    <music:description>Ibibio Sound Machine are set to release their debut LP through Soundway Records. Fronted by British / Nigerian vocalist Eno Williams, they combine elements of West African highlife, disco, post-punk &amp; psychedelic electro soul. Preceded by the pulsating first single 'Let's Dance', ‘Ibibio Sound Machine’ will be released 17th March.&#xD;
+&#xD;
+Folk stories, recounted to Eno by her family as a child in her mother's South-Eastern Nigerian Ibibio language form the creative lyrical fabric of the album. A large dose of electronic elements and an approach as influenced by London as much as by West Africa, give the vocals and guitar lines space to breath without being overwhelmed.&#xD;
+&#xD;
+From the banging sub-bass of 'Lets Dance' to the spiritual, gospel-tinged notes of the album's opening track 'Voice of the Bird', the band have turned in a dynamic and, at times, beautiful take on modern afro-soul music.&#xD;
+&#xD;
+The 8-piece live band made their official live debut at this year's Transmusicales in France and will be a name to look out for in 2014</music:description>
+    <music:title>Ibibio Sound Machine - The Talking Fish (Asem Usem Iyak)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music18">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >177841613</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/ft-analysis/uncharted-waters-why-were</music:url>
+    <music:description>This year, for the first time, the world will eat more fish and seafood from farms than from the wild. But is that a good thing? The FT's Emiko Terazono reports.</music:description>
+    <music:title>Uncharted waters: why we're eating more farmed fish</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music5">
+    <music:genre>real hip hop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >122258218</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/larryfisherman/i-come-in-peace-prod-big-jerm</music:url>
+    <music:description>raps that i think are good right now but in 3 days i will ask myself what the fuck i was talking about.</music:description>
+    <music:title>I Come In Peace (prod. Big Jerm &amp; P. Fish)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music41">
+    <music:genre>Melodic Dubstep</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >157546808</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/dubstep/naked-fish-displaced</music:url>
+    <music:description>&lt;b&gt;Like the track? Click the [&lt;i&gt;↻ Repost&lt;/i&gt;] button!&lt;/b&gt;&#xD;
+&#xD;
+&lt;b&gt;Join the EDM Movement @ http://EDM.com&lt;/b&gt;&#xD;
+&#xD;
+Beatport: http://btprt.dj/1m6BV6U&#xD;
+Buy It Now: https://itunes.apple.com/us/album/displaced-ep/id891682570?uo=4&amp;at=11lHt7&#xD;
+••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••&#xD;
+Follow @naked-fish: &#xD;
+www.facebook.com/fishofficial&#xD;
+twitter.com/NakedFishArtist&#xD;
+&#xD;
+Follow @audiopornrecords:&#xD;
+http://www.facebook.com/audiopornrecords&#xD;
+https://twitter.com/AudioPornRecs&#xD;
+&#xD;
+Follow Us @ http://EDM.com&#xD;
+www.Facebook.com/edmcom&#xD;
+www.twitter.com/TheEDMNetwork&#xD;
+www.youtube.com/EDM&#xD;
+www.instagram.com/edm&#xD;
+www.lockerdome.com/edm&#xD;
+plus.google.com/+EDM&#xD;
+SC: http://soundcloud.com/EDM&#xD;
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••&#xD;
+Send all demos to dropbox@Dubstep.NET to have your track featured!&#xD;
+&#xD;
+Send unreleased tracks to exclusive@Dubstep.NET to be considered for Exclusive release!&#xD;
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••</music:description>
+    <music:title>Naked Fish - Displaced</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music33">
+    <music:genre>dance</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >221864276</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/maddecent/big-fish-theron</music:url>
+    <music:description>Get It Now: http://MadDecent.lnk.to/MidnightExpress
+
+Platinum award-winning, Italian producer Big Fish launches himself into international waters with Midnight Express. The two-track release roots itself in traditional house but effortlessly blends in crisp, melodic sequences and catchy vocals.  Teaming up again with Aquadrop, “Don’t You Say You Love Me�? is a booming dance floor-ready track. “Theron" dips into a tech sound with choppier vocals, but is equally as catchy. Midnight Express takes us on a smooth ride to the future of House music. 
+
+Follow Big Fish
+Facebook: https://www.facebook.com/bigfishofficial
+Twitter: https://twitter.com/realfishbeats
+Soundcloud: https://soundcloud.com/bigfish-donermusic</music:description>
+    <music:title>Big Fish - Theron</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music21">
+    <music:genre>Comedy</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >138526614</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/nosuchthingasafish/no-such-thing-as-a-fish-1</music:url>
+    <music:description>A new podcast from the writers of QI, who discuss the best facts they've found that week. The pilot episode features Dan Schreiber (@schreiberland), James Harkin (@eggshaped), Anna Ptaszynski (@qikipedia) &amp; Andrew Hunter Murray (@andrewhunterm)&#xD;
+&#xD;
+For more check out www.qi.com/podcast</music:description>
+    <music:title>Episode 1: No Such Thing As A Pilot Fish</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music13">
+    <music:genre>House</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >128647124</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/dennis-ferrer/thecureandthecause</music:url>
+    <music:description>2006</music:description>
+    <music:title>Fish Go Deep - The Cure &amp; The Cause (Dennis Ferrer Remix) - Defected (2006)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music45">
+    <music:genre>Hangover House</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >171804571</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/deepsounds/fish-from-japan-carry-on</music:url>
+    <music:description>Like the track? Click the [&lt;i&gt;↻ Repost&lt;/i&gt;] button!
+
+Join the EDM Movement @ http://EDM.com
+
+Beatport: http://btprt.dj/1vZciqF
+iTunes: https://itunes.apple.com/us/album/carry-on-ep/id905639884?uo=4&amp;amp;at=11lHt7
+••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+Follow @fish-from-japan
+https://www.facebook.com/fishfromjapan
+
+Follow @wearemisshapen
+http://wearemisshapen.com/
+https://www.facebook.com/soundsMisshapen
+http://twitter.com/wearemisshapen
+
+Follow Us @ http://EDM.com
+www.Facebook.com/edmcom
+www.twitter.com/TheEDMNetwork
+http://8tracks.com/edm-com
+www.youtube.com/EDM
+www.instagram.com/edm
+www.lockerdome.com/edm
+plus.google.com/+EDM
+SC: http://soundcloud.com/EDM
+••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+Send all demos to deepsounds@theedmnetwork.com to have your track featured!
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••</music:description>
+    <music:title>Fish From Japan - Carry On</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music8">
+    <music:genre>House</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >131002238</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/richpinder/anthony-hamilton-cornbread-1</music:url>
+    <music:description>Finally hit the 3000 followers mark as a thanx for the continued support here is our latest remix for FREE download, repost, share &amp; drop comments&#xD;
+&#xD;
+Thanx Rich :)</music:description>
+    <music:title>Anthony Hamilton - Cornbread Fish &amp; Collard Greens(Rich Pinder &amp; Kieran Frearson Edit) FREE DOWNLOAD</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music0">
+    <music:genre>Country</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >76012166</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/aaronwatsonmusic/fish</music:url>
+    <music:description>From the album "REAL GOOD TIME", Aaron Watson brings the fun rebound song "Fish" for all his fans going through a recent breakup urging them to get back in the boat and FISH.  </music:description>
+    <music:title>Fish</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music37">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >92169428</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/thefishhouse/the-fish-house-stripped</music:url>
+    <music:description>http://www.beatport.com/release/stripped-ep/1090201</music:description>
+    <music:title>The Fish House - Stripped</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music25">
+    <music:genre></music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >17603138</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/ricardo-t-love/tyler-the-creator-fish</music:url>
+    <music:description></music:description>
+    <music:title>Tyler the Creator-Fish</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music17">
+    <music:genre>pop</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >154239831</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/ninja-tune/kelis-friday-fish-fry-rob-garza-remix</music:url>
+    <music:description>iTunes: http://smarturl.it/kelisfffit
+Ninja Shop: http://smarturl.it/kelisfff
+
+Taken from the Kelis single 'Friday Fish Fry' released July 14 2014 on Ninja Tune.</music:description>
+    <music:title>Kelis - 'Friday Fish Fry' (Rob Garza Remix)</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music49">
+    <music:genre>Dubstep</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >115945847</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/dubstep/high-voltage-by-big-fish-sonic</music:url>
+    <music:description>Subscribe For More: bit.ly/180kJFX &#xD;
+&#xD;
+&#xD;
+Full Description on Dubstep.NET:  http://www.dubstep.net/track/high-voltage-by-big-fish-sonic&#xD;
+ •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• &#xD;
+Follow Dubstep.NET: &#xD;
+facebook.com/dubstep &#xD;
+twitter.com/dubstep &#xD;
+youtube.com/dubstep &#xD;
+plus.google.com/+Dubstep &#xD;
+SC: http://www.soundcloud.com/Dubstep &#xD;
+&#xD;
+&#xD;
+Follow Big Fish:&#xD;
+http://www.facebook.com/bigfishofficial&#xD;
+http://twitter.com/realfishbeats&#xD;
+SC: http://soundcloud.com/bigfish-donermusic&#xD;
+&#xD;
+&#xD;
+Follow Doner Music:&#xD;
+http://www.facebook.com/donermusic&#xD;
+http://twitter.com/donermusic&#xD;
+http://www.youtube.com/donermusicofficial&#xD;
+&#xD;
+&#xD;
+Follow us @ www.Dubstep.NET&#xD;
+ ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• &#xD;
+Send all demos to dropbox@Dubstep.NET to have your track featured! &#xD;
+&#xD;
+&#xD;
+Send unreleased tracks to exclusive@Dubstep.NET to be considered for Exclusive release! ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• &#xD;
+Sounds like: Skrillex, Kill The Noise, Feed Me, Excision, Datsik, Downlink, Flux Pavilion, Doctor P, Funtcase, Stenchman, Cookie Monsta, Knife Party, Adventure Club, Nero, Bassnectar, Noisia, Zeds Dead, NiT GriT, DeadMau5, Dubstep, Drumstep, Minnesota, Dance Music, Bass, Bare Noize, Skream, Play Me, Rottun, Never Say Die, Heavy Artillery, OWSLA, and Mau5trap</music:description>
+    <music:title>High Voltage by Big Fish &amp; Sonic Syndrome - Dubstep.NET Exclusive</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music4">
+    <music:genre>Dubstep</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >44537844</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/hardwell/hardwell-spaceman-drown-the-1</music:url>
+    <music:description>OUT NOW! http://s.beatport.com/KMmufh Hardwell’s Spaceman has been destroying the dancefloors worldwide over the past three months. With the infectious lead theme unexpectedly dropping two chords and turning into the electro influenced Hardwell bassline, a sure shot for giving the crowd that boost of energy jetting them into space!
+
+‘Spaceman’ now comes back to earth with a package of Outer Space Remixes. All remixes in different genres which will still capture the infectious sounds of Spaceman adjusted to their genre.
+
+First up is Headhunterz Remix, the worlds leading Hardstyle DJ from Holland. He turns this into a raw stomping beast and floating basslines. Adding new lyrics which sets the mood of the track. After the second break accelerating to a higher pace. This has been a Hardwell favourite for weeks, closing down his sets with a bang!
+
+Second is ‘Drown The Fish’ on the remix with his Dubstep interpretation. Adding those typical darker sounds and making use of the lead theme perfectly.
+
+The package is completed by Naffz Remix in Moombahton style, Dutch upcoming producer lowers the tempo, adds some cathy snare drum loops and makes this one special mix for the long summer nights.
+
+For more info check:
+http://www.djhardwell.com
+http://www.twitter.com/hardwell
+http://www.facebook.com/djhardwell</music:description>
+    <music:title>Hardwell - Spaceman (Drown The Fish Remix) [OUT NOW]</music:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/AudioObject#music29">
+    <music:genre>Literature</music:genre>
+    <music:id rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+    >29927348</music:id>
+    <music:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://soundcloud.com/diannaagron/one-fish-two-fish-red-fish</music:url>
+    <music:description>Do you remember the first book that captured your heart?? I do not remember the exact one, not the very first. But the silly, the fun, the adventurous ones, were the ones I could not part ways with, and stick to me now, with the same exact beating in my heart. Without words on the page, how could our minds imagine the lands of the familiar or the unknown?? </music:description>
+    <music:title>ONE FISH, TWO FISH, RED FISH, BLUE FISH</music:title>
+  </rdf:Description>
+</rdf:RDF>

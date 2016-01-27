@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:video="https://schema.org/VideoObject#">
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video0">
+    <video:id>_eYIweHE7YA</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/_eYIweHE7YA/hqdefault.jpg</video:thumbnail>
+    <video:description>He's tough but fair. (And he can incinerate you.) Watch more Robot Chicken: http://asw.im/RZLoc SUBSCRIBE: http://bit.ly/AdultSwimSubscribe About Robot ...</video:description>
+    <video:title>Galactus Herald Tryouts | Robot Chicken | Adult Swim</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video1">
+    <video:id>AUgRlkWv1k0</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/AUgRlkWv1k0/hqdefault.jpg</video:thumbnail>
+    <video:description>If only puberty were this clear-cut. Watch more Robot Chicken: http://asw.im/1czGjS SUBSCRIBE: http://bit.ly/AdultSwimSubscribe About Robot Chicken: Robot ...</video:description>
+    <video:title>Sexual Guts | Robot Chicken | Adult Swim</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video6">
+    <video:id>0iAFckPgKZI</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/0iAFckPgKZI/hqdefault.jpg</video:thumbnail>
+    <video:description>Sportsball's very own psychic chicken, Barbara, predicts the losers of the NFL Playoffs in her own special way.... Check out Sportsball every Tuesday at 5pm CT ...</video:description>
+    <video:title>Chicken Predicts NFL Playoff Losers - Sportsball</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video7">
+    <video:id>PTK6Yr-St8s</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/PTK6Yr-St8s/hqdefault.jpg</video:thumbnail>
+    <video:description>Welcome Chetna and her delicious recipe for Chicken Tikka Masala to the channel! Tender chicken marinated and baked in a spicy yogurt dressing before ...</video:description>
+    <video:title>Chicken Tikka Masala | Chetna Makan</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video8">
+    <video:id>Jv8N4C4YujM</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/Jv8N4C4YujM/hqdefault.jpg</video:thumbnail>
+    <video:description>I just got a huge bite of grease.�? Check out more awesome videos at BuzzFeedVideo! http://bit.ly/YTbuzzfeedvideo MUSIC And Now Bounce Licensed via ...</video:description>
+    <video:title>Fast Food Fried Chicken Taste Test</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video9">
+    <video:id>uERzen1KOwc</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/uERzen1KOwc/hqdefault.jpg</video:thumbnail>
+    <video:description>Better than Jurassic World. Watch more Robot Chicken: http://asw.im/907moM SUBSCRIBE: http://bit.ly/AdultSwimSubscribe About Robot Chicken: Robot ...</video:description>
+    <video:title>Fantasy Island Dino Sex | Robot Chicken | Adult Swim</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video2">
+    <video:id>kROoQ46RcAA</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/kROoQ46RcAA/hqdefault.jpg</video:thumbnail>
+    <video:description>Chicken Masala with Red &amp; Spicy Gravy- Easy Cook| Food Junction In English Subtitles Cook along yummy Indian food subscribe now: ...</video:description>
+    <video:title>Chicken Masala Spicy Gravy (Eng Subtitles) - Easy Cook with Food Junction</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video3">
+    <video:id>jSh6VJYRV-g</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/jSh6VJYRV-g/hqdefault.jpg</video:thumbnail>
+    <video:description>The full recipe is on my website: http://www.maangchi.com/recipe/easy-dakgangjeong This crispy, crunchy, spicy Korean fried chicken is incredibly delicious!</video:description>
+    <video:title>Crunchy Korean fried chicken recipe (Dakgangjeong: 닭강정)</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video4">
+    <video:id>O1IusTHQMPg</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/O1IusTHQMPg/hqdefault.jpg</video:thumbnail>
+    <video:description>chickenwatch2k15 All extra chicken was given to the homeless. Check out more awesome videos at BuzzFeedVideo! http://bit.ly/YTbuzzfeedvideo MUSIC ...</video:description>
+    <video:title>Which Grocery Store Has The Best Rotisserie Chicken?</video:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/VideoObject#video5">
+    <video:id>YE9l94b3x9U</video:id>
+    <video:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+    >https://i.ytimg.com/vi/YE9l94b3x9U/hqdefault.jpg</video:thumbnail>
+    <video:description>After 22 years of raising chickens for Perdue, one brave factory farmer Craig Watts was at his breaking point and did something no one has done before.</video:description>
+    <video:title>Chicken factory farmer speaks out</video:title>
+  </rdf:Description>
+</rdf:RDF>
