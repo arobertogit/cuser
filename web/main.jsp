@@ -144,7 +144,6 @@
 						<select class="form-control" id="articleList" name="articleList">
 							<option>Random</option>
 							<option>U.S.</option>
-							<option>Health</option>
 							<option>Arts</option>
 							<option>Blogs</option>
 							<option>Economy</option>

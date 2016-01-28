@@ -1,110 +1,34 @@
 package fii.odiunu.request;
 
 import java.io.BufferedReader;
+import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.InputStreamReader;
 import java.net.URL;
+import java.util.HashSet;
+import java.util.Random;
+import java.util.Set;
 
+import org.apache.jena.datatypes.xsd.XSDDatatype;
+import org.apache.jena.ontology.OntModel;
+import org.apache.jena.query.Query;
+import org.apache.jena.query.QueryExecution;
+import org.apache.jena.query.QueryExecutionFactory;
+import org.apache.jena.query.QueryFactory;
+import org.apache.jena.query.QuerySolution;
+import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.rdf.model.Resource;
-import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.riot.Lang;
 import org.apache.jena.riot.RDFDataMgr;
 import org.apache.jena.riot.RDFFormat;
-import org.apache.jena.datatypes.xsd.XSDDatatype;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class Request {
-
-/*    public String makeHTTPRequestJokeNorris() {
-        JSONObject jsonObj = null;
-        String joke;
-        try {
-            URL url = new URL("http://api.icndb.com/jokes/random/");
-            BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
-            String strTemp = "";
-            while (null != (strTemp = br.readLine())) {
-                jsonObj = (JSONObject) new JSONParser().parse(strTemp);
-            }
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
-        jsonObj = (JSONObject) jsonObj.get("value");
-        joke = (String) jsonObj.get("joke");
-        return joke;
-    }
-
-    public String makeHTTPRequestJokeMomma() {
-        JSONObject jsonObj = null;
-        String joke;
-        try {
-            URL url = new URL("http://api.yomomma.info/");
-            BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
-            String strTemp = "";
-            while (null != (strTemp = br.readLine())) {
-                jsonObj = (JSONObject) new JSONParser().parse(strTemp);
-            }
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
-        joke = (String) jsonObj.get("joke");
-        return joke;
-    }
-
-    public String makeHTTPRequestYesOrNo() {
-        JSONObject jsonObj = null;
-        String yesOrNo;
-        try {
-            URL url = new URL("http://yesno.wtf/api/");
-            BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
-            String strTemp = "";
-            while (null != (strTemp = br.readLine())) {
-                jsonObj = (JSONObject) new JSONParser().parse(strTemp);
-            }
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
-        yesOrNo = (String) jsonObj.get("image");
-        return yesOrNo;
-    }
-
-    public String makeHTTPRequestMusic() {
-
-        JSONArray jsonArray = new JSONArray();
-        JSONObject jsonObj = null;
-        String yesOrNo, line = "", linkToSong = "";
-        try {
-            URL url = new URL("http://api.soundcloud.com/tracks?client_id=ffcaccc2a3bf0998c26d5a980a8b8607");
-            BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
-            while ((line = br.readLine()) != null) {
-
-                String objects[] = line.split("\\},");
-
-                for (int i = 0; i < objects.length; i++) {
-
-                    objects[i] = objects[i].replace("[", "");
-                    objects[i] = objects[i] + "}";
-                    System.out.println(objects[i] + "\n");
-                    jsonObj = (JSONObject) new JSONParser().parse(objects[i]);
-
-                    jsonArray.add(jsonObj);
-                }
-            }
-            Random rn = new Random();
-            int randomNum = rn.nextInt((jsonArray.size() - 0) + 1) + 0;
-
-            jsonObj = (JSONObject) jsonArray.get(randomNum);
-            linkToSong = (String) jsonObj.get("permalink_url");
-
-
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
-        return linkToSong;
-    }*/
 
     public String writeMusicToRDF(String keyword) {
 
@@ -260,6 +184,110 @@ public class Request {
     public void readVideosFromRDF(String keyword){
         Model model = ModelFactory.createDefaultModel();
         model.read(keyword+".xml", "RDF/XML");
+
+        RDFDataMgr.write(System.out, model, Lang.RDFXML);
+
+    }
+
+    public void saveNewPossibleMenuItemsToRDF(String keyword) {
+        Set<String> resources = new HashSet();
+        Set<String> comments = new HashSet();
+
+        Model model = ModelFactory.createDefaultModel();
+
+        String nsPrefix = "http://dbpedia.org/ontology/Food#";
+
+        Property p1 = model.createProperty(nsPrefix, "name");
+        Property p2 = model.createProperty(nsPrefix, "abstract");
+        model.setNsPrefix( "food", nsPrefix );
+
+        try {
+            // query for new list from a given country
+            final String dbpedia = "http://dbpedia.org/sparql";
+            String q = "PREFIX owl: <http://www.w3.org/2002/07/owl#>" +
+                    "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>" +
+                    "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
+                    "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>" +
+                    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>" +
+                    "PREFIX dc: <http://purl.org/dc/elements/1.1/>" +
+                    "PREFIX : <http://dbpedia.org/resource/>" +
+                    "PREFIX dbpedia2: <http://dbpedia.org/property/>" +
+                    "PREFIX dbpedia: <http://dbpedia.org/>" +
+                    "PREFIX skos: <http://www.w3.org/2004/02/skos/core#>" +
+                    "PREFIX dbp: <http://dbpedia.org/property/>" +
+                    "SELECT DISTINCT ?subject WHERE {" +
+                    "?subject dbp:country ?label;"+
+                    "rdf:type ?type."
+                    +  "FILTER ( regex (?label,\"^"+keyword+"$\", \"i\") && regex (?type,\"Food\", \"i\"))"
+                    +"}"
+                    +"limit 10";
+
+
+            Query query = QueryFactory.create(q);
+            QueryExecution qexec = QueryExecutionFactory.sparqlService(dbpedia, query);
+            ResultSet results = qexec.execSelect();
+
+            while (results.hasNext()) {
+                QuerySolution qs = results.next();
+                RDFNode s = qs.get("subject");
+                if (s.isResource()) {
+                    String uri = s.asResource().getURI();
+                    resources.add(uri);
+                }
+            }
+
+
+
+            for(String i : resources){
+                // get the food description
+                q = "PREFIX owl: <http://www.w3.org/2002/07/owl#>" +
+                        "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>" +
+                        "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
+                        "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>" +
+                        "PREFIX foaf: <http://xmlns.com/foaf/0.1/>" +
+                        "PREFIX dc: <http://purl.org/dc/elements/1.1/>" +
+                        "PREFIX : <http://dbpedia.org/resource/>" +
+                        "PREFIX dbpedia2: <http://dbpedia.org/property/>" +
+                        "PREFIX dbpedia: <http://dbpedia.org/>" +
+                        "PREFIX skos: <http://www.w3.org/2004/02/skos/core#>" +
+                        "PREFIX dbp: <http://dbpedia.org/property/>" +
+                        "SELECT ?hasValue " +
+                        "WHERE {" +
+                        "   <"+i+"> ?property ?hasValue" +
+                        "  FILTER (lang(?hasValue) = 'en' && regex (?property,\"abstract$\", \"i\"))" +
+                        "}";
+
+                query = QueryFactory.create(q);
+                qexec = QueryExecutionFactory.sparqlService(dbpedia, query);
+                results = qexec.execSelect();
+
+                while (results.hasNext()) {
+                    QuerySolution qs = results.next();
+                    RDFNode s = qs.get("hasValue");
+                    if (s.isLiteral()) {
+                        String comment = s.toString();
+                        comments.add(comment);
+
+                        Resource music = model.createResource(nsPrefix + i.substring(28));
+                        music.addProperty(p1, i, XSDDatatype.XSDstring);
+                        music.addProperty(p2, comment, XSDDatatype.XSDstring);
+                    }
+                }
+
+            }
+
+            FileWriter out = new FileWriter("menu-"+keyword+".xml" );
+            model.write( out, "RDF/XML" );
+
+
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    public void readNewPossibleMenuFromRDF(String keyword){
+        Model model = ModelFactory.createDefaultModel();
+        model.read("menu-"+keyword+".xml", "RDF/XML");
 
         RDFDataMgr.write(System.out, model, Lang.RDFXML);
 
