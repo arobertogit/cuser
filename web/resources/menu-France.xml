@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:food="http://dbpedia.org/ontology/Food#">
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Fromage_blanc">
+    <food:abstract>Fromage blanc (also known as maquée) is a fresh cheese originating from the north of France and the south of Belgium. The name means \"white cheese\" in French. Fromage frais differs from fromage blanc in that, according to French legislation:The denomination fromage frais is reserved for unripened cheese that underwent a mostly lactic fermentation. Fermented white cheese marketed under the terms fresh or fresh cheese must contain live flora at the time of sale to the consumer.So the former must contain live cultures when sold, whereas with fromage blanc fermentation has been halted.Fromage frais is a creamy soft cheese made with whole or skimmed milk and cream. It is similar to some kinds of quark. It has the consistency of cream cheese, but less fat. Pure fromage blanc is virtually fat free, but cream is frequently added to improve the flavour, which also increases the fat content, frequently to as high as eight percent of total weight. Fromage blanc can be served either as a dessert similar to yogurt, frequently with added fruit, or in savoury dishes. In many Western countries, fromage blanc is sold in supermarkets alongside yogurts.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Fromage_blanc</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Global_Steak">
+    <food:abstract>Global Steak: Demain nos enfants mangeront des criquets is a 2010 French documentary television film directed by Anthony Orliange.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Global_Steak</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Vieux-Boulogne">
+    <food:abstract>Vieux-Boulogne (also known as Sablé du Boulonnais) is an unpasteurized, unpressed cow's-milk cheese made in the Pas-de-Calais département around the town of Boulogne-sur-Mer in France.This artisanal cheese is square in shape, at around 11 cm (4.3 in) across and 4 cm (1.6 in) high, and weighs up to 500 g (18 oz). It has a soft, elastic central pâte, surrounded by a moist, red-orange washed rind that is washed in beer during production. The cheese is pre-salé (pre-salted).Vieux-Boulogne is famed for its strong smell, and in November 2004 was found by researchers at Cranfield University to be the \"smelliest\" of 15 French and British cheeses that they tested.  A follow-up test done by the same institution using \"electronic nose\" sensors in March 2007 reaffirmed Vieux-Boulogne's status as the world's \"smelliest\" cheese.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Vieux-Boulogne</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Camembert">
+    <food:abstract>Camembert (French pronunciation: ?[ka.m??.b??]) is a soft, creamy, surface-ripened cow's milk cheese. It was first made in the late 18th century at Camembert, Normandy in northern France.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Camembert</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Gratin_dauphinois">
+    <food:abstract>Gratin dauphinois is a traditional regional French dish based on potatoes and crème fraîche, from the historic Dauphiné region in south-east France. There are many variants of the name of the dish, including pommes de terre dauphinoise, potatoes à la dauphinoise and gratin de pommes à la dauphinoise.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Gratin_dauphinois</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Bresse_chicken">
+    <food:abstract>The poulet de Bresse (French pronunciation: ?[pu.l? d(?) b??s]) or volaille de Bresse is a French chicken product which has appellation d'origine contrôlée status. It may be produced only from white chickens of the Bresse breed raised within a legally defined area of the historic region and former province of Bresse, in eastern France.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Bresse_chicken</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Vittel_(water)">
+    <food:abstract>Vittel is a French brand of bottled water sold in many countries.  Since 1992 it has been owned by Nestlé.Mineral water from the source at Vittel has been bottled and made available for curative and, increasingly, for commercial purposes since 1854.Vittel was the water provider for the London Marathon for the tenth consecutive year in 2008.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Vittel_(water)</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Clairette_de_Die_AOC">
+    <food:abstract>Clairette de Die AOC is a natural sparkling white wine from  the Rhône Valley region in  France. It  is made from the Muscat Blanc à Petits Grains (75% minimum) and Clairette (25% maximum) grape varieties. It is characterized by its peach and apricot flavours and rose and honeysuckle aromas, and is usually drunk young  at  a maximum  of two  years, and served chilled at a temperature of 6°C to 8°C.Crémant de Die from the same area and same producers is a prestige dry, natural sparkling wine of apple and green fruit flavours and fragrance and is vinified by the traditional Champagne method of a first fermentation in the vat followed by a second fermentation in the bottle. Originally produced from 100% Clairette, Aligote and Muscat are now included. It is usually drunk as an aperitif but it can equally  accompany a meal.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Clairette_de_Die_AOC</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Perrier">
+    <food:abstract>Perrier (French pronunciation: ?[p??.je]) is a French brand of bottled mineral water made from a spring in Vergèze in the Gard département.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Perrier</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Palmier">
+    <food:abstract>A palm tree (French: palmier or cœur de France) or elephant ear is a French pastry in a palm shape or a butterfly shape, sometimes called palm leaves, elephant ears, french hearts, shoe-soles or  glasses. Palmiers are made from puff pastry, a laminated dough similar to the dough used for croissant, but without the yeast. Puff pastry is made with alternating layers of dough and butter, rolled and folded over to create possibly hundreds of flaky layers. The puff pastry is rolled out, coated with sugar, and then the two sides are rolled up together so that they meet in the middle, making a roll that is then cut into about 1/4\" slices and baked. Usually it is rolled in sugar before baking. In the Puerto Rican version, it is topped with honey. In Mexico they are known as Orejas (ears)@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Palmier</food:name>
+  </rdf:Description>
+</rdf:RDF>

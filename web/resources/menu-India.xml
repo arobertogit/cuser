@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:food="http://dbpedia.org/ontology/Food#">
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Tunde_ke_kabab">
+    <food:abstract>Tunde ke kabab (Hindi: ????? ?? ????) is a dish made out of minced meat which is popular in Lucknow. It is part of Awadhi cuisine. It is said to incorporate 160 spices. Ingredients include finely minced lamb (lamb ground), plain yogurt, garam masala, grated ginger, crushed garlic, ground cardamom, powdered cloves, melted ghee, dried mint, small onions cut into rings,  vinegar, sugar, lime.The 100-year-old Tunde Kabab in Chowk, Lucknow, is famous for its kababs.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Tunde_ke_kabab</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Chammanthi_podi">
+    <food:abstract>Chammanthi podi is a condiment from the Indian state of Kerala. Regular coconut chutneys would spoil the same day without refrigeration; Making Chammanthi podi was a way to preserve chammanthi for months. To make chammanthi podi, shredded coconut and spices are dry roasted in a pan to help evaporate the moisture from the mixture. Then the mixture is ground up and stored to be used later.  The word chammanthi means chutney/sauce.  And the word podi means powder (in Malayalam).@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Chammanthi_podi</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Chhena_Poda">
+    <food:abstract>Chhena poda (Oriya: ????????) is a cheese dessert from the state of Odisha in eastern India. Chhena poda literally means burnt cheese in Oriya.It is made of well-kneaded homemade cottage cheese or chhena, sugar, cashew nuts and raisins, and is baked for several hours until it browns. Chhena poda is the only well known Indian dessert whose flavor is predominantly derived from the caramelization of sugar.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Chhena_Poda</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Baati">
+    <food:abstract>Baati (Rajasthani: ????) is a hard, unleavened bread cooked in the desert areas of Rajasthan, and in Uttar Pradesh and Madhya Pradesh. Its prized for its long shelf life and high nutritional content, and in desert areas, for the minimal quantity of water required for its preparation. Baati is always eaten with dal, hence dal baati. Baati is also closely related to Litti (cuisine) popular in Eastern UP(Varanasi) and Western Bihar. Litti can be enjoyed with Chokha (a spice seasoned mash of potato, tomato and roasted aubergine).Baati chokha recipe is gaining more popularity in Benaras and has become a quick, tasty, economical meal for everyone.Baati can either be plain or have various kinds of fillings, including onions, peas, and sattu. Bafla is a kind of baati, which is softer. Bafla and baati are always eaten with hot dal with pure ghee and chutney.Churma is a popular delicacy usually served with baatis and dal. It is coarsely ground wheat crushed and cooked with ghee and sugar. Traditionally it is made by mashing up wheat flour baatis or leftover rotis in ghee and jaggery, optionally mixed with dry fruits and flavours. It can be eaten alone or with dal.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Baati</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Falooda">
+    <food:abstract>Falooda (Hindi: ???????) (also Faluda), is a cold beverage popular in Indian subcontinent. Traditionally it is made from mixing rose syrup, vermicelli, psyllium (ispaghol) or basil (sabza/takmaria) seeds, tapioca pearls and pieces of gelatin with milk or water.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Falooda</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Bikaneri_Bhujia">
+    <food:abstract>Bikaneri Bhujia often simply called Bhujia is a popular crispy snack and is prepared by using besan (gram flour) and  spices, originating from, Bikaner, a town in the western state of Rajasthan  in India. Light yellow in colour it is famously known to have been first prepared in Bikaner, and over the years has not just become a characteristic product of Bikaner, but also a generic name. Each variety prepared by large scale manufacturers also go through a rigorous testing procedure. This ensures that every new variety though mixed with different ingredients does not lose its basic nature.Bikaneri bhujia has been a cottage industry in Bikaner, Rajasthan, and provides employment to around 2.5 million people in villages of the region, especially women, and recently it has faced competition with multinational companies like Pepsico as well as Indian snack companies, which have used the name bhujia.  After struggling with numerous copycats over the years, in September 2010, Indian Patent Office confirmed the Geographical Indications rights and patent was issued for the brand name Bikaneri bhujia to local manufacturers of Bikaner.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Bikaneri_Bhujia</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Pyaaj_Kachori">
+    <food:abstract>Pyaj Kachori (Rajasthani: ????? ?????, pronounced as kaanda  k-ch?-r?) (Onion Kachori) is a kind of  Rajasthani Kachori, a fried pastry filled with a spicy onion filling. It is one of the famous spicy snack food from Jodhpur and vicinity. Popularity of this snack dish increased in other parts of North India when Rajasthani restaurants and food outlets opened throughout India. Today it has become local snack dish of several regions of Indian Subcontinent.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Pyaaj_Kachori</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Mitha_Dahi">
+    <food:abstract>Mithi Dahi or Mishti doi(Bengali: ?????? ??, Hindi: ???? ???, Oriya: ???? ???) is a fermented sweet dahi or sweet yogurt.  This type of yogurt is common in the states of West Bengal and Odisha in India, and in Bangladesh.  It is made with milk and sugar, while also using yogurt and curd.Mitha Dahi is a popular dessert in the states of West Bengal, Odisha and Bangladesh. It is prepared by boiling milk until it is slightly thickened, sweetening it with sugar, either guda/gura (brown sugar) or khajuri guda/gura (date molasses), and allowing the milk to ferment overnight. Earthenware is always used as the container for making Mitha Dahi because the gradual evaporation of water through its porous walls not only further thickens the yoghurt, but also produces the right temperature for the growth of the culture. Very often the yoghurt is delicately seasoned with a pinch of elaichi (cardamom) for fragrance. Baked yogurt is a similar preparation in the west.As Dahi (Curd) is also considered auspicious in Hindu religion, it is also prepared on festive occasions and celebrations like Durga Puja and Diwali.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Mitha_Dahi</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Uttapam">
+    <food:abstract>Uttapam or ooththappam or Uthappa is a dosa-like dish made by cooking ingredients in a batter. Unlike a dosa, which is crisp and crepe-like, uttapam is a thick pancake, with toppings cooked right into the batter. Uttapam is sometimes characterized as an Indian pizza.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Uttapam</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Hyderabadi_haleem">
+    <food:abstract>Hyderabadi haleem (/?ha?d?r?bæd??hæli?m/) is a type of haleem popular in the Indian city Hyderabad. Haleem is a stew composed of meat, lentils and pounded wheat made into a thick paste. It is originally an Arabic dish and was introduced to the Hyderabad State by the Arab diaspora during the rule of the Nizams (the former rulers of Hyderabad State). Local traditional spices helped in evolving a unique Hyderabadi haleem that became popular among the natives by the 19th-century.The preparation of haleem has been compared to that of Hyderabadi biryani. Though Hyderabadi haleem is the traditional hors d'oeuvre at weddings, celebrations and other social occasions, it is particularly consumed in the Islamic month of Ramadan during Iftar (the evening meal that breaks the day-long fast) as it provides instant energy and is high in calories. This has made the dish synonymous with Ramadan. In recognition of its cultural significance and popularity, in 2010, it was granted Geographical Indication status (GIS) by the Indian GIS registry office, making it the first non-vegetarian dish in India to get this status.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Hyderabadi_haleem</food:name>
+  </rdf:Description>
+</rdf:RDF>

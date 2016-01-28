@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:food="http://dbpedia.org/ontology/Food#">
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Natillas">
+    <food:abstract>Natillas (Spanish pronunciation: [na?ti?as]) is a term used to refer different delicacies in the Spanish-speaking world. In Spain, this term refers to a custard dish made with milk and eggs, similar to other european creams as crème anglaise. In Colombia, it does not include eggs and is called natilla instead of \"natillas\".@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Natillas</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#G%C3%A2teau_Basque">
+    <food:abstract>Gâteau Basque is a traditional dessert from the Basque region of France. Typically Gâteau Basque is constructed from layers of an almond flour based cake with a filling of either pastry cream or preserved cherries.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/G%C3%A2teau_Basque</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Torte">
+    <food:abstract>A torte /?t?rt/ or /?t?rt?/ (from Italian torta) is a rich, usually multilayered, cake that is filled with whipped cream, buttercreams, mousses, jams, or fruits. Ordinarily, the cooled torte is glazed and garnished. A torte may be made with little to no flour, but instead with ground nuts or breadcrumbs, as well as sugar, eggs, and flavorings.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Torte</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Pastisset">
+    <food:abstract>Pastissets (Catalan pronunciation: [p?sti?s?ts], Western Catalan: [pasti?sets]),  also called casquetes, pastissets or flaons are small stuffed fried cakes in Spain. They can be filled with cabell d'àngel jam, sweet potato jam, or almonds, even with mató cheese and codonyat. They are typical of Terres de l'Ebre and in Valencian Community. In Mallorca, there is a very similar preparation called rubiol.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Pastisset</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Majorero">
+    <food:abstract>Majorero (Spanish: [maxo??e?o]) is a goat milk cheese from Spain. Similar to Manchego, this firm cheese has a milky, nutty flavour that goes well with various pear products. It is pale white in colour, and comes in large wheels. Currently it is protected under European Law with Protected Designation of Origin (PDO) status.Majorero comes from the island of Fuerteventura in the Canary Islands.  The word Mahorero (Majorero) is a Guanche word still used today to describe the people of Fuerteventura.  This island has a rich farming tradition, and goats were very important to their economy.  It is from the Majorera goat that this particular cheese is made.  The goat produces a thick, aromatic and high-fat milk.Majorero cheese is usually available in three ways: in its natural rind rubbed with oil, rubbed with pimenta, or with roasted gofio.  The cheese has a slightly gummy texture.  The taste is acidic, with a buttery but not salty taste.  This cheese is very versatile, and can be used with pastas, potatoes and many vegetables.After milking, lamb rennet is added and after an hour a curdle develops.  This curdle must be beaten and drained to remove the whey. The cheese is then heavily pressed and shaped.  Dry salt is rubbed on the top.  The cheese must be aired for several days before it can be eaten, or it can be set in dry rooms to age.  After ageing, the cheese can be rubbed with oil or gofio to prevent excessive drying and give it different tastes and textures.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Majorero</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Churro">
+    <food:abstract>A churro is a fried-dough pastry—predominantly choux—based snack. Churros are popular in Spain, France, the Philippines, Portugal, Ibero-America and the United States. In Spain, churros can either be thin (and sometimes knotted) or long and thick . They are normally eaten for breakfast dipped in hot chocolate or café con leche.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Churro</food:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Food#Bu%C3%B1uelo">
+    <food:abstract>A buñuelo (Spanish: [bu??welo]) (alternatively called bimuelo, birmuelo, bermuelo, burmuelo, or bonuelo; Catalan: bunyol, IPA: [bu????]) is a fried dough ball. It is a popular snack in Argentina, Bolivia, Colombia, Cuba, Guatemala, Mexico, Peru, Puerto Rico, Ecuador, Spain, Greece, Turkey and Morocco, and is a tradition at Christmas, Ramadan, and among Sephardic Jews at Hanukkah. It will usually have a filling or a topping. It is also an \"essential dish\" in Mexican cuisine, often served with a syrup made with piloncillo.Buñuelos are first known to have been consumed among Spain's Morisco population. They typically consist of a simple, wheat-based yeast dough, often flavored with anise, that is thinly rolled, cut or shaped into individual pieces, then fried and finished off with a sweet topping. Buñuelos may be filled with a variety of things, sweet or savory. They can be round in ball shapes or disc shaped.@en</food:abstract>
+    <food:name>http://dbpedia.org/resource/Bu%C3%B1uelo</food:name>
+  </rdf:Description>
+</rdf:RDF>
