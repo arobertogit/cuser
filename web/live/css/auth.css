@@ -1,0 +1,50 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color: #222;
+}
+
+.own-jumbotron{
+	background-color: #222;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.own-form{
+	margin-top: 10%;
+}
+
+.text-center{
+	text-align:center;
+}
+
+.space3{
+	margin-top: 3%;
+}
+
+.space7{
+	margin-top: 7%;
+}
+
+.space12{
+	margin-top: 12%;
+}
+
+.own-fieldset{
+	width: 90%;
+}
+
+.div-center{
+	margin: 0 auto;
+}
+
+.icon-size5{
+	font-size: 4em !important;
+	color: #3B5998;
+}
+
+.own-well{
+	width: 90px;
+	margin: 0 auto;
+	margin-top: 2%;
+}
