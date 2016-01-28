@@ -65,13 +65,64 @@
     <li><a href="#cats" data-toggle="tab">Cats</a></li>
     <li><a href="#news" data-toggle="tab">News NYT</a></li>
     <li><a href="#numbers" data-toggle="tab">Random Facts</a></li>
+    <li><a href="#api" data-toggle="tab">Api</a></li>
 </ul>
 <div class="tab-content">
     <div class="tab-pane fade active in" id="menu">
-        <div class="alert alert-success">
-            <ul id="menuArea" class="row effect-4 grid">
+        <ul id="inner-nav-menu" class="nav nav-tabs">
+            <li class="inner-menu active"><a href="#breakfast"
+                                             data-toggle="tab" aria-expanded="true">Breakfast</a></li>
+            <li class="inner-menu"><a href="#lunch" data-toggle="tab"
+                                      aria-expanded="false">Lunch</a></li>
+            <li class="inner-menu"><a href="#dinner" data-toggle="tab"
+                                      aria-expanded="false">Dinner</a></li>
+            <li class="inner-menu"><a href="#order" data-toggle="tab"
+                                      aria-expanded="false">Finish Order</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade active in" id="breakfast">
+                <div class="alert alert-success own-area">
+                    <div id="breakfast-area">
 
-            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="lunch">
+                <div class="alert alert-success own-area">
+                    <div id="lunch-area">
+
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="dinner">
+                <div class="alert alert-success own-area">
+                    <div id="dinner-area">
+
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="order">
+                <div class="alert alert-success own-area">
+                    <h3>Finish your order</h3>
+                    <form>
+                    <div id="order-area">
+
+                       <%-- products selected from menu go here
+                            get type of meal, for extra information and
+                            type of meeting
+                       --%>
+
+                    </div>
+                        <select name="typeOfMeeting" class="form-control">
+                            <option>Business</option>
+                            <option>Family</option>
+                            <option>Date</option>
+                            <option>Forever Alone</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -260,6 +311,45 @@
             </div>
         </div>
     </div>
+    <div class="tab-pane fade" id="api">
+        <ul id="inner-nav-api" class="nav nav-tabs">
+            <li class="inner-menu active"><a href="#music-area" data-toggle="tab" aria-expanded="true">Music Api</a></li>
+            <li class="inner-menu"><a href="#video-area" data-toggle="tab"
+                                      aria-expanded="false">Video Api</a></li>
+            <li class="inner-menu"><a href="#menu-area" data-toggle="tab"
+                                      aria-expanded="false">Menu Api</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade active in" id="music-area">
+                <div class="alert alert-success own-area">
+                    <h3>Music Api</h3>
+                    <form method="get" action="/rdf/writeMusic">
+                        <input name="keyword" type="text" class="form-control" placeholder="Type a keyword"/>
+                        <input type="submit" class="btn btn-primary next-button">
+                    </form>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="video-area">
+                <div class="alert alert-success own-area">
+                    <h3>Videos Api</h3>
+                    <form method="get" action="/rdf/writeMusic">
+                        <input name="keyword" type="text" class="form-control" placeholder="Type a keyword"/>
+                        <input type="submit" class="btn btn-primary next-button">
+                    </form>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="menu-area">
+                <div class="alert alert-success own-area">
+                    <h3>Menu Api</h3>
+                    <form method="get" action="/rdf/writeMenu">
+                        <input name="keyword" type="text" class="form-control" placeholder="Type a keyword"/>
+                        <input type="submit" class="btn btn-primary next-button">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 </div>
 <script type="text/javascript" src="/resources/js/ajaxRequests.js"></script>

@@ -83,11 +83,11 @@ public class RdfRestApi {
         return rdfLocalManager.getMenus(getRealPath());
     }
 
-    @RequestMapping(value = "/rdf/getMusicLinks", produces = "application/json")
+/*    @RequestMapping(value = "/rdf/getMusicLinks", produces = "application/json")
     @ResponseBody
     public List<String> getMusicLinks(@RequestParam(value = "keyword", defaultValue = "romanian") String keyword) {
         return rdfLocalManager.getMusicLinks(keyword, getRealPath());
-    }
+    }*/
 
 
     @FunctionalInterface

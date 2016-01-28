@@ -68,6 +68,20 @@
 	margin-top: 30px;
 }
 
+#inner-nav-api{
+	width: 295px;
+	border: none;
+	margin: 0 auto;
+	margin-top: 30px;
+
+}
+#inner-nav-menu{
+	width: 368px;
+	border: none;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
 .inner-menu a {
 	color: #BEFF59 !important;
 }
