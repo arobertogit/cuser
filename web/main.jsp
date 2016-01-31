@@ -14,44 +14,7 @@
     <script src="https://w.soundcloud.com/player/api.js"
             type="text/javascript"></script>
     <script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
-    <script>
-        var getMenusUrl = "/rdf/getMenus";
-        var getMenus = function () {
-            $.ajax({
-                        url: getMenusUrl,
-//					data: { impid: importId },
-                        type: "GET",
-                        dataType: "json"
-                    })
-                    .done(function (data) {
-                        console.log(data);
-                        for (var menu in data) {
-                            var b = $('<button/>', {
-                                text: menu, //set text 1 to 10
-                                id: 'btn_' + data[menu],
-                                click: function () {
-                                    console.log("Click on btn " + data[menu]);
-                                }
-                            });
-                            $("#menuArea").append(b);
-                        }
-                    });
-        }
 
-        $(document).ready(function () {
-                    for (var menu in getMenus()) {
-                        var b = $('<button/>', {
-                            text: menu, //set text 1 to 10
-                            id: 'btn_' + menu,
-                            click: function () {
-                                console.log("Click on btn " + menu);
-                            }
-                        });
-                        $("menuArea").append(b);
-                    }
-                }
-        );
-    </script>
 </head>
 <body>
 <ul class="nav nav-tabs">

@@ -22,6 +22,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static fii.odiunu.util.RdfUtil.getFileLocation;
+import static fii.odiunu.util.RdfUtil.getJson;
 import static fii.odiunu.util.RdfUtil.getXml;
 
 @Service
@@ -319,5 +320,18 @@ public class RdfLocalManager implements RdfManager {
             String message = RdfUtil.DEBUG ? ex.getMessage() : "";
             throw new RuntimeException(message);
         }
+    }
+
+    public String getMenuToHTML(String keyword, String realPath){
+        try{
+            Model model = ModelFactory.createDefaultModel();
+            String fileName = "menu-" + keyword + ".xml";
+            model.read(getFileLocation(realPath, fileName), "RDF/XML");
+            return getJson(model);
+        } catch (Exception ex) {
+            String message = RdfUtil.DEBUG ? ex.getMessage() : "";
+            throw new RuntimeException(message);
+        }
+
     }
 }

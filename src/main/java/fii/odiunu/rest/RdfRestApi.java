@@ -77,13 +77,13 @@ public class RdfRestApi {
         return getResponseEntity(keyword, rdfLocalManager::saveNewPossibleMenuItemsToRDF);
     }
 
-    @RequestMapping(value = "/rdf/getMenus", produces = "application/json")
+    @RequestMapping(value = "/rdf/getMenuToHTML", produces = "application/json")
     @ResponseBody
-    public List<String> getMenus() {
-        return rdfLocalManager.getMenus(getRealPath());
+    public ResponseEntity<String> getMenuToHTML(@RequestParam(value = "keyword", defaultValue = "romanian") String keyword) {
+        return getResponseEntity(keyword, rdfLocalManager::getMenuToHTML);
     }
 
-/*    @RequestMapping(value = "/rdf/getMusicLinks", produces = "application/json")
+/*  @RequestMapping(value = "/rdf/getMusicLinks", produces = "application/json")
     @ResponseBody
     public List<String> getMusicLinks(@RequestParam(value = "keyword", defaultValue = "romanian") String keyword) {
         return rdfLocalManager.getMusicLinks(keyword, getRealPath());

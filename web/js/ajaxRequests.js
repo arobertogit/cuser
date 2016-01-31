@@ -438,6 +438,18 @@ function loadGettyImages(category){
 	document.getElementById("imagePageCounter").value++;
 }
 
+function loadMenu(keyword){
+	var URL = '/rdf/getMenuToHTML?keyword=' + keyword;
+	$.ajax({
+		type: 'GET',
+		url: URL,
+		contentType: 'application/json; charset=utf-8',
+		success: function(menu) {
+            console.log(menu);
+		}
+	});
+}
+
 $(document).ready(function() {
 	loadSong('random');
 });
@@ -498,6 +510,9 @@ $(document).ready(function() {
 	loadGettyImages("cat");
 });
 
+$(document).ready(function(){
+	loadMenu("spain");
+})
 // clicks
 
 $("#nextVideo").click(function() {
