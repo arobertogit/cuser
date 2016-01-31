@@ -10,12 +10,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b8d305c2-3cc7-4693-ac07-c8c07eb808f1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/cuser6_war_exploded/js/ajaxRequests.js" afterPath="$PROJECT_DIR$/out/artifacts/cuser6_war_exploded/js/ajaxRequests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/cuser6_war_exploded/main.jsp" afterPath="$PROJECT_DIR$/out/artifacts/cuser6_war_exploded/main.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java" afterPath="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfManager.java" afterPath="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java" afterPath="$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/ajaxRequests.js" afterPath="$PROJECT_DIR$/web/js/ajaxRequests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/main.jsp" afterPath="$PROJECT_DIR$/web/main.jsp" />
     </list>
     <ignored path="cuser6.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,40 +39,46 @@
       <file leaf-file-name="RdfLocalManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="313" column="51" selection-start-line="313" selection-start-column="51" selection-end-line="313" selection-end-column="51" />
-              <folding>
-                <element signature="method#readMusicFromRDF#0;class#RdfLocalManager#0" expanded="false" />
-                <element signature="method#writeVideosToRDF#0;class#RdfLocalManager#0" expanded="false" />
-                <element signature="method#readVideosFromRDF#0;class#RdfLocalManager#0" expanded="false" />
-                <element signature="method#saveNewPossibleMenuItemsToRDF#0;class#RdfLocalManager#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RdfUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/util/RdfUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+            <state vertical-scroll-proportion="-46.86207">
+              <caret line="178" column="58" selection-start-line="178" selection-start-column="58" selection-end-line="178" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#getXml#0;class#RdfUtil#0" expanded="false" />
-                <element signature="method#getFileLocation#0;class#RdfUtil#0" expanded="false" />
+                <element signature="method#writeMusicToRDF#0;class#RdfLocalManager#0" expanded="false" />
+                <element signature="method#writeVideosToRDF#0;class#RdfLocalManager#0" expanded="false" />
+                <element signature="method#writeVideosToRDFFuseki#0;class#RdfLocalManager#0" expanded="false" />
+                <element signature="method#readVideosFromRDF#0;class#RdfLocalManager#0" expanded="false" />
+                <element signature="method#readVideosFromFuseki#0;class#RdfLocalManager#0" expanded="false" />
+                <element signature="method#saveNewPossibleMenuItemsToRDF#0;class#RdfLocalManager#0" expanded="false" />
+                <element signature="method#readNewPossibleMenuFromRDF#0;class#RdfLocalManager#0" expanded="false" />
+                <element signature="method#getMenus#0;class#RdfLocalManager#0" expanded="false" />
+                <element signature="method#getMenuToHTML#0;class#RdfLocalManager#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RdfRestApi.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RdfRestApi.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.68711656">
+              <caret line="108" column="48" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
               <folding>
                 <element signature="docComment;class#RdfRestApi#0" expanded="false" />
                 <element signature="method#greeting#0;class#RdfRestApi#0" expanded="false" />
+                <element signature="e#2057#2058#0" expanded="true" />
+                <element signature="e#2113#2114#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RdfManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxRequests.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajaxRequests.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/ajaxRequests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23948811">
-              <caret line="226" column="39" selection-start-line="226" selection-start-column="33" selection-end-line="226" selection-end-column="39" />
+            <state vertical-scroll-proportion="-8.620689">
+              <caret line="227" column="33" selection-start-line="227" selection-start-column="33" selection-end-line="227" selection-end-column="33" />
               <folding>
                 <element signature="n#!!block;n#loadVideo#0" expanded="false" />
                 <element signature="n#!!block;n#loadVideoOptions#0" expanded="false" />
@@ -179,7 +182,6 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/mvc-dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/request/Request.java" />
         <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/util/StringOutputStream.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfManager.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/facebook/SocialConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/facebook/FacebookController.java" />
@@ -187,10 +189,11 @@
         <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/util/RdfUtil.java" />
         <option value="$PROJECT_DIR$/web/test.xhtml" />
         <option value="$PROJECT_DIR$/web/css/main.css" />
-        <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java" />
         <option value="$PROJECT_DIR$/web/main.jsp" />
         <option value="$PROJECT_DIR$/web/js/ajaxRequests.js" />
+        <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java" />
       </list>
     </option>
   </component>
@@ -219,9 +222,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -387,6 +391,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="rest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cuser6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cuser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odiunu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="request" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -404,10 +438,10 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3264368" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Java/jdk1.7.0_75" />
-    <property name="SearchEverywhereHistoryKey" value="commit&#9;ACTION&#9;ChangesView.Commit&#10;JDK&#9;FILE&#9;file://C:/Users/Ervin/IdeaProjects/cuser/.idea/libraries/jdk1_7.xml&#10;build&#9;ACTION&#9;CompileProject" />
+    <property name="SearchEverywhereHistoryKey" value="debug&#9;ACTION&#9;LogDebugConfigure&#10;commit&#9;ACTION&#9;ChangesView.Commit&#10;JDK&#9;FILE&#9;file://C:/Users/Ervin/IdeaProjects/cuser/.idea/libraries/jdk1_7.xml&#10;build&#9;ACTION&#9;CompileProject" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
@@ -969,7 +1003,7 @@
       <workItem from="1453807922933" duration="14378000" />
       <workItem from="1453971874758" duration="12888000" />
       <workItem from="1454010410998" duration="4745000" />
-      <workItem from="1454233863553" duration="14503000" />
+      <workItem from="1454233863553" duration="30974000" />
     </task>
     <task id="LOCAL-00001" summary="first working version on aws">
       <created>1453110050197</created>
@@ -1007,14 +1041,20 @@
       <option name="project" value="LOCAL" />
       <updated>1454014617426</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added communication between rest endpoint and menu">
+      <created>1454254125330</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1454254125330</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71267000" />
+    <option name="totallyTimeSpent" value="87738000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1022,15 +1062,15 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32312566" sideWeight="0.4925" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3576799" sideWeight="0.3106796" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25131994" sideWeight="0.309375" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35123524" sideWeight="0.6893204" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25131994" sideWeight="0.690625" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3125" sideWeight="0.491453" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15364583" sideWeight="0.491453" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15125" sideWeight="0.508547" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1039,7 +1079,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4027927" sideWeight="0.546875" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2998944" sideWeight="0.546875" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1095,7 +1135,8 @@
     <MESSAGE value="added resources (video.nt and italian.nt), section for menu in main.jsp and methods in Request.java" />
     <MESSAGE value="Added .nt files in resources, as RDF database" />
     <MESSAGE value="Added Api and menu interface options, mapped UI to the API endpoints offered. Added types of menus and different other categories inside" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Api and menu interface options, mapped UI to the API endpoints offered. Added types of menus and different other categories inside" />
+    <MESSAGE value="added communication between rest endpoint and menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="added communication between rest endpoint and menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1108,21 +1149,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java</url>
-          <line>86</line>
+          <line>88</line>
           <properties />
-          <option name="timeStamp" value="30" />
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java</url>
-          <line>79</line>
+          <line>36</line>
           <properties />
-          <option name="timeStamp" value="39" />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java</url>
+          <line>226</line>
+          <properties class="fii.odiunu.request.RdfLocalManager" method="readMusicFromFuseki" />
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="40" />
+      <option name="time" value="55" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1445,14 +1498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47719297">
-          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8125">
@@ -1466,53 +1511,29 @@
         <state vertical-scroll-proportion="0.2982456">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding>
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/rest/FileSystemRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25438598">
-          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="313" column="51" selection-start-line="313" selection-start-column="51" selection-end-line="313" selection-end-column="51" />
-          <folding>
-            <element signature="method#readMusicFromRDF#0;class#RdfLocalManager#0" expanded="false" />
-            <element signature="method#writeVideosToRDF#0;class#RdfLocalManager#0" expanded="false" />
-            <element signature="method#readVideosFromRDF#0;class#RdfLocalManager#0" expanded="false" />
-            <element signature="method#saveNewPossibleMenuItemsToRDF#0;class#RdfLocalManager#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
-          <folding>
-            <element signature="docComment;class#RdfRestApi#0" expanded="false" />
-            <element signature="method#greeting#0;class#RdfRestApi#0" expanded="false" />
+            <element signature="e#290#291#0" expanded="false" />
+            <element signature="e#327#328#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/util/RdfUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.5845272">
           <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="method#getXml#0;class#RdfUtil#0" expanded="false" />
             <element signature="method#getFileLocation#0;class#RdfUtil#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/rest/FileSystemRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25501433">
+          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1526,8 +1547,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/ajaxRequests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23948811">
-          <caret line="226" column="39" selection-start-line="226" selection-start-column="33" selection-end-line="226" selection-end-column="39" />
+        <state vertical-scroll-proportion="-8.620689">
+          <caret line="227" column="33" selection-start-line="227" selection-start-column="33" selection-end-line="227" selection-end-column="33" />
           <folding>
             <element signature="n#!!block;n#loadVideo#0" expanded="false" />
             <element signature="n#!!block;n#loadVideoOptions#0" expanded="false" />
@@ -1560,6 +1581,48 @@
             <marker date="1454252565078" expanded="false" signature="1432:1446" placeholder="..." />
             <marker date="1454252565078" expanded="true" signature="1447:1484" placeholder="..." />
             <marker date="1454252565078" expanded="true" signature="1489:1522" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-46.86207">
+          <caret line="178" column="58" selection-start-line="178" selection-start-column="58" selection-end-line="178" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#writeMusicToRDF#0;class#RdfLocalManager#0" expanded="false" />
+            <element signature="method#writeVideosToRDF#0;class#RdfLocalManager#0" expanded="false" />
+            <element signature="method#writeVideosToRDFFuseki#0;class#RdfLocalManager#0" expanded="false" />
+            <element signature="method#readVideosFromRDF#0;class#RdfLocalManager#0" expanded="false" />
+            <element signature="method#readVideosFromFuseki#0;class#RdfLocalManager#0" expanded="false" />
+            <element signature="method#saveNewPossibleMenuItemsToRDF#0;class#RdfLocalManager#0" expanded="false" />
+            <element signature="method#readNewPossibleMenuFromRDF#0;class#RdfLocalManager#0" expanded="false" />
+            <element signature="method#getMenus#0;class#RdfLocalManager#0" expanded="false" />
+            <element signature="method#getMenuToHTML#0;class#RdfLocalManager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68711656">
+          <caret line="108" column="48" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
+          <folding>
+            <element signature="docComment;class#RdfRestApi#0" expanded="false" />
+            <element signature="method#greeting#0;class#RdfRestApi#0" expanded="false" />
+            <element signature="e#2057#2058#0" expanded="true" />
+            <element signature="e#2113#2114#0" expanded="true" />
           </folding>
         </state>
       </provider>

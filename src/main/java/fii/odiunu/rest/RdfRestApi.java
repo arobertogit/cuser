@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.ServletContext;
-import java.util.List;
+import java.util.Set;
 
 /**
  * Created by ojrobert on 1/26/2016.
@@ -36,6 +36,15 @@ public class RdfRestApi {
     private ResponseEntity<String> getResponseEntity(String keyword, RdfSupplier<String, String, String> supplier) {
         try {
             String result = supplier.get(keyword, getRealPath());
+            return new ResponseEntity<>(result, HttpStatus.OK);
+        } catch (Exception ex) {
+            return new ResponseEntity<>(ex.getMessage(), HttpStatus.BAD_REQUEST);
+        }
+    }
+
+    private ResponseEntity<String> getResponseEntity(String country, String time, String type, RdfFusekiSupplier<String, String, String, String> supplier) {
+        try {
+            String result = supplier.get(country, time, type);
             return new ResponseEntity<>(result, HttpStatus.OK);
         } catch (Exception ex) {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.BAD_REQUEST);
@@ -83,16 +92,23 @@ public class RdfRestApi {
         return getResponseEntity(keyword, rdfLocalManager::getMenuToHTML);
     }
 
-/*  @RequestMapping(value = "/rdf/getMusicLinks", produces = "application/json")
+    @RequestMapping(value = "/rdf/getMusicLinks", produces = "application/json")
     @ResponseBody
-    public List<String> getMusicLinks(@RequestParam(value = "keyword", defaultValue = "romanian") String keyword) {
-        return rdfLocalManager.getMusicLinks(keyword, getRealPath());
-    }*/
-
+    public ResponseEntity<String> getMusicLinks(@RequestParam(value = "country", defaultValue = "romania") String country, @RequestParam(value = "time", defaultValue = "morning") String time, @RequestParam(value = "type", defaultValue = "single") String type) {
+        rdfLocalManager.writeMusicToFuseki(country,time,type);
+        return getResponseEntity(country, time, type, rdfLocalManager::readMusicFromFuseki);
+    }
 
     @FunctionalInterface
     interface RdfSupplier<T, K, V> {
 
         T get(K k, V v) throws Exception;
     }
+
+    @FunctionalInterface
+    interface RdfFusekiSupplier<T, K1, K2, K3> {
+
+        T get(K1 k1, K2 k2, K3 k3) throws Exception;
+    }
+
 }

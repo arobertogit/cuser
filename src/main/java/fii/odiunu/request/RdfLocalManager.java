@@ -109,7 +109,8 @@ public class RdfLocalManager implements RdfManager {
         }
     }
 
-    public String writeMusicToRDF(String country, String time, String type, String realPath) {
+    @Override
+    public void writeMusicToFuseki(String country, String time, String type) {
 
         JSONArray jsonArray = new JSONArray();
         JSONObject jsonObj;
@@ -125,16 +126,6 @@ public class RdfLocalManager implements RdfManager {
         String vtype = type;
 
         Model model = ModelFactory.createDefaultModel();
-
-        try {
-            String fileName =  "resources.xml";
-            model.read(getFileLocation(realPath, fileName), "RDF/XML");
-
-        } catch (Exception ex) {
-            // String message = RdfUtil.DEBUG ? ex.getMessage() : "";
-            //throw new RuntimeException(message);
-            model = ModelFactory.createDefaultModel();
-        }
 
         String nsPrefix = "https://schema.org/AudioObject#";
 
@@ -194,8 +185,8 @@ public class RdfLocalManager implements RdfManager {
                                     "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"+
                                     "PREFIX m: <https://schema.org/AudioObject#> "
                                     + "INSERT DATA"
-                                    + "{ <"+nsPrefix + musicURL.substring(23)+">    m:title    \""+titleOfMusic+"\" ;"
-                                    + "                         m:description  \""+description+"\" ;"
+                                    + "{ <"+nsPrefix + musicURL.substring(23)+">    m:title    \""+titleOfMusic.replaceAll("\r","").replaceAll("\"","").replaceAll("\n","")+"\" ;"
+                                    + "                         m:description  \""+description.replaceAll("\r","").replaceAll("\"","").replaceAll("\n","")+"\" ;"
                                     + "								m:url    \""+musicURL+"\" ;"
                                     + "								m:id    \""+musicId+"\" ;"
                                     + "								m:genre    \""+musicGenre+"\" ;"
@@ -203,7 +194,7 @@ public class RdfLocalManager implements RdfManager {
                                     + "								m:time    \""+vtime+"\" ;"
                                     + "								m:type    \""+vtype+"\" ;"
                                     + "." + "}   ";
-
+                    System.out.println(UPDATE_Query);
                     UpdateProcessor upp = UpdateExecutionFactory.createRemote(
                             UpdateFactory.create(UPDATE_Query),
                             "http://localhost:3030/resources/update");
@@ -212,17 +203,11 @@ public class RdfLocalManager implements RdfManager {
                 }
             }
 
-            String fileName = "resources.xml";
-            FileWriter out = new FileWriter(getFileLocation(realPath, fileName));
-            model.write(out, "RDF/XML");
-            return getXml(model);
-
         } catch (Exception ex) {
             String message = RdfUtil.DEBUG ? ex.getMessage() : "";
             throw new RuntimeException(message);
         }
     }
-
 
     @Override
     public String readMusicFromRDF(String keyword, String realPath) {
@@ -238,9 +223,9 @@ public class RdfLocalManager implements RdfManager {
         }
     }
 
-
-    public Set<String> readMusicFromFuseki(String country, String time, String type){
-        Set<String> resources = new HashSet();
+    @Override
+    public String readMusicFromFuseki(String country, String time, String type){
+        String resources = null;
 
         final String resourceLink = "http://localhost:3030/resources/query";
         String q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"+
@@ -261,11 +246,10 @@ public class RdfLocalManager implements RdfManager {
             QuerySolution qs = results.next();
             RDFNode s = qs.get("id");
             if (s.isResource()) {
-                String audioId = s.asResource().getURI().substring(31);
-                resources.add(audioId);
+                String resource = s.asResource().getURI().substring(31);
+                resources = resources + "," +resource;
             }
         }
-
         return resources;
 
     }
@@ -342,7 +326,8 @@ public class RdfLocalManager implements RdfManager {
 
     }
 
-    public String writeVideosToRDF(String country, String time, String type, String realPath) {
+    @Override
+    public void writeVideosToRDFFuseki(String country, String time, String type) {
 
         String api_key = "AIzaSyCZO2nHBNMSGgRg4VHMZ9P8dWT0H23J-Fc";
         String yt_url = "https://www.googleapis.com/youtube/v3/search?part=snippet&q="
@@ -359,17 +344,6 @@ public class RdfLocalManager implements RdfManager {
         String vtype = type;
 
         Model model = ModelFactory.createDefaultModel();
-
-        try {
-            String fileName =  "resources.xml";
-            model.read(getFileLocation(realPath, fileName), "RDF/XML");
-
-        } catch (Exception ex) {
-            // String message = RdfUtil.DEBUG ? ex.getMessage() : "";
-            //throw new RuntimeException(message);
-            model = ModelFactory.createDefaultModel();
-        }
-
         String nsPrefix = "https://schema.org/VideoObject#";
 
         Property p1 = model.createProperty(nsPrefix, "title");
@@ -441,10 +415,7 @@ public class RdfLocalManager implements RdfManager {
 
             }
 
-            String fileName = "resources.xml";
-            FileOutputStream fos = new FileOutputStream(getFileLocation(realPath, fileName));
-            RDFDataMgr.write(fos, model, Lang.RDFXML);
-            return getXml(model);
+
         } catch (Exception ex) {
             String message = RdfUtil.DEBUG ? ex.getMessage() : "";
             throw new RuntimeException(message);
@@ -466,6 +437,7 @@ public class RdfLocalManager implements RdfManager {
         }
     }
 
+    @Override
     public Set<String> readVideosFromFuseki(String country, String time, String type){
         Set<String> resources = new HashSet();
 
@@ -606,6 +578,7 @@ public class RdfLocalManager implements RdfManager {
         }
     }
 
+
     public List<String> getMenus(String realPath) {
         try {
             Stream<Path> list = Files.list(Paths.get(realPath));
@@ -629,4 +602,5 @@ public class RdfLocalManager implements RdfManager {
         }
 
     }
+
 }
