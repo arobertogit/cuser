@@ -65,7 +65,7 @@ public class RdfRestApi {
     @RequestMapping(value = "/rdf/getMenu", produces = "application/xml")
     @ResponseBody
     public ResponseEntity<String> getMenu(@RequestParam(value = "keyword", defaultValue = "romanian") String keyword) {
-        return getResponseEntity(keyword, rdfLocalManager::readNewPossibleMenuFromRDF);
+        return getResponseEntity(keyword, rdfLocalManager::readNewMenuFromRDF);
     }
 
     @RequestMapping(value = "/rdf/writeMusic", produces = "application/xml")
@@ -83,7 +83,7 @@ public class RdfRestApi {
     @RequestMapping(value = "/rdf/writeMenu", produces = "application/xml")
     @ResponseBody
     public ResponseEntity<String> writeMenu(@RequestParam(value = "keyword", defaultValue = "romanian") String keyword) {
-        return getResponseEntity(keyword, rdfLocalManager::saveNewPossibleMenuItemsToRDF);
+        return getResponseEntity(keyword, rdfLocalManager::saveNewMenuToRDF);
     }
 
     @RequestMapping(value = "/rdf/getMenuToHTML", produces = "application/json")
@@ -97,6 +97,13 @@ public class RdfRestApi {
     public ResponseEntity<String> getMusicLinks(@RequestParam(value = "country", defaultValue = "romania") String country, @RequestParam(value = "time", defaultValue = "morning") String time, @RequestParam(value = "type", defaultValue = "single") String type) {
         rdfLocalManager.writeMusicToFuseki(country,time,type);
         return getResponseEntity(country, time, type, rdfLocalManager::readMusicFromFuseki);
+    }
+
+    @RequestMapping(value = "/rdf/getVideoLinks", produces = "application/json")
+    @ResponseBody
+    public ResponseEntity<String> getVideoLinks(@RequestParam(value = "country", defaultValue = "romania") String country, @RequestParam(value = "time", defaultValue = "morning") String time, @RequestParam(value = "type", defaultValue = "single") String type) {
+        rdfLocalManager.writeVideosToFuseki(country,time,type);
+        return getResponseEntity(country, time, type, rdfLocalManager::readVideosFromFuseki);
     }
 
     @FunctionalInterface

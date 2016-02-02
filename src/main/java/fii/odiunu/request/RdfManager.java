@@ -15,17 +15,17 @@ public interface RdfManager {
 
     String readVideosFromRDF(String keyword, String realPath);
 
-    String saveNewPossibleMenuItemsToRDF(String keyword, String realPath);
+    String saveNewMenuToRDF(String keyword, String realPath);
 
-    String readNewPossibleMenuFromRDF(String keyword, String realPath);
-
-    String readMusicFromFuseki(java.lang.String country, java.lang.String time, java.lang.String type);
+    String readNewMenuFromRDF(String keyword, String realPath);
 
     void writeMusicToFuseki(String country, String time, String type);
 
-    void writeVideosToRDFFuseki(String country, String time, String type);
+    String readMusicFromFuseki(java.lang.String country, java.lang.String time, java.lang.String type);
 
-    Set<String> readVideosFromFuseki(String country, String time, String type);
+    void writeVideosToFuseki(String country, String time, String type);
+
+    String readVideosFromFuseki(String country, String time, String type);
 
     List<String> getMenus(String realPath);
 
