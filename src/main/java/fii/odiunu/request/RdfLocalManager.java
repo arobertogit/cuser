@@ -238,19 +238,28 @@ public class RdfLocalManager implements RdfManager {
                 "}"+
                 "LIMIT 50";
 
+        String nsPrefix = "https://schema.org/VideoObject#";
+
         Query query = QueryFactory.create(q);
         QueryExecution qexec = QueryExecutionFactory.sparqlService(resourceLink, query);
         ResultSet results = qexec.execSelect();
+
+        Model model = ModelFactory.createDefaultModel();
 
         while (results.hasNext()) {
             QuerySolution qs = results.next();
             RDFNode s = qs.get("id");
             if (s.isResource()) {
-                String resource = s.asResource().getURI().substring(31);
-                resources = resources + "," +resource;
+
+                String idValue = s.asResource().getURI().substring(31);
+                 Resource resource = model.createResource();
+                Property p1 = model.createProperty(nsPrefix,"id");
+                resource.addProperty(p1,idValue);
             }
         }
-        return resources.substring(5,resources.length()-1);
+        model.setNsPrefix("music", nsPrefix);
+
+        return getJson(model);
 
     }
 
@@ -439,7 +448,6 @@ public class RdfLocalManager implements RdfManager {
 
     @Override
     public String readVideosFromFuseki(String country, String time, String type){
-        String resources = null;
 
         final String resourceLink = "http://localhost:3030/resources/query";
         String q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"+
@@ -452,20 +460,28 @@ public class RdfLocalManager implements RdfManager {
                 "}"+
                 "LIMIT 50";
 
+        String nsPrefix = "https://schema.org/VideoObject#";
+
         Query query = QueryFactory.create(q);
         QueryExecution qexec = QueryExecutionFactory.sparqlService(resourceLink, query);
         ResultSet results = qexec.execSelect();
+
+        Model model = ModelFactory.createDefaultModel();
+
+        model.setNsPrefix("video", nsPrefix);
 
         while (results.hasNext()) {
             QuerySolution qs = results.next();
             RDFNode s = qs.get("id");
             if (s.isResource()) {
-                String resource = s.asResource().getURI().substring(31).replace("video", "");
-                resources = resources + "," + resource;
+                String idValue = s.asResource().getURI().substring(31).replace("video", "");
+                Resource resource = model.createResource();
+                Property p1 = model.createProperty(nsPrefix,"id");
+                resource.addProperty(p1,idValue);
             }
         }
 
-        return resources.substring(5,resources.length()-1);
+        return getJson(model);
 
     }
 
