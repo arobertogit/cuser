@@ -1,7 +1,6 @@
 package fii.odiunu.request;
 
 import java.util.List;
-import java.util.Set;
 
 /**
  * Created by ojrobert on 1/28/2016.
@@ -27,8 +26,19 @@ public interface RdfManager {
 
     String readVideosFromFuseki(String country, String time, String type);
 
-    List<String> getMenus(String realPath);
+    void writeMenuToFuseki(String id, String arrivalTime,
+                           String servingTime,
+                           String menuType,
+                           String title,
+                           String picture,
+                           String description,
+                           String ingredientList,
+                           String country);
 
-    String getMenuToHTML(String keyword, String realPath);
+    String searchInMenu(String id);
+
+    String searchInMenu(String criteria, String toSearch);
+
+    String readMenuFromFuseki();
 
 }

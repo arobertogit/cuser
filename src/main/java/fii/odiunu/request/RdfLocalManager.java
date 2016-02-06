@@ -35,6 +35,7 @@ import static fii.odiunu.util.RdfUtil.getXml;
 @Service
 public class RdfLocalManager implements RdfManager {
 
+    @Deprecated
     @Override
     public String writeMusicToRDF(String keyword, String realPath) {
 
@@ -109,6 +110,7 @@ public class RdfLocalManager implements RdfManager {
         }
     }
 
+    @Deprecated
     @Override
     public String readMusicFromRDF(String keyword, String realPath) {
         try {
@@ -116,6 +118,205 @@ public class RdfLocalManager implements RdfManager {
             String fileName = "resources.xml";
             model.read(getFileLocation(realPath, fileName), "RDF/XML");
 
+            return getXml(model);
+        } catch (Exception ex) {
+            String message = RdfUtil.DEBUG ? ex.getMessage() : "";
+            throw new RuntimeException(message);
+        }
+    }
+
+    @Override
+    @Deprecated
+    public String writeVideosToRDF(String keyword, String realPath) {
+
+        String api_key = "AIzaSyCZO2nHBNMSGgRg4VHMZ9P8dWT0H23J-Fc";
+        String yt_url = "https://www.googleapis.com/youtube/v3/search?part=snippet&q="
+                + keyword + "&type=video&videoCaption=closedCaption&key=" + api_key + "&format=5&maxResults=10&v=2";
+        String line = "", stringArray;
+        StringBuilder stringArrayBuilder = new StringBuilder();
+
+        String titleOfVideo;
+        String description;
+        String thumbnailURL;
+        String videoId;
+
+        Model model = ModelFactory.createDefaultModel();
+
+        String nsPrefix = "https://schema.org/VideoObject#";
+
+        Property p1 = model.createProperty(nsPrefix, "title");
+        Property p2 = model.createProperty(nsPrefix, "description");
+        Property p3 = model.createProperty(nsPrefix, "thumbnail");
+        Property p4 = model.createProperty(nsPrefix, "id");
+        model.setNsPrefix("video", nsPrefix);
+
+        try {
+            URL url = new URL(yt_url);
+            BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
+            while ((line = br.readLine()) != null) {
+                stringArrayBuilder = stringArrayBuilder.append(line);
+            }
+            stringArray = stringArrayBuilder.toString();
+
+            JSONObject nodeRoot = new JSONObject(stringArray);
+            JSONArray jsonArray = (JSONArray) nodeRoot.get("items");
+
+
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject obj = jsonArray.getJSONObject(i);
+
+                JSONObject snippet = (JSONObject) obj.get("snippet");
+
+                description = (String) snippet.get("description");
+                titleOfVideo = (String) snippet.get("title");
+
+
+                JSONObject thumbnails = (JSONObject) snippet.get("thumbnails");
+                JSONObject thumbnail = (JSONObject) thumbnails.get("high");
+                thumbnailURL = (String) thumbnail.get("url");
+
+                JSONObject id = (JSONObject) obj.get("id");
+                videoId = (String) id.get("videoId");
+
+
+                Resource video = model.createResource(nsPrefix + "video" + i);
+                video.addProperty(p1, titleOfVideo, XSDDatatype.XSDstring);
+                video.addProperty(p2, description, XSDDatatype.XSDstring);
+                video.addProperty(p3, thumbnailURL, XSDDatatype.XSDanyURI);
+                video.addProperty(p4, videoId, XSDDatatype.XSDstring);
+
+            }
+
+            String fileName = keyword + ".xml";
+            FileWriter out = new FileWriter(getFileLocation(realPath, fileName));
+            model.write(out, "RDF/XML");
+            return getXml(model);
+        } catch (Exception ex) {
+            String message = RdfUtil.DEBUG ? ex.getMessage() : "";
+            throw new RuntimeException(message);
+        }
+
+    }
+
+    @Override
+    @Deprecated
+    public String readVideosFromRDF(String keyword, String realPath) {
+        try {
+            Model model = ModelFactory.createDefaultModel();
+            String fileName = "resources.xml";
+            model.read(getFileLocation(realPath, fileName), "RDF/XML");
+
+            return getXml(model);
+        } catch (Exception ex) {
+            String message = RdfUtil.DEBUG ? ex.getMessage() : "";
+            throw new RuntimeException(message);
+        }
+    }
+
+    @Deprecated
+    @Override
+    public String saveNewMenuToRDF(String keyword, String realPath) {
+        Set<String> resources = Sets.newHashSet();
+        Set<String> comments = Sets.newHashSet();
+
+        Model model = ModelFactory.createDefaultModel();
+
+        String nsPrefix = "http://dbpedia.org/ontology/Food#";
+
+        Property p1 = model.createProperty(nsPrefix, "name");
+        Property p2 = model.createProperty(nsPrefix, "abstract");
+        model.setNsPrefix("food", nsPrefix);
+
+        try {
+            // query for new list from a given country
+            final String dbpedia = "http://dbpedia.org/sparql";
+            String q = "PREFIX owl: <http://www.w3.org/2002/07/owl#>" +
+                    "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>" +
+                    "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
+                    "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>" +
+                    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>" +
+                    "PREFIX dc: <http://purl.org/dc/elements/1.1/>" +
+                    "PREFIX : <http://dbpedia.org/resource/>" +
+                    "PREFIX dbpedia2: <http://dbpedia.org/property/>" +
+                    "PREFIX dbpedia: <http://dbpedia.org/>" +
+                    "PREFIX skos: <http://www.w3.org/2004/02/skos/core#>" +
+                    "PREFIX dbp: <http://dbpedia.org/property/>" +
+                    "SELECT DISTINCT ?subject WHERE {" +
+                    "?subject dbp:country ?label;" +
+                    "rdf:type ?type."
+                    + "FILTER ( regex (?label,\"^" + keyword + "$\", \"i\") && regex (?type,\"Food\", \"i\"))"
+                    + "}"
+                    + "limit 10";
+
+
+            Query query = QueryFactory.create(q);
+            QueryExecution qexec = QueryExecutionFactory.sparqlService(dbpedia, query);
+            ResultSet results = qexec.execSelect();
+
+            while (results.hasNext()) {
+                QuerySolution qs = results.next();
+                RDFNode s = qs.get("subject");
+                if (s.isResource()) {
+                    String uri = s.asResource().getURI();
+                    resources.add(uri);
+                }
+            }
+
+
+            for (String i : resources) {
+                // get the food description
+                q = "PREFIX owl: <http://www.w3.org/2002/07/owl#>" +
+                        "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>" +
+                        "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
+                        "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>" +
+                        "PREFIX foaf: <http://xmlns.com/foaf/0.1/>" +
+                        "PREFIX dc: <http://purl.org/dc/elements/1.1/>" +
+                        "PREFIX : <http://dbpedia.org/resource/>" +
+                        "PREFIX dbpedia2: <http://dbpedia.org/property/>" +
+                        "PREFIX dbpedia: <http://dbpedia.org/>" +
+                        "PREFIX skos: <http://www.w3.org/2004/02/skos/core#>" +
+                        "PREFIX dbp: <http://dbpedia.org/property/>" +
+                        "SELECT ?hasValue " +
+                        "WHERE {" +
+                        "   <" + i + "> ?property ?hasValue" +
+                        "  FILTER (lang(?hasValue) = 'en' && regex (?property,\"abstract$\", \"i\"))" +
+                        "}";
+
+                query = QueryFactory.create(q);
+                qexec = QueryExecutionFactory.sparqlService(dbpedia, query);
+                results = qexec.execSelect();
+
+                while (results.hasNext()) {
+                    QuerySolution qs = results.next();
+                    RDFNode s = qs.get("hasValue");
+                    if (s.isLiteral()) {
+                        String comment = s.toString();
+                        comments.add(comment);
+
+                        Resource music = model.createResource(nsPrefix + i.substring(28));
+                        music.addProperty(p1, i, XSDDatatype.XSDstring);
+                        music.addProperty(p2, comment, XSDDatatype.XSDstring);
+                    }
+                }
+
+            }
+
+            String fileName = "menu-" + keyword + ".xml";
+            FileWriter out = new FileWriter(getFileLocation(realPath, fileName));
+            model.write(out, "RDF/XML");
+            return getXml(model);
+        } catch (Exception ex) {
+            throw new RuntimeException("");
+        }
+    }
+
+    @Deprecated
+    @Override
+    public String readNewMenuFromRDF(String keyword, String realPath) {
+        try {
+            Model model = ModelFactory.createDefaultModel();
+            String fileName = "menu-" + keyword + ".xml";
+            model.read(getFileLocation(realPath, fileName), "RDF/XML");
             return getXml(model);
         } catch (Exception ex) {
             String message = RdfUtil.DEBUG ? ex.getMessage() : "";
@@ -225,7 +426,6 @@ public class RdfLocalManager implements RdfManager {
 
     @Override
     public String readMusicFromFuseki(String country, String time, String type){
-        String resources = null;
 
         final String resourceLink = "http://localhost:3030/resources/query";
         String q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"+
@@ -252,7 +452,7 @@ public class RdfLocalManager implements RdfManager {
             if (s.isResource()) {
 
                 String idValue = s.asResource().getURI().substring(31);
-                 Resource resource = model.createResource();
+                Resource resource = model.createResource();
                 Property p1 = model.createProperty(nsPrefix,"id");
                 resource.addProperty(p1,idValue);
             }
@@ -261,92 +461,6 @@ public class RdfLocalManager implements RdfManager {
 
         return getJson(model);
 
-    }
-
-    @Override
-    public String writeVideosToRDF(String keyword, String realPath) {
-
-        String api_key = "AIzaSyCZO2nHBNMSGgRg4VHMZ9P8dWT0H23J-Fc";
-        String yt_url = "https://www.googleapis.com/youtube/v3/search?part=snippet&q="
-                + keyword + "&type=video&videoCaption=closedCaption&key=" + api_key + "&format=5&maxResults=10&v=2";
-        String line = "", stringArray;
-        StringBuilder stringArrayBuilder = new StringBuilder();
-
-        String titleOfVideo;
-        String description;
-        String thumbnailURL;
-        String videoId;
-
-        Model model = ModelFactory.createDefaultModel();
-
-        String nsPrefix = "https://schema.org/VideoObject#";
-
-        Property p1 = model.createProperty(nsPrefix, "title");
-        Property p2 = model.createProperty(nsPrefix, "description");
-        Property p3 = model.createProperty(nsPrefix, "thumbnail");
-        Property p4 = model.createProperty(nsPrefix, "id");
-        model.setNsPrefix("video", nsPrefix);
-
-        try {
-            URL url = new URL(yt_url);
-            BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
-            while ((line = br.readLine()) != null) {
-                stringArrayBuilder = stringArrayBuilder.append(line);
-            }
-            stringArray = stringArrayBuilder.toString();
-
-            JSONObject nodeRoot = new JSONObject(stringArray);
-            JSONArray jsonArray = (JSONArray) nodeRoot.get("items");
-
-
-            for (int i = 0; i < jsonArray.length(); i++) {
-                JSONObject obj = jsonArray.getJSONObject(i);
-
-                JSONObject snippet = (JSONObject) obj.get("snippet");
-
-                description = (String) snippet.get("description");
-                titleOfVideo = (String) snippet.get("title");
-
-
-                JSONObject thumbnails = (JSONObject) snippet.get("thumbnails");
-                JSONObject thumbnail = (JSONObject) thumbnails.get("high");
-                thumbnailURL = (String) thumbnail.get("url");
-
-                JSONObject id = (JSONObject) obj.get("id");
-                videoId = (String) id.get("videoId");
-
-
-                Resource video = model.createResource(nsPrefix + "video" + i);
-                video.addProperty(p1, titleOfVideo, XSDDatatype.XSDstring);
-                video.addProperty(p2, description, XSDDatatype.XSDstring);
-                video.addProperty(p3, thumbnailURL, XSDDatatype.XSDanyURI);
-                video.addProperty(p4, videoId, XSDDatatype.XSDstring);
-
-            }
-
-            String fileName = keyword + ".xml";
-            FileWriter out = new FileWriter(getFileLocation(realPath, fileName));
-            model.write(out, "RDF/XML");
-            return getXml(model);
-        } catch (Exception ex) {
-            String message = RdfUtil.DEBUG ? ex.getMessage() : "";
-            throw new RuntimeException(message);
-        }
-
-    }
-
-    @Override
-    public String readVideosFromRDF(String keyword, String realPath) {
-        try {
-            Model model = ModelFactory.createDefaultModel();
-            String fileName = "resources.xml";
-            model.read(getFileLocation(realPath, fileName), "RDF/XML");
-
-            return getXml(model);
-        } catch (Exception ex) {
-            String message = RdfUtil.DEBUG ? ex.getMessage() : "";
-            throw new RuntimeException(message);
-        }
     }
 
     @Override
@@ -486,135 +600,176 @@ public class RdfLocalManager implements RdfManager {
     }
 
     @Override
-    public String saveNewMenuToRDF(String keyword, String realPath) {
-        Set<String> resources = Sets.newHashSet();
-        Set<String> comments = Sets.newHashSet();
+    public void writeMenuToFuseki(String id, String arrivalTime, String servingTime, String menuType, String title, String picture,
+                                 String description, String ingredientList, String country) {
 
         Model model = ModelFactory.createDefaultModel();
 
-        String nsPrefix = "http://dbpedia.org/ontology/Food#";
 
-        Property p1 = model.createProperty(nsPrefix, "name");
-        Property p2 = model.createProperty(nsPrefix, "abstract");
+        String nsPrefix = "https://schema.org/Food#";
+
+        Property p1 = model.createProperty(nsPrefix, "id");
+        Property p2 = model.createProperty(nsPrefix, "arrivalTime");
+        Property p3 = model.createProperty(nsPrefix, "servingTime");
+        Property p4 = model.createProperty(nsPrefix, "menuType");
+        Property p5 = model.createProperty(nsPrefix, "title");
+
+        Property p6 = model.createProperty(nsPrefix, "picture");
+        Property p7 = model.createProperty(nsPrefix, "description");
+        Property p8 = model.createProperty(nsPrefix, "ingredientList");
+        Property p9 = model.createProperty(nsPrefix, "country");
         model.setNsPrefix("food", nsPrefix);
 
-        try {
-            // query for new list from a given country
-            final String dbpedia = "http://dbpedia.org/sparql";
-            String q = "PREFIX owl: <http://www.w3.org/2002/07/owl#>" +
-                    "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>" +
-                    "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
-                    "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>" +
-                    "PREFIX foaf: <http://xmlns.com/foaf/0.1/>" +
-                    "PREFIX dc: <http://purl.org/dc/elements/1.1/>" +
-                    "PREFIX : <http://dbpedia.org/resource/>" +
-                    "PREFIX dbpedia2: <http://dbpedia.org/property/>" +
-                    "PREFIX dbpedia: <http://dbpedia.org/>" +
-                    "PREFIX skos: <http://www.w3.org/2004/02/skos/core#>" +
-                    "PREFIX dbp: <http://dbpedia.org/property/>" +
-                    "SELECT DISTINCT ?subject WHERE {" +
-                    "?subject dbp:country ?label;" +
-                    "rdf:type ?type."
-                    + "FILTER ( regex (?label,\"^" + keyword + "$\", \"i\") && regex (?type,\"Food\", \"i\"))"
-                    + "}"
-                    + "limit 10";
+
+        Resource food = model.createResource(nsPrefix + id);
+        food.addProperty(p1, id, XSDDatatype.XSDpositiveInteger);
+        food.addProperty(p2, arrivalTime, XSDDatatype.XSDpositiveInteger);
+        food.addProperty(p3, servingTime, XSDDatatype.XSDstring);
+        food.addProperty(p4, menuType, XSDDatatype.XSDstring);
+        food.addProperty(p5, title, XSDDatatype.XSDstring);
+        food.addProperty(p6, picture, XSDDatatype.XSDstring);
+        food.addProperty(p7, description, XSDDatatype.XSDstring);
+        food.addProperty(p8, ingredientList, XSDDatatype.XSDstring);
+        food.addProperty(p9, country, XSDDatatype.XSDstring);
 
 
-            Query query = QueryFactory.create(q);
-            QueryExecution qexec = QueryExecutionFactory.sparqlService(dbpedia, query);
-            ResultSet results = qexec.execSelect();
+        String UPDATE_Query =
+                "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"+
+                        "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"+
+                        "PREFIX f: <https://schema.org/Food#> "
+                        + "INSERT DATA"
+                        + "{ <"+nsPrefix + id+">    f:id    \""+id+"\" ;"
+                        + "                         f:arrivalTime  \""+arrivalTime+"\" ;"
+                        + "        f:servingTime    \""+servingTime+"\" ;"
+                        + "        f:menuType    \""+menuType+"\" ;"
+                        + "        f:title    \""+title+"\" ;"
+                        + "        f:picture    \""+picture+"\" ;"
+                        + "        f:description    \""+description+"\" ;"
+                        + "        f:ingredientList    \""+ingredientList+"\" ;"
+                        + "      f:country    \""+country+"\" ;"
+                        + "." + "}   ";
 
-            while (results.hasNext()) {
-                QuerySolution qs = results.next();
-                RDFNode s = qs.get("subject");
-                if (s.isResource()) {
-                    String uri = s.asResource().getURI();
-                    resources.add(uri);
-                }
-            }
+        UpdateProcessor upp = UpdateExecutionFactory.createRemote(
+                UpdateFactory.create(UPDATE_Query),
+                "http://localhost:3030/resources/update");
+        upp.execute();
 
+    }
 
-            for (String i : resources) {
-                // get the food description
-                q = "PREFIX owl: <http://www.w3.org/2002/07/owl#>" +
-                        "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>" +
-                        "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
-                        "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>" +
-                        "PREFIX foaf: <http://xmlns.com/foaf/0.1/>" +
-                        "PREFIX dc: <http://purl.org/dc/elements/1.1/>" +
-                        "PREFIX : <http://dbpedia.org/resource/>" +
-                        "PREFIX dbpedia2: <http://dbpedia.org/property/>" +
-                        "PREFIX dbpedia: <http://dbpedia.org/>" +
-                        "PREFIX skos: <http://www.w3.org/2004/02/skos/core#>" +
-                        "PREFIX dbp: <http://dbpedia.org/property/>" +
-                        "SELECT ?hasValue " +
-                        "WHERE {" +
-                        "   <" + i + "> ?property ?hasValue" +
-                        "  FILTER (lang(?hasValue) = 'en' && regex (?property,\"abstract$\", \"i\"))" +
-                        "}";
+    //TODO
+    @Override
+    public String readMenuFromFuseki() {
 
-                query = QueryFactory.create(q);
-                qexec = QueryExecutionFactory.sparqlService(dbpedia, query);
-                results = qexec.execSelect();
+        final String resourceLink = "http://localhost:3030/resources/query";
+        String q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"+
+                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"+
+                "PREFIX : <https://schema.org/Food#> "+
+                "SELECT * ";
 
-                while (results.hasNext()) {
-                    QuerySolution qs = results.next();
-                    RDFNode s = qs.get("hasValue");
-                    if (s.isLiteral()) {
-                        String comment = s.toString();
-                        comments.add(comment);
+        String nsPrefix = "https://schema.org/VideoObject#";
 
-                        Resource music = model.createResource(nsPrefix + i.substring(28));
-                        music.addProperty(p1, i, XSDDatatype.XSDstring);
-                        music.addProperty(p2, comment, XSDDatatype.XSDstring);
-                    }
-                }
+        Query query = QueryFactory.create(q);
+        QueryExecution qexec = QueryExecutionFactory.sparqlService(resourceLink, query);
+        ResultSet results = qexec.execSelect();
 
-            }
+        Model model = ModelFactory.createDefaultModel();
 
-            String fileName = "menu-" + keyword + ".xml";
-            FileWriter out = new FileWriter(getFileLocation(realPath, fileName));
-            model.write(out, "RDF/XML");
-            return getXml(model);
-        } catch (Exception ex) {
-            throw new RuntimeException("");
+        model.setNsPrefix("video", nsPrefix);
+
+        while (results.hasNext()) {
+            QuerySolution qs = results.next();
+            RDFNode s = qs.get("id");
+           /* if (s.isResource()) {
+                String idValue = s.asResource().getURI().substring(31).replace("video", "");
+                Resource resource = model.createResource();
+                Property p1 = model.createProperty(nsPrefix,"id");
+                resource.addProperty(p1,idValue);
+            }*/
         }
+
+        return getJson(model);
     }
 
     @Override
-    public String readNewMenuFromRDF(String keyword, String realPath) {
-        try {
-            Model model = ModelFactory.createDefaultModel();
-            String fileName = "menu-" + keyword + ".xml";
-            model.read(getFileLocation(realPath, fileName), "RDF/XML");
-            return getXml(model);
-        } catch (Exception ex) {
-            String message = RdfUtil.DEBUG ? ex.getMessage() : "";
-            throw new RuntimeException(message);
+    public String searchInMenu(String id){
+
+        Model model = ModelFactory.createDefaultModel();
+
+        final String resourceLink = "http://localhost:3030/resources/query";
+        String q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> "+
+                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> "+
+                "PREFIX : <https://schema.org/Food#> "+
+                "SELECT ?b ?c WHERE {"+
+                " { :"+id+" ?b ?c "+
+                " }"+
+                "}"+
+                "LIMIT 50";
+
+        String nsPrefix = "https://schema.org/Food#";
+        Query query = QueryFactory.create(q);
+        QueryExecution qexec = QueryExecutionFactory.sparqlService(resourceLink, query);
+        ResultSet results = qexec.execSelect();
+
+        while (results.hasNext()) {
+            QuerySolution qs = results.next();
+            RDFNode s;
+            s= qs.get("c");
+            String menuList="";
+            if (s.isLiteral()) {
+                menuList = s.asLiteral().getString();
+            }
+            s= qs.get("b");
+            String menuType="";
+            if (s.isResource()) {
+                menuType = s.asResource().getURI();
+            }
+            String value = menuType.substring(24)+":"+menuList;
+            Resource menuItem = model.createResource();
+            Property p1 = model.createProperty(nsPrefix);
+            menuItem.addProperty(p1,value);
+
         }
+
+        model.setNsPrefix("menu",nsPrefix);
+        return getJson(model);
+
     }
 
-    public List<String> getMenus(String realPath) {
-        try {
-            Stream<Path> list = Files.list(Paths.get(realPath));
-            List<String> collect = list.map(x -> x.getFileName().toString()).filter((x) -> x.startsWith("menu")).map(x -> x.replace("menu-", "").replace(".xml", "")).collect(Collectors.toList());
-            return collect;
-        } catch (Exception ex) {
-            String message = RdfUtil.DEBUG ? ex.getMessage() : "";
-            throw new RuntimeException(message);
-        }
-    }
+    @Override
+    public String searchInMenu(String criteria, String toSearch){
 
-    public String getMenuToHTML(String keyword, String realPath){
-        try{
-            Model model = ModelFactory.createDefaultModel();
-            String fileName = "menu-" + keyword + ".xml";
-            model.read(getFileLocation(realPath, fileName), "RDF/XML");
-            return getJson(model);
-        } catch (Exception ex) {
-            String message = RdfUtil.DEBUG ? ex.getMessage() : "";
-            throw new RuntimeException(message);
+        Model model = ModelFactory.createDefaultModel();
+
+        final String resourceLink = "http://localhost:3030/resources/query";
+        String q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> "+
+                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> "+
+                "PREFIX : <https://schema.org/Food#> "+
+                "SELECT ?a WHERE {"+
+                " { ?a :"+criteria+" ?c "+
+                "FILTER ( regex (?c,\""+toSearch+"\", \"i\") )"+
+                " }"+
+                "}"+
+                "LIMIT 50";
+
+        Query query = QueryFactory.create(q);
+        QueryExecution qexec = QueryExecutionFactory.sparqlService(resourceLink, query);
+        ResultSet results = qexec.execSelect();
+        String nsPrefix = "https://schema.org/Food#";
+
+        while (results.hasNext()) {
+            QuerySolution qs = results.next();
+            RDFNode s = qs.get("a");
+            if (s.isResource()) {
+                String menuId = s.asResource().getURI().substring(24);
+
+                Resource menuItem = model.createResource();
+                Property p1 = model.createProperty(nsPrefix + "prop");
+                menuItem.addProperty(p1,menuId);
+            }
         }
+
+        model.setNsPrefix("menu",nsPrefix);
+        return getJson(model);
 
     }
 
