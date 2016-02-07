@@ -711,10 +711,10 @@ public class RdfLocalManager implements RdfManager {
 			    
 				switch (menuType) {
 				  case "https://schema.org/Recipe#id":
-					    food.addProperty(p1, menuList, XSDDatatype.XSDpositiveInteger);
+					    food.addProperty(p1, menuList, XSDDatatype.XSDstring);
 				        break;
 				  case "https://schema.org/Recipe#arrivalTime":
-					    food.addProperty(p2, menuList, XSDDatatype.XSDpositiveInteger);
+					    food.addProperty(p2, menuList, XSDDatatype.XSDstring);
 				        break;
 				  case "https://schema.org/Recipe#servingTime":
 					    food.addProperty(p3, menuList, XSDDatatype.XSDstring);

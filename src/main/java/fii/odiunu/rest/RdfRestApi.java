@@ -64,6 +64,16 @@ public class RdfRestApi {
         }
     }
 
+    private ResponseEntity<String> getResponseEntity(String country, String time, String type, RdfResourcesSupplier<String, String, String, String> supplier1, RdfResourcesSupplier<String, String, String, String> supplier2 ) {
+        try {
+            String result = supplier1.get(country, time, type);
+            result = result.concat(supplier2.get(country, time, type));
+            return new ResponseEntity<>(result, HttpStatus.OK);
+        } catch (Exception ex) {
+            return new ResponseEntity<>(ex.getMessage(), HttpStatus.BAD_REQUEST);
+        }
+    }
+
     private String getRealPath() {
         return context.getRealPath("/resources");
     }
@@ -95,7 +105,14 @@ public class RdfRestApi {
         return getResponseEntity(criteria,value,rdfLocalManager::searchInMenu);
     }
 
-    //TODO UNCOMMENT
+    @RequestMapping(value = "/rdf/getResources", produces = "application/json")
+    @ResponseBody
+    public ResponseEntity<String> getResources(@RequestParam(value = "country", defaultValue = "romania") String country, @RequestParam(value = "time", defaultValue = "morning") String time, @RequestParam(value = "type", defaultValue = "single") String type) {
+        rdfLocalManager.writeVideosToFuseki(country,time,type);
+        rdfLocalManager.writeMusicToFuseki(country,time,type);
+        return getResponseEntity(country, time, type, rdfLocalManager::readVideosFromFuseki, rdfLocalManager::readMusicFromFuseki);
+    }
+
 
     @RequestMapping(value = "/rdf/getMenuToHTML", produces = "application/json")
     @ResponseBody

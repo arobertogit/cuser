@@ -438,81 +438,80 @@ function loadGettyImages(category){
 	document.getElementById("imagePageCounter").value++;
 }
 
-function loadMenu(keyword){
-	var URL = '/rdf/getMenuToHTML?keyword=' + keyword;
+function loadMenu(){
+	var URL = '/rdf/getMenuToHTML';
 	$.ajax({
 		type: 'GET',
 		url: URL,
 		contentType: 'application/json; charset=utf-8',
 		success: function(menu) {
-            console.log(menu);
+            var graph = menu["@graph"];
+
+			for(var i = 0; i < graph.length; i++){
+				var food = graph[i];
+
+				var title = food["recipe:title"];
+				var id = food["recipe:id"];
+				var description = food["recipe:description"];
+				var country = food["recipe:country"];
+				var servingTime = food["recipe:servingTime"];
+
+				var dynamicMenuEntry = document.createElement('div');
+				dynamicMenuEntry.className = "panel-primary panel";
+				dynamicMenuEntry.id = "menu-entry-"+id;
+
+				var parentCategoryOfMeal = document.getElementById(servingTime+"-area");
+				parentCategoryOfMeal.appendChild(dynamicMenuEntry);
+
+				var dynamicTitleOfEntry = document.createElement('div');
+				dynamicTitleOfEntry.className = "panel-heading";
+				dynamicMenuEntry.appendChild(dynamicTitleOfEntry);
+
+				var dynamicH3title = document.createElement('h3');
+				dynamicH3title.className = "panel-title panel-title-position";
+				dynamicH3title.innerHTML = "Id: " + id +" - " + title;
+				dynamicTitleOfEntry.appendChild(dynamicH3title);
+
+				var dynamicDescription = document.createElement('div');
+				dynamicDescription.className = "panel-body";
+				dynamicDescription.innerHTML = description;
+				dynamicMenuEntry.appendChild(dynamicDescription);
+
+				var dynamicSpanCountry = document.createElement('span');
+				dynamicSpanCountry.className = "badge";
+				dynamicSpanCountry.innerHTML = country;
+				dynamicDescription.appendChild(dynamicSpanCountry);
+
+				var dynamicAddToOrder = document.createElement('a');
+				dynamicAddToOrder.className = "btn btn-default add-button-position";
+				dynamicAddToOrder.innerHTML = "Add";
+				dynamicAddToOrder.setAttribute("onclick","addToOrder("+id+","+servingTime+")");
+				dynamicTitleOfEntry.appendChild(dynamicAddToOrder);
+
+			}
 		}
 	});
 }
 
 $(document).ready(function() {
 	loadSong('random');
-});
-
-$(document).ready(function() {
 	loadYesOrNo();
-});
-
-$(document).ready(function() {
 	loadVideo('random');
-});
-
-$(document).ready(function() {
 	loadYoMomma();
-});
-
-$(document).ready(function() {
 	loadNorris();
-});
-
-$(document).ready(function() {
 	loadVideoOptions();
-});
-
-$(document).ready(function() {
 	loadSongOptions();
-});
-
-$(document).ready(function() {
 	loadGIF('random');
-});
-
-$(document).ready(function() {
 	loadCat();
-});
-
-$(document).ready(function() {
 	loadTrivia();
-});
-
-$(document).ready(function() {
 	loadYear();
-});
-
-$(document).ready(function() {
 	loadDate();
-});
-
-$(document).ready(function() {
 	loadMath();
-});
-
-$(document).ready(function() {
 	loadNews('1', 'none', 'none', '1');
-});
-
-$(document).ready(function() {
 	loadGettyImages("cat");
+	loadMenu();
 });
 
-$(document).ready(function(){
-	loadMenu("spain");
-})
 // clicks
 
 $("#nextVideo").click(function() {
@@ -622,13 +621,120 @@ $("#inputImageCategory").on('input', function(){
 	var inputBox = document.getElementById("inputImageCategory");
 
 	if(inputBox.value ==  ''){
-		console.log("reached here");
 		$("#nextImages").text("Next Page");
 	}
 	else{
-		console.log("asdf");
 		$("#nextImages").text("Search");
 	}
 });
 
+function addToOrder(id, servingTime){
+	var menuEntry = document.getElementById("menu-entry-"+id);
+	var typeOfMeal = servingTime.id;
+	menuEntry.setAttribute("typeOfMeal",typeOfMeal);
+	var titleAndBody = menuEntry.childNodes;
+	var title = titleAndBody[0].childNodes;
+	var body = titleAndBody[1].childNodes;
+	var button = title[1];
+	var span = body[1];
 
+	var typeOfMeal = menuEntry.getAttribute("typeofmeal");
+
+	button.innerHTML = "Remove";
+	button.removeAttribute("onclick");
+	button.setAttribute("onclick","removeFromOrder("+id+","+typeOfMeal+")");
+
+	var finishOrderArea = document.getElementById("order-area");
+
+	finishOrderArea.appendChild(menuEntry);
+
+
+	var orderFood = document.getElementById("order-food");
+	var countryInput = document.createElement('input');
+	countryInput.setAttribute("type","hidden");
+	countryInput.setAttribute("id","country");
+	countryInput.setAttribute("name","country");
+	countryInput.setAttribute("value",span.innerHTML);
+	orderFood.appendChild(countryInput);
+
+	var typeOfMealInput = document.createElement('input');
+	typeOfMealInput.setAttribute("type","hidden");
+	typeOfMealInput.setAttribute("id","type");
+	typeOfMealInput.setAttribute("name","type");
+	typeOfMealInput.setAttribute("value",typeOfMeal);
+	orderFood.appendChild(typeOfMealInput);
+}
+
+function removeFromOrder(id,servingTime){
+	var menuEntry = document.getElementById("menu-entry-"+id);
+
+	var typeOfMeal = servingTime.id;
+	var typeOfMenuCategory = document.getElementById(typeOfMeal+"-area");
+
+	var titleAndBody = menuEntry.childNodes;
+	var title = titleAndBody[0].childNodes;
+	var button = title[1];
+
+	button.innerHTML = "Add";
+	button.removeAttribute("onclick");
+	button.setAttribute("onclick","addToOrder("+id+","+typeOfMeal+")");
+
+	var countryInput = document.getElementById("country");
+	var orderFood = document.getElementById("order-food");
+
+	orderFood.removeChild(countryInput);
+
+	typeOfMenuCategory.appendChild(menuEntry);
+
+
+}
+
+$("#requestRecommendations").click(function(){
+
+	var country = document.getElementById("country").getAttribute("value");
+	var type = document.getElementById("type").getAttribute("value");
+	var select = document.getElementById("typeOfOccasion");
+	var typeOfOccasion = select.options[select.selectedIndex].value;
+
+
+	var topMenu = document.getElementById("topMenu");
+	var childrenListTopMenu = topMenu.childNodes;
+
+	childrenListTopMenu[1].className = "";
+	childrenListTopMenu[5].className = "active";
+
+	var menuDiv = document.getElementById("menu");
+	menuDiv.className = "tab-pane fade";
+
+	var videos = document.getElementById("videos");
+	videos.className = "tab-pane fade active in";
+
+	var videosTopMenu = document.getElementById("videosTopMenu");
+	var badgeSpanVideos = document.createElement('span');
+	badgeSpanVideos.className = "badge";
+	badgeSpanVideos.innerHTML = "!!";
+	videosTopMenu.appendChild(badgeSpanVideos);
+
+	var musicTopMenu = document.getElementById("musicTopMenu");
+	var badgeSpanMusic = document.createElement('span');
+	badgeSpanMusic.className = "badge";
+	badgeSpanMusic.innerHTML = "!!";
+	musicTopMenu.appendChild(badgeSpanMusic);
+
+
+
+	$.ajax({
+		url : "/rdf/getResources?country="+country+"&time="+type+"&type="+typeOfOccasion,
+		success : function(result) {
+			// TODO check why i am not getting the dom elements. I need to change
+			// Just UI settings/improvements
+
+
+			// TODO
+			// insert var result to the UI (MUSIC/VIDEOS). Parse json and insert into videos and music category widgets
+		},
+		failure : function() {
+
+		}
+	});
+});
