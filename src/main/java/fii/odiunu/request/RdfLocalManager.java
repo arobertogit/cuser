@@ -466,9 +466,42 @@ public class RdfLocalManager implements RdfManager {
     @Override
     public void writeVideosToFuseki(String country, String time, String type) {
 
+		String location = "";
+		switch(country){
+		case "Germany":
+			location = "&location=37.42307%2C+-13.404953999999975&locationRadius=500km";
+			break;
+		case "Italy":
+			location = "&location=41.8724111%2C+-12.48022489999994&locationRadius=500km";
+			break;
+		case "Spain":
+			location = "&location=40.4167754%2C+-3.7037901999999576&locationRadius=500km";
+			break;
+		case "Paris":
+			location = "&location=48.85661400000001%2C+2.3522219000000177&locationRadius=500km";
+			break;
+		case "Romania":
+			location = "&location=44.4267674%2C+26.102538399999958&locationRadius=500km";
+			break;
+		}
+		
+		String queryType = "";
+		
+		switch (type){
+		case "business":
+			queryType = "&safeSearch=strict";
+			break;
+		case "date":
+			queryType ="&safeSearch=moderate";
+			break;
+		default:
+			queryType = "&safeSearch=none";
+			break;
+		}
+		
         String api_key = "AIzaSyCZO2nHBNMSGgRg4VHMZ9P8dWT0H23J-Fc";
         String yt_url = "https://www.googleapis.com/youtube/v3/search?part=snippet&q="
-                + country + "+" + time + "+" + type + "&type=video&videoCaption=closedCaption&key=" + api_key + "&format=5&maxResults=10&v=2";
+                         + "+" + time + queryType + location + "&type=video&videoCaption=closedCaption&key=" + api_key + "&format=5&maxResults=10&v=2";
         String line = "", stringArray;
         StringBuilder stringArrayBuilder = new StringBuilder();
 
