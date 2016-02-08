@@ -55,6 +55,17 @@
           <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
           <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
           <element id="library" level="project" name="Maven: com.google.guava:guava:19.0" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.social:spring-social-security:1.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: com.google.inject:guice:2.0" />
+          <element id="library" level="project" name="Maven: net.jcip:jcip-annotations:1.0" />
+          <element id="library" level="project" name="Maven: net.sourceforge.nekohtml:nekohtml:1.9.20" />
+          <element id="library" level="project" name="Maven: org.openid4java:openid4java-nodeps:0.9.6" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-openid:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:4.0.3.RELEASE" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="cuser6/web/Web" />

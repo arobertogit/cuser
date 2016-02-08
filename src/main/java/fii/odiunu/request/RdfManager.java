@@ -1,7 +1,6 @@
 package fii.odiunu.request;
 
 import java.util.List;
-import java.util.Set;
 
 /**
  * Created by ojrobert on 1/28/2016.
@@ -30,5 +29,4 @@ public interface RdfManager {
     List<String> getMenus(String realPath);
 
     String getMenuToHTML(String keyword, String realPath);
-
 }

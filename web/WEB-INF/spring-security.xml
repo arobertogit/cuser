@@ -1,0 +1,39 @@
+<beans:beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:beans="http://www.springframework.org/schema/beans"
+             xmlns:context="http://www.springframework.org/schema/context"
+             xmlns="http://www.springframework.org/schema/security"
+             xsi:schemaLocation="
+      http://www.springframework.org/schema/security
+      http://www.springframework.org/schema/security/spring-security-4.0.xsd
+      http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+      http://www.springframework.org/schema/context
+      http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--<context:component-scan base-package="fii.odiunu"/>-->
+    <!--<http auto-config='true'/>-->
+    <!--<intercept-url pattern="/superman/**" access="ROLE_SUPER"/>-->
+    <!--</http>-->
+    <!--<http auto-config="true">-->
+    <!--<intercept-url pattern="/" access="hasRole('USER')"/>-->
+    <!--<intercept-url pattern="/home" access="hasRole('USER')"/>-->
+    <!--<intercept-url pattern="/admin**" access="hasRole('ADMIN')"/>-->
+    <!--<intercept-url pattern="/dba**" access="hasRole('ADMIN') and hasRole('DBA')"/>-->
+    <!--<form-login login-page="/login"-->
+    <!--username-parameter="ssoId"-->
+    <!--password-parameter="password"-->
+    <!--authentication-success-handler-ref="customSuccessHandler"-->
+    <!--authentication-failure-url="/Access_Denied"/>-->
+    <!--<csrf/>-->
+    <!--</http>-->
+    <!---->
+    <!--<authentication-manager>-->
+    <!--<authentication-provider user-service-ref='userDetailsService'>-->
+    <!--<password-encoder hash='plaintext' />-->
+    <!--</authentication-provider>-->
+    <!--</authentication-manager>-->
+    <!---->
+    <!---->
+    <!--<beans:bean id="customSuccessHandler" class="fii.odiunu.security.CustomSuccessHandler"/>-->
+
+
+</beans:beans>
