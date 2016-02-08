@@ -17,12 +17,12 @@
 
 </head>
 <body>
-<ul class="nav nav-tabs">
+<ul class="nav nav-tabs" id="topMenu">
     <li class="active"><a href="#menu" data-toggle="tab">Menu</a></li>
     <li><a href="#images" data-toggle="tab">Images</a></li>
-    <li><a href="#videos" data-toggle="tab">Videos</a></li>
+    <li><a href="#videos" data-toggle="tab" id="videosTopMenu">Videos</a></li>
     <li><a href="#jokes" data-toggle="tab">Jokes</a></li>
-    <li><a href="#music" data-toggle="tab">Music</a></li>
+    <li><a href="#music" data-toggle="tab" id="musicTopMenu">Music</a></li>
     <li><a href="#yesorno" data-toggle="tab">Yes or No</a></li>
     <li><a href="#gifs" data-toggle="tab">GIFs</a></li>
     <li><a href="#cats" data-toggle="tab">Cats</a></li>
@@ -43,49 +43,47 @@
                                       aria-expanded="false">Finish Order</a></li>
         </ul>
         <div class="tab-content">
-            <div class="tab-pane fade active in" id="breakfast">
-                <div class="alert alert-success own-area">
-                    <div id="breakfast-area">
+                <div class="tab-pane fade active in" id="breakfast">
+                    <div class="alert alert-success own-area">
+                        <div id="breakfast-area">
 
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="tab-pane fade" id="lunch">
-                <div class="alert alert-success own-area">
-                    <div id="lunch-area">
+                <div class="tab-pane fade" id="lunch">
+                    <div class="alert alert-success own-area">
+                        <div id="lunch-area">
 
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="tab-pane fade" id="dinner">
-                <div class="alert alert-success own-area">
-                    <div id="dinner-area">
+                <div class="tab-pane fade" id="dinner">
+                    <div class="alert alert-success own-area">
+                        <div id="dinner-area">
 
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="tab-pane fade" id="order">
-                <div class="alert alert-success own-area">
-                    <h3>Finish your order</h3>
-                    <form>
-                    <div id="order-area">
+                <div class="tab-pane fade" id="order">
+                    <div class="alert alert-success own-area">
+                        <h3>Finish your order</h3>
 
-                       <%-- products selected from menu go here
-                            get type of meal, for extra information and
-                            type of meeting
-                       --%>
+                        <div id="order-area">
 
+                        </div>
+                        <div id="order-food">
+
+                            <select name="typeOfOccasion" id="typeOfOccasion" class="form-control">
+                                <option>business</option>
+                                <option>family</option>
+                                <option>date</option>
+                                <option>single</option>
+                            </select>
+
+                            <button id="requestRecommendations" class="btn btn-default next-button">Submit</button>
+                        </div>
                     </div>
-                        <select name="typeOfMeeting" class="form-control">
-                            <option>Business</option>
-                            <option>Family</option>
-                            <option>Date</option>
-                            <option>Forever Alone</option>
-                        </select>
-                    </form>
-                </div>
-            </div>
-
+                 </div>
         </div>
     </div>
 
