@@ -20,14 +20,20 @@ public class HelloController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping(value = {"/", "/home"}, method = RequestMethod.GET)
-    public String homePage(ModelMap model) {
+//    @RequestMapping(value = {"/", "/home"}, method = RequestMethod.GET)
+//    public String homePage(ModelMap model) {
+//        model.addAttribute("user", getPrincipal());
+//        return "welcome.jsp";
+//    }
+
+    @RequestMapping(value = {"/", "/pages/main"}, method = RequestMethod.GET)
+    public String main(ModelMap model) {
         model.addAttribute("user", getPrincipal());
-        return "welcome.jsp";
+        return "pages/main.jsp";
     }
 
     private String getPrincipal() {
-        String userName = null;
+        String userName;
         Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
 
         if (principal instanceof UserDetails) {
@@ -36,12 +42,6 @@ public class HelloController {
             userName = principal.toString();
         }
         return userName;
-    }
-
-    @RequestMapping(value = {"/pages/main"}, method = RequestMethod.GET)
-    public String main(ModelMap model) {
-        model.addAttribute("user", getPrincipal());
-        return "pages/main.jsp";
     }
 
     @RequestMapping(value = "/admin", method = RequestMethod.GET)
@@ -82,8 +82,10 @@ public class HelloController {
         String password = ((String[]) parameterMap.get("password"))[0];
         try {
             User userByUsername = userService.getUserByUsername(id);
-            if (userByUsername == null)
+            if (userByUsername == null) {
+                userService.addUser(id, password, Role.ROLE_USER);
                 return "redirect:/";
+            }
         } catch (Exception ex) {
             return "redirect:/";
         }

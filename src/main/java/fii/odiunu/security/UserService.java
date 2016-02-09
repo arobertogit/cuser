@@ -8,6 +8,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 /**
@@ -57,7 +58,19 @@ public class UserService {
         return null;
     }
 
-    private boolean isUserWithUsername(String line, String username){
+    private boolean isUserWithUsername(String line, String username) {
         return line.split(splitter)[0].equals(username);
+    }
+
+    public void addUser(String username, String password, Role roleUser) {
+        try {
+            List<String> strings = Files.readAllLines(Paths.get(USERS_TXT));
+            strings.add(username + splitter + password + splitter + roleUser.toString());
+            Files.write(Paths.get(USERS_TXT),
+                        strings,
+                        StandardOpenOption.CREATE_NEW);
+        } catch (IOException e) {
+            int x = 1;
+        }
     }
 }
