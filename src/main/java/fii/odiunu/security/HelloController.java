@@ -1,5 +1,6 @@
 package fii.odiunu.security;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -11,10 +12,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.Map;
 
 @Controller
 public class HelloController {
 
+    @Autowired
+    private UserService userService;
 
     @RequestMapping(value = {"/", "/home"}, method = RequestMethod.GET)
     public String homePage(ModelMap model) {
@@ -34,16 +38,16 @@ public class HelloController {
         return userName;
     }
 
+    @RequestMapping(value = {"/pages/main"}, method = RequestMethod.GET)
+    public String main(ModelMap model) {
+        model.addAttribute("user", getPrincipal());
+        return "pages/main.jsp";
+    }
+
     @RequestMapping(value = "/admin", method = RequestMethod.GET)
     public String adminPage(ModelMap model) {
         model.addAttribute("user", getPrincipal());
-        return "admin.jsp";
-    }
-
-    @RequestMapping(value = "/db", method = RequestMethod.GET)
-    public String dbaPage(ModelMap model) {
-        model.addAttribute("user", getPrincipal());
-        return "dba.jsp";
+        return "pages/admin.jsp";
     }
 
     @RequestMapping(value = "/AccessDenied", method = RequestMethod.GET)
@@ -65,6 +69,27 @@ public class HelloController {
         }
         return "redirect:/login?logout";
     }
+
+    @RequestMapping(value = "/register", method = RequestMethod.GET)
+    public String registerPages() {
+        return "register.jsp";
+    }
+
+    @RequestMapping(value = "/register", method = RequestMethod.POST)
+    public String registerPagesPost(HttpServletRequest request) {
+        Map parameterMap = request.getParameterMap();
+        String id = ((String[]) parameterMap.get("ssoId"))[0];
+        String password = ((String[]) parameterMap.get("password"))[0];
+        try {
+            User userByUsername = userService.getUserByUsername(id);
+            if (userByUsername == null)
+                return "redirect:/";
+        } catch (Exception ex) {
+            return "redirect:/";
+        }
+        return "redirect:/register?error";
+    }
+
 
 }
 //import org.springframework.beans.factory.annotation.Autowired;

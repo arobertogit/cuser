@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.ServletContext;
-import java.util.Set;
 
 /**
  * Created by ojrobert on 1/26/2016.
@@ -24,7 +23,7 @@ public class RdfRestApi {
 
     @RequestMapping("/Test")
     public String greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
-        return "Hello " + name + "!";
+        return "Hello " + name + "!" + rdfLocalManager.test();
     }
 
 
@@ -52,6 +51,7 @@ public class RdfRestApi {
             return new ResponseEntity<>(result, HttpStatus.OK);
         } catch (Exception ex) {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.BAD_REQUEST);
+
         }
     }
 
@@ -134,7 +134,6 @@ public class RdfRestApi {
     // for returning menu using fuseki, converting to JSON, to html menu page
     @FunctionalInterface
     interface RdfSupplierToHTML<V> {
-
         V get() throws Exception;
     }
 

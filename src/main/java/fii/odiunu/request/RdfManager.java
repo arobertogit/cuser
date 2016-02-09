@@ -41,4 +41,5 @@ public interface RdfManager {
 
     String readMenuFromFuseki();
 
+    String test();
 }
