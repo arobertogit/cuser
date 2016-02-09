@@ -543,33 +543,38 @@ public class RdfLocalManager implements RdfManager {
 
         String queryType = "";
         String videoDefinition = "";
+        String queryTerm = "";
 
         switch (type) {
             case "business": {
                 queryType = "&safeSearch=strict";
                 videoDefinition = "&videoDefinition=high";
+                queryTerm = "office|boss|work|respect|devotion";
                 break;
             }
             case "date": {
                 queryType = "&safeSearch=moderate";
                 videoDefinition = "&videoDefinition=standard";
+                queryTerm = "love|romance|affection|tenderness";
                 break;
             }
             case "family": {
                 queryType = "&safeSearch=strict";
                 videoDefinition = "&videoDefinition=any";
+                queryTerm = "hope|faith|happiness";
                 break;
             }
             default: {
                 queryType = "&safeSearch=none";
                 videoDefinition = "&videoDefinition=any";
+                queryTerm = "curiosities|random facts|fun videos";
                 break;
             }
         }
 
         String api_key = "AIzaSyCZO2nHBNMSGgRg4VHMZ9P8dWT0H23J-Fc";
         String yt_url = "https://www.googleapis.com/youtube/v3/search?part=snippet&q="
-                + "+" + time + queryType + location + "&type=video&videoCaption=closedCaption&key=" + api_key + "&format=5&maxResults=10&v=2" + videoDefinition;
+                + "+" + queryTerm + queryType + location + "&type=video&videoCaption=closedCaption&key=" + api_key + "&format=5&maxResults=10&v=2" + videoDefinition;
         String line = "", stringArray;
         StringBuilder stringArrayBuilder = new StringBuilder();
 
