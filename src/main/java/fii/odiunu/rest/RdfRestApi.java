@@ -133,7 +133,6 @@ public class RdfRestApi {
 
 }
 
-
     // for returning menu using fuseki, converting to JSON, to html menu page
     @FunctionalInterface
     interface RdfSupplierToHTML<V> {

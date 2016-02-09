@@ -10,8 +10,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b8d305c2-3cc7-4693-ac07-c8c07eb808f1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/cuser6_war_exploded/js/ajaxRequests.js" afterPath="$PROJECT_DIR$/out/artifacts/cuser6_war_exploded/js/ajaxRequests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/ajaxRequests.js" afterPath="$PROJECT_DIR$/web/js/ajaxRequests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java" afterPath="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java" afterPath="$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java" />
     </list>
     <ignored path="cuser6.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ajaxRequests.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajaxRequests.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/ajaxRequests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58787876">
-              <caret line="779" column="14" selection-start-line="779" selection-start-column="14" selection-end-line="779" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="779" column="5" selection-start-line="779" selection-start-column="5" selection-end-line="779" selection-end-column="5" />
               <folding>
                 <element signature="n#!!block;n#loadGettyImages#0" expanded="false" />
                 <element signature="e#17219#17531#0" expanded="false" />
@@ -59,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+              <caret line="126" column="47" selection-start-line="126" selection-start-column="47" selection-end-line="126" selection-end-column="49" />
               <folding>
                 <element signature="docComment;class#RdfRestApi#0" expanded="false" />
               </folding>
@@ -67,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RdfLocalManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RdfLocalManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="527" column="85" selection-start-line="527" selection-start-column="85" selection-end-line="527" selection-end-column="86" />
+            <state vertical-scroll-proportion="0.45909092">
+              <caret line="542" column="0" selection-start-line="542" selection-start-column="0" selection-end-line="542" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#writeMusicToRDF#0;class#RdfLocalManager#0" expanded="false" />
@@ -90,7 +90,7 @@
       <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.65384614">
               <caret line="135" column="65" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="65" />
               <folding />
             </state>
@@ -100,7 +100,7 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.65384614">
               <caret line="131" column="25" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
               <folding />
             </state>
@@ -161,10 +161,10 @@
         <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/util/RdfUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfManager.java" />
         <option value="$PROJECT_DIR$/web/main.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java" />
         <option value="$PROJECT_DIR$/web/css/main.css" />
-        <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java" />
         <option value="$PROJECT_DIR$/web/js/ajaxRequests.js" />
+        <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java" />
       </list>
     </option>
   </component>
@@ -824,7 +824,7 @@
       <workItem from="1454947368019" duration="91000" />
       <workItem from="1454947480674" duration="959000" />
       <workItem from="1454948457064" duration="31941000" />
-      <workItem from="1454995168443" duration="1175000" />
+      <workItem from="1454995168443" duration="3401000" />
     </task>
     <task id="LOCAL-00001" summary="first working version on aws">
       <created>1453110050197</created>
@@ -898,11 +898,17 @@
       <option name="project" value="LOCAL" />
       <updated>1454978664735</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Small UI fixes">
+      <created>1454996360808</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1454996360808</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192446000" />
+    <option name="totallyTimeSpent" value="194672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
@@ -994,7 +1000,8 @@
     <MESSAGE value="Added json support for rest endpoints for resources" />
     <MESSAGE value="Added visual menu loaded from Fuseki, changes in the UI, support with JS requests, UI interaction" />
     <MESSAGE value="Added resources to players" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added resources to players" />
+    <MESSAGE value="Small UI fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small UI fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1351,14 +1358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="131" column="25" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41033435">
@@ -1368,44 +1367,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-0.65384614">
           <caret line="135" column="65" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java">
+    <entry file="file://$PROJECT_DIR$/web/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;class#RdfRestApi#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="527" column="85" selection-start-line="527" selection-start-column="85" selection-end-line="527" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#writeMusicToRDF#0;class#RdfLocalManager#0" expanded="false" />
-            <element signature="method#readMusicFromRDF#0;class#RdfLocalManager#0" expanded="false" />
-            <element signature="method#writeVideosToRDF#0;class#RdfLocalManager#0" expanded="false" />
-            <element signature="method#readVideosFromRDF#0;class#RdfLocalManager#0" expanded="false" />
-            <element signature="method#saveNewMenuToRDF#0;class#RdfLocalManager#0" expanded="false" />
-            <element signature="method#readNewMenuFromRDF#0;class#RdfLocalManager#0" expanded="false" />
-            <element signature="method#readMusicFromFuseki#0;class#RdfLocalManager#0" expanded="false" />
-            <element signature="method#writeMenuToFuseki#0;class#RdfLocalManager#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="131" column="25" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/ajaxRequests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58787876">
-          <caret line="779" column="14" selection-start-line="779" selection-start-column="14" selection-end-line="779" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="779" column="5" selection-start-line="779" selection-start-column="5" selection-end-line="779" selection-end-column="5" />
           <folding>
             <element signature="n#!!block;n#loadGettyImages#0" expanded="false" />
             <element signature="e#17219#17531#0" expanded="false" />
@@ -1416,6 +1395,34 @@
             <marker date="1454996316144" expanded="true" signature="1684:1733" placeholder="..." />
             <marker date="1454996316144" expanded="true" signature="1738:1783" placeholder="..." />
             <marker date="1454996316144" expanded="true" signature="25347:25372" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="126" column="47" selection-start-line="126" selection-start-column="47" selection-end-line="126" selection-end-column="49" />
+          <folding>
+            <element signature="docComment;class#RdfRestApi#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45909092">
+          <caret line="542" column="0" selection-start-line="542" selection-start-column="0" selection-end-line="542" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#writeMusicToRDF#0;class#RdfLocalManager#0" expanded="false" />
+            <element signature="method#readMusicFromRDF#0;class#RdfLocalManager#0" expanded="false" />
+            <element signature="method#writeVideosToRDF#0;class#RdfLocalManager#0" expanded="false" />
+            <element signature="method#readVideosFromRDF#0;class#RdfLocalManager#0" expanded="false" />
+            <element signature="method#saveNewMenuToRDF#0;class#RdfLocalManager#0" expanded="false" />
+            <element signature="method#readNewMenuFromRDF#0;class#RdfLocalManager#0" expanded="false" />
+            <element signature="method#readMusicFromFuseki#0;class#RdfLocalManager#0" expanded="false" />
+            <element signature="method#writeMenuToFuseki#0;class#RdfLocalManager#0" expanded="false" />
           </folding>
         </state>
       </provider>
