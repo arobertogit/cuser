@@ -2,6 +2,7 @@ package fii.odiunu.request;
 
 import com.google.common.collect.Sets;
 import fii.odiunu.util.RdfUtil;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.jena.datatypes.xsd.XSDDatatype;
 import org.apache.jena.query.*;
 import org.apache.jena.rdf.model.*;
@@ -327,6 +328,9 @@ public class RdfLocalManager implements RdfManager {
     @Override
     public void writeMusicToFuseki(String country, String time, String type) {
 
+        if (!StringUtils.isAlphanumeric(country) || !StringUtils.isAlphanumeric(time) || !StringUtils.isAlphanumeric(type))
+            throw new RuntimeException("only alphanumeric values are allowed");
+
         String genre = "";
         switch (type) {
             case "business":
@@ -483,6 +487,9 @@ public class RdfLocalManager implements RdfManager {
     @Override
     public String readMusicFromFuseki(String country, String time, String type) {
 
+        if (!StringUtils.isAlphanumeric(country) || !StringUtils.isAlphanumeric(time) || !StringUtils.isAlphanumeric(type))
+            throw new RuntimeException("only alphanumeric values are allowed");
+
         final String resourceLink = "http://localhost:3030/resources/query";
         String q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>" +
                 "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
@@ -521,6 +528,9 @@ public class RdfLocalManager implements RdfManager {
 
     @Override
     public void writeVideosToFuseki(String country, String time, String type) {
+
+        if (!StringUtils.isAlphanumeric(country) || !StringUtils.isAlphanumeric(time) || !StringUtils.isAlphanumeric(type))
+            throw new RuntimeException("only alphanumeric values are allowed");
 
         String location = "";
         switch (country) {
@@ -668,6 +678,9 @@ public class RdfLocalManager implements RdfManager {
 
     @Override
     public String readVideosFromFuseki(String country, String time, String type) {
+
+        if (!StringUtils.isAlphanumeric(country) || !StringUtils.isAlphanumeric(time) || !StringUtils.isAlphanumeric(type))
+            throw new RuntimeException("only alphanumeric values are allowed");
 
         final String resourceLink = "http://localhost:3030/resources/query";
         String q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>" +
@@ -853,6 +866,9 @@ public class RdfLocalManager implements RdfManager {
     @Override
     public String searchInMenu(String id) {
 
+        if (!StringUtils.isAlphanumeric(id))
+            throw new RuntimeException("only alphanumeric values are allowed");
+
         Model model = ModelFactory.createDefaultModel();
 
         final String resourceLink = "http://localhost:3030/resources/query";
@@ -897,6 +913,9 @@ public class RdfLocalManager implements RdfManager {
 
     @Override
     public String searchInMenu(String criteria, String toSearch) {
+
+        if (!StringUtils.isAlphanumeric(criteria) || !StringUtils.isAlphanumeric(toSearch))
+            throw new RuntimeException("only alphanumeric values are allowed");
 
         Model model = ModelFactory.createDefaultModel();
 
