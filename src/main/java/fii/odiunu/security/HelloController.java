@@ -41,7 +41,7 @@ public class HelloController {
     @RequestMapping(value = {"/pages/main"}, method = RequestMethod.GET)
     public String main(ModelMap model) {
         model.addAttribute("user", getPrincipal());
-        return "pages/main.jsp";
+        return "/pages/main.jsp";
     }
 
     @RequestMapping(value = "/admin", method = RequestMethod.GET)

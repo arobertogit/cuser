@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Login page</title>
+    <title>Register page</title>
     <link href="<c:url value='/resources/css/bootstrap.min.css' />"  rel="stylesheet"/>
     <link href="<c:url value='/resources/css/app.css' />" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css" />

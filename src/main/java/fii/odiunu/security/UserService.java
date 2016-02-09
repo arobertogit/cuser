@@ -66,6 +66,7 @@ public class UserService {
         try {
             List<String> strings = Files.readAllLines(Paths.get(USERS_TXT));
             strings.add(username + splitter + password + splitter + roleUser.toString());
+            Files.deleteIfExists(Paths.get(USERS_TXT));
             Files.write(Paths.get(USERS_TXT),
                         strings,
                         StandardOpenOption.CREATE_NEW);
