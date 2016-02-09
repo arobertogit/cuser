@@ -1,7 +1,5 @@
 package fii.odiunu.request;
 
-import java.util.List;
-
 /**
  * Created by ojrobert on 1/28/2016.
  */
@@ -41,5 +39,4 @@ public interface RdfManager {
 
     String readMenuFromFuseki();
 
-    String test();
 }

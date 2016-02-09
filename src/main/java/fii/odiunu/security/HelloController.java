@@ -20,16 +20,10 @@ public class HelloController {
     @Autowired
     private UserService userService;
 
-//    @RequestMapping(value = {"/", "/home"}, method = RequestMethod.GET)
-//    public String homePage(ModelMap model) {
-//        model.addAttribute("user", getPrincipal());
-//        return "welcome.jsp";
-//    }
-
-    @RequestMapping(value = {"/", "/pages/main"}, method = RequestMethod.GET)
-    public String main(ModelMap model) {
+    @RequestMapping(value = {"/", "/home"}, method = RequestMethod.GET)
+    public String homePage(ModelMap model) {
         model.addAttribute("user", getPrincipal());
-        return "pages/main.jsp";
+        return "redirect:/pages/main";
     }
 
     private String getPrincipal() {
@@ -42,6 +36,12 @@ public class HelloController {
             userName = principal.toString();
         }
         return userName;
+    }
+
+    @RequestMapping(value = {"/pages/main"}, method = RequestMethod.GET)
+    public String main(ModelMap model) {
+        model.addAttribute("user", getPrincipal());
+        return "pages/main.jsp";
     }
 
     @RequestMapping(value = "/admin", method = RequestMethod.GET)
