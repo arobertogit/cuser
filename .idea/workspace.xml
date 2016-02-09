@@ -10,14 +10,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b8d305c2-3cc7-4693-ac07-c8c07eb808f1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/cuser6_war_exploded/css/main.css" afterPath="$PROJECT_DIR$/out/artifacts/cuser6_war_exploded/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/cuser6_war_exploded/js/ajaxRequests.js" afterPath="$PROJECT_DIR$/out/artifacts/cuser6_war_exploded/js/ajaxRequests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/cuser6_war_exploded/main.jsp" afterPath="$PROJECT_DIR$/out/artifacts/cuser6_war_exploded/main.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java" afterPath="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java" afterPath="$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/main.css" afterPath="$PROJECT_DIR$/web/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/ajaxRequests.js" afterPath="$PROJECT_DIR$/web/js/ajaxRequests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/main.jsp" afterPath="$PROJECT_DIR$/web/main.jsp" />
     </list>
     <ignored path="cuser6.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,22 +35,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ajaxRequests.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ajaxRequests.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/js/ajaxRequests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="841" column="42" selection-start-line="841" selection-start-column="42" selection-end-line="841" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.58787876">
+              <caret line="779" column="14" selection-start-line="779" selection-start-column="14" selection-end-line="779" selection-end-column="14" />
               <folding>
                 <element signature="n#!!block;n#loadGettyImages#0" expanded="false" />
                 <element signature="e#17219#17531#0" expanded="false" />
-                <element signature="n#!!block;n#addToOrder#0" expanded="false" />
-                <element signature="n#!!block;n#removeFromOrder#0" expanded="false" />
-                <element signature="n#!!block;n#refreshHiddenInput#0" expanded="false" />
-                <marker date="1454978188613" expanded="true" signature="1578:1642" placeholder="..." />
-                <marker date="1454978188613" expanded="true" signature="1669:1683" placeholder="..." />
-                <marker date="1454978188613" expanded="true" signature="1684:1733" placeholder="..." />
-                <marker date="1454978188613" expanded="true" signature="1738:1783" placeholder="..." />
-                <marker date="1454978188613" expanded="true" signature="26011:26036" placeholder="..." />
+                <element signature="n#!!block;n#requestNewVideoLinks#0" expanded="false" />
+                <element signature="n#!!block;n#suggestionsIntoMusic#0" expanded="false" />
+                <marker date="1454996316144" expanded="true" signature="1578:1642" placeholder="..." />
+                <marker date="1454996316144" expanded="true" signature="1669:1683" placeholder="..." />
+                <marker date="1454996316144" expanded="true" signature="1684:1733" placeholder="..." />
+                <marker date="1454996316144" expanded="true" signature="1738:1783" placeholder="..." />
+                <marker date="1454996316144" expanded="true" signature="25347:25372" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -74,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RdfLocalManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RdfLocalManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.030303031">
-              <caret line="387" column="37" selection-start-line="387" selection-start-column="37" selection-end-line="387" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="527" column="85" selection-start-line="527" selection-start-column="85" selection-end-line="527" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#writeMusicToRDF#0;class#RdfLocalManager#0" expanded="false" />
@@ -97,11 +90,9 @@
       <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.527273">
+            <state vertical-scroll-proportion="0.0">
               <caret line="135" column="65" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="65" />
-              <folding>
-                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,7 +100,7 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0365853">
+            <state vertical-scroll-proportion="0.0">
               <caret line="131" column="25" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
               <folding />
             </state>
@@ -171,8 +162,8 @@
         <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfManager.java" />
         <option value="$PROJECT_DIR$/web/main.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java" />
         <option value="$PROJECT_DIR$/web/css/main.css" />
+        <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java" />
         <option value="$PROJECT_DIR$/web/js/ajaxRequests.js" />
       </list>
     </option>
@@ -217,7 +208,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -230,63 +221,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cuser6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cuser6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cuser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cuser6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cuser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cuser6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cuser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
@@ -888,7 +823,8 @@
       <workItem from="1454828147547" duration="17081000" />
       <workItem from="1454947368019" duration="91000" />
       <workItem from="1454947480674" duration="959000" />
-      <workItem from="1454948457064" duration="29839000" />
+      <workItem from="1454948457064" duration="31941000" />
+      <workItem from="1454995168443" duration="1175000" />
     </task>
     <task id="LOCAL-00001" summary="first working version on aws">
       <created>1453110050197</created>
@@ -956,11 +892,17 @@
       <option name="project" value="LOCAL" />
       <updated>1454848761944</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added resources to players">
+      <created>1454978664735</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1454978664735</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189169000" />
+    <option name="totallyTimeSpent" value="192446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
@@ -982,7 +924,6 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2457627" sideWeight="0.491453" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15125" sideWeight="0.508547" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -995,6 +936,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="100" y="100" width="759" height="840" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1051,7 +993,8 @@
     <MESSAGE value="Added mappings for new endpoints and changed methods" />
     <MESSAGE value="Added json support for rest endpoints for resources" />
     <MESSAGE value="Added visual menu loaded from Fuseki, changes in the UI, support with JS requests, UI interaction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added visual menu loaded from Fuseki, changes in the UI, support with JS requests, UI interaction" />
+    <MESSAGE value="Added resources to players" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added resources to players" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1066,7 +1009,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="72" />
+      <option name="time" value="73" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -1410,7 +1353,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0365853">
+        <state vertical-scroll-proportion="0.0">
           <caret line="131" column="25" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
           <folding />
         </state>
@@ -1420,36 +1363,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41033435">
           <caret line="739" column="2" selection-start-line="739" selection-start-column="0" selection-end-line="739" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.527273">
-          <caret line="135" column="65" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="65" />
-          <folding>
-            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/ajaxRequests.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="841" column="42" selection-start-line="841" selection-start-column="42" selection-end-line="841" selection-end-column="42" />
-          <folding>
-            <element signature="n#!!block;n#loadGettyImages#0" expanded="false" />
-            <element signature="e#17219#17531#0" expanded="false" />
-            <element signature="n#!!block;n#addToOrder#0" expanded="false" />
-            <element signature="n#!!block;n#removeFromOrder#0" expanded="false" />
-            <element signature="n#!!block;n#refreshHiddenInput#0" expanded="false" />
-            <marker date="1454978188613" expanded="true" signature="1578:1642" placeholder="..." />
-            <marker date="1454978188613" expanded="true" signature="1669:1683" placeholder="..." />
-            <marker date="1454978188613" expanded="true" signature="1684:1733" placeholder="..." />
-            <marker date="1454978188613" expanded="true" signature="1738:1783" placeholder="..." />
-            <marker date="1454978188613" expanded="true" signature="26011:26036" placeholder="..." />
-          </folding>
+          <caret line="135" column="65" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1465,8 +1386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.030303031">
-          <caret line="387" column="37" selection-start-line="387" selection-start-column="37" selection-end-line="387" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="527" column="85" selection-start-line="527" selection-start-column="85" selection-end-line="527" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#writeMusicToRDF#0;class#RdfLocalManager#0" expanded="false" />
@@ -1477,6 +1398,24 @@
             <element signature="method#readNewMenuFromRDF#0;class#RdfLocalManager#0" expanded="false" />
             <element signature="method#readMusicFromFuseki#0;class#RdfLocalManager#0" expanded="false" />
             <element signature="method#writeMenuToFuseki#0;class#RdfLocalManager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/ajaxRequests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58787876">
+          <caret line="779" column="14" selection-start-line="779" selection-start-column="14" selection-end-line="779" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!block;n#loadGettyImages#0" expanded="false" />
+            <element signature="e#17219#17531#0" expanded="false" />
+            <element signature="n#!!block;n#requestNewVideoLinks#0" expanded="false" />
+            <element signature="n#!!block;n#suggestionsIntoMusic#0" expanded="false" />
+            <marker date="1454996316144" expanded="true" signature="1578:1642" placeholder="..." />
+            <marker date="1454996316144" expanded="true" signature="1669:1683" placeholder="..." />
+            <marker date="1454996316144" expanded="true" signature="1684:1733" placeholder="..." />
+            <marker date="1454996316144" expanded="true" signature="1738:1783" placeholder="..." />
+            <marker date="1454996316144" expanded="true" signature="25347:25372" placeholder="..." />
           </folding>
         </state>
       </provider>

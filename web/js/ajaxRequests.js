@@ -654,27 +654,21 @@ function addToOrder(id, servingTime) {
 
     var orderFood = document.getElementById("order-food");
 
-    var existsCountry = document.getElementById("country");
-
-    if (existsCountry == null) {
         var countryInput = document.createElement('input');
         countryInput.setAttribute("type", "hidden");
         countryInput.setAttribute("id", "country");
+        countryInput.setAttribute("class","country" + id);
         countryInput.setAttribute("name", "country");
         countryInput.setAttribute("value", span.innerHTML);
         orderFood.appendChild(countryInput);
-    }
 
-    var existsType = document.getElementById("type");
-
-    if (existsType == null) {
         var typeOfMealInput = document.createElement('input');
         typeOfMealInput.setAttribute("type", "hidden");
         typeOfMealInput.setAttribute("id", "type");
+        typeOfMealInput.setAttribute("class","type" + id);
         typeOfMealInput.setAttribute("name", "type");
         typeOfMealInput.setAttribute("value", typeOfMeal);
         orderFood.appendChild(typeOfMealInput);
-    }
 }
 
 function removeFromOrder(id, servingTime) {
@@ -694,49 +688,12 @@ function removeFromOrder(id, servingTime) {
     typeOfMenuCategory.appendChild(menuEntry);
 
     var orderFood = document.getElementById("order-food");
-    var numberOfItemsInCart = document.getElementById("order-area").childNodes.length;
 
-    var number1 = (2 * numberOfItemsInCart) - 1;
-    var number2 = 2 * numberOfItemsInCart;
-    var typeOfMealInput = orderFood.childNodes[5];
+    var countryInput = document.getElementsByClassName("country" + id)[0];
+    var typeInput = document.getElementsByClassName("type" + id)[0];
 
-
-}
-
-function refreshHiddenInput() {
-
-    var menuEntry = document.getElementById("menu-entry-" + id);
-    var typeOfMeal = servingTime.id;
-    menuEntry.setAttribute("typeOfMeal", typeOfMeal);
-    var titleAndBody = menuEntry.childNodes;
-    var title = titleAndBody[0].childNodes;
-    var body = titleAndBody[1].childNodes;
-
-    var span = body[1];
-
-
-    var orderArea = document.getElementById("order-area");
-
-    var typeOfMealInput = document.getElementById('type');
-    var countryInput = document.getElementById('country');
-
-    orderFood.removeChild(typeOfMealInput);
     orderFood.removeChild(countryInput);
-
-    var typeOfMealInput = document.createElement('input');
-    typeOfMealInput.setAttribute("type", "hidden");
-    typeOfMealInput.setAttribute("id", "type");
-    typeOfMealInput.setAttribute("name", "type");
-    typeOfMealInput.setAttribute("value", typeOfMeal);
-    orderFood.appendChild(typeOfMealInput);
-
-    var countryInput = document.createElement('input');
-    countryInput.setAttribute("type", "hidden");
-    countryInput.setAttribute("id", "country");
-    countryInput.setAttribute("name", "country");
-    countryInput.setAttribute("value", span.innerHTML);
-    orderFood.appendChild(countryInput);
-
+    orderFood.removeChild(typeInput);
 
 }
 
@@ -761,16 +718,25 @@ $("#requestRecommendations").click(function () {
     videos.className = "tab-pane fade active in";
 
     var videosTopMenu = document.getElementById("videosTopMenu");
-    var badgeSpanVideos = document.createElement('span');
-    badgeSpanVideos.className = "badge";
-    badgeSpanVideos.innerHTML = "!!";
-    videosTopMenu.appendChild(badgeSpanVideos);
+
+    if(document.getElementById("badge-videos") == null) {
+        var badgeSpanVideos = document.createElement('span');
+        badgeSpanVideos.id = "badge-videos"
+        badgeSpanVideos.className = "badge";
+        badgeSpanVideos.innerHTML = "!!";
+        videosTopMenu.appendChild(badgeSpanVideos);
+    }
 
     var musicTopMenu = document.getElementById("musicTopMenu");
-    var badgeSpanMusic = document.createElement('span');
-    badgeSpanMusic.className = "badge";
-    badgeSpanMusic.innerHTML = "!!";
-    musicTopMenu.appendChild(badgeSpanMusic);
+
+    if(document.getElementById("badge-music") == null) {
+
+        var badgeSpanMusic = document.createElement('span');
+        badgeSpanMusic.className = "badge";
+        badgeSpanMusic.id = "badge-music";
+        badgeSpanMusic.innerHTML = "!!";
+        musicTopMenu.appendChild(badgeSpanMusic);
+    }
 
     var nextVideoSuggestion = document.getElementById("nextVideoSuggestion");
     if (nextVideoSuggestion == null) {
@@ -800,6 +766,19 @@ $("#requestRecommendations").click(function () {
 
 });
 
+$("#musicTopMenu").click(function(){
+   var badge = document.getElementById("badge-music");
+    var musicMenu = document.getElementById("musicTopMenu");
+
+    musicMenu.removeChild(badge);
+});
+
+$("#videosTopMenu").click(function(){
+    var badge = document.getElementById("badge-videos");
+    var videosMenu = document.getElementById("videosTopMenu");
+
+    videosMenu.removeChild(badge);
+});
 
 function requestNewSongLinks() {
 
@@ -829,7 +808,7 @@ function requestNewSongLinks() {
 
 function requestNewVideoLinks() {
 
-    var country = document.getElementById("country").getAttribute("value");
+    var country = document.getElementById("country").getAttribute("value")[0];
     var type = document.getElementById("type").getAttribute("value");
     var select = document.getElementById("typeOfOccasion");
     var typeOfOccasion = select.options[select.selectedIndex].value;
