@@ -117,7 +117,7 @@
 }
 
 #inner-nav-numbers {
-	width: 273px;
+	width: 274px;
 	border: none;
 	margin: 0 auto;
 	margin-top: 30px;
@@ -163,4 +163,8 @@ li img{
 
 .panel-title-position{
 	float: left;
+}
+
+.spacing{
+	margin-top:2%;
 }

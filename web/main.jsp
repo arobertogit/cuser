@@ -33,14 +33,10 @@
 <div class="tab-content">
     <div class="tab-pane fade active in" id="menu">
         <ul id="inner-nav-menu" class="nav nav-tabs">
-            <li class="inner-menu active"><a href="#breakfast"
-                                             data-toggle="tab" aria-expanded="true">Breakfast</a></li>
-            <li class="inner-menu"><a href="#lunch" data-toggle="tab"
-                                      aria-expanded="false">Lunch</a></li>
-            <li class="inner-menu"><a href="#dinner" data-toggle="tab"
-                                      aria-expanded="false">Dinner</a></li>
-            <li class="inner-menu"><a href="#order" data-toggle="tab"
-                                      aria-expanded="false">Finish Order</a></li>
+            <li class="inner-menu active"><a href="#breakfast" data-toggle="tab" aria-expanded="true">Breakfast</a></li>
+            <li class="inner-menu"><a href="#lunch" data-toggle="tab" aria-expanded="false">Lunch</a></li>
+            <li class="inner-menu"><a href="#dinner" data-toggle="tab" aria-expanded="false">Dinner</a></li>
+            <li class="inner-menu"><a href="#order" data-toggle="tab" aria-expanded="false">Finish Order</a></li>
         </ul>
         <div class="tab-content">
                 <div class="tab-pane fade active in" id="breakfast">
@@ -100,11 +96,12 @@
     </div>
 
     <div class="tab-pane fade" id="videos">
-        <div class="alert alert-success own-area">
+        <div class="alert alert-success own-area" id="videoParent">
             <div id="putTheVideoHere"></div>
             <div id="videoError"></div>
+            <input value="0" type="hidden" id="videoCounter"/>
             <select name="YTsearch" id="YTsearchList" class="form-control"></select>
-            <button id="nextVideo" class="btn btn-default next-button">Next</button>
+            <button id="nextVideo" class="btn btn-default next-button">Next by category</button>
         </div>
     </div>
 
@@ -136,7 +133,7 @@
     </div>
 
     <div class="tab-pane fade" id="music">
-        <div class="alert alert-success own-area">
+        <div class="alert alert-success own-area" id="musicParent">
             <div id="putTheWidgetHere"></div>
             <div id="musicError"></div>
             <select name="genre" id="genreList" class="form-control"></select>
@@ -284,8 +281,24 @@
             <div class="tab-pane fade active in" id="music-area">
                 <div class="alert alert-success own-area">
                     <h3>Music Api</h3>
-                    <form method="get" action="/rdf/writeMusic">
-                        <input name="keyword" type="text" class="form-control" placeholder="Type a keyword"/>
+                    <form method="get" action="/rdf/getMusicLinks">
+                        <input name="country" type="text" class="form-control spacing" placeholder="Type a country's name"/>
+
+                        <label>Pick a type of meal:</label>
+                        <select name="time" class="form-control spacing">
+                            <option>breakfast</option>
+                            <option>lunch</option>
+                            <option>dinner</option>
+                        </select>
+
+                        <label>Pick a type of occasion:</label>
+                        <select name="type" class="form-control spacing">
+                            <option>business</option>
+                            <option>family</option>
+                            <option>date</option>
+                            <option>single</option>
+                        </select>
+
                         <input type="submit" class="btn btn-primary next-button">
                     </form>
                 </div>
@@ -293,8 +306,24 @@
             <div class="tab-pane fade" id="video-area">
                 <div class="alert alert-success own-area">
                     <h3>Videos Api</h3>
-                    <form method="get" action="/rdf/writeMusic">
-                        <input name="keyword" type="text" class="form-control" placeholder="Type a keyword"/>
+                    <form method="get" action="/rdf/getVideoLinks">
+                        <input name="country" type="text" class="form-control spacing" placeholder="Type a country's name"/>
+
+                        <label>Pick a type of meal:</label>
+                        <select name="time" class="form-control spacing">
+                            <option>breakfast</option>
+                            <option>lunch</option>
+                            <option>dinner</option>
+                        </select>
+
+                        <label>Pick a type of occasion:</label>
+                        <select name="type" class="form-control spacing">
+                            <option>business</option>
+                            <option>family</option>
+                            <option>date</option>
+                            <option>single</option>
+                        </select>
+
                         <input type="submit" class="btn btn-primary next-button">
                     </form>
                 </div>
@@ -302,9 +331,8 @@
             <div class="tab-pane fade" id="menu-area">
                 <div class="alert alert-success own-area">
                     <h3>Menu Api</h3>
-                    <form method="get" action="/rdf/writeMenu">
-                        <input name="keyword" type="text" class="form-control" placeholder="Type a keyword"/>
-                        <input type="submit" class="btn btn-primary next-button">
+                    <form method="get" action="/rdf/getMenuToHTML">
+                        <input type="submit" class="btn btn-primary next-button" value="Get">
                     </form>
                 </div>
             </div>

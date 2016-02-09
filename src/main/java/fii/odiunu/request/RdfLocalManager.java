@@ -327,6 +327,62 @@ public class RdfLocalManager implements RdfManager {
     @Override
     public void writeMusicToFuseki(String country, String time, String type) {
 
+        String genre = "";
+        switch (type) {
+            case "business":
+                switch (time) {
+                    case "breakfast":
+                        genre = "&genre=classical";
+                        break;
+                    case "lunch":
+                        genre = "&genre=opera";
+                        break;
+                    case "dinner":
+                        genre = "&genre=choral";
+                        break;
+                }
+                break;
+            case "family":
+                switch (time) {
+                    case "breakfast":
+                        genre = "&genres=blues";
+                        break;
+                    case "lunch":
+                        genre = "&genres=country";
+                        break;
+                    case "dinner":
+                        genre = "&genres=pop";
+                        break;
+                }
+                break;
+            case "date":
+                switch (time) {
+                    case "breakfast":
+                        genre = "&genres=blues";
+                        break;
+                    case "lunch":
+                        genre = "&genres=jazz";
+                        break;
+                    case "dinner":
+                        genre = "&genres=tango";
+                        break;
+                }
+                break;
+            case "single":
+                switch (time) {
+                    case "breakfast":
+                        genre = "&genres=pop";
+                        break;
+                    case "lunch":
+                        genre = "&genres=hip hop";
+                        break;
+                    case "dinner":
+                        genre = "&genres=dance";
+                        break;
+                }
+                break;
+        }
+
         JSONArray jsonArray = new JSONArray();
         JSONObject jsonObj;
         String line, linkToSong = "";
@@ -356,7 +412,7 @@ public class RdfLocalManager implements RdfManager {
         model.setNsPrefix("music", nsPrefix);
 
         try {
-            URL url = new URL("http://api.soundcloud.com/tracks?client_id=ffcaccc2a3bf0998c26d5a980a8b8607&q=" + country + "+" + time + "+" + type +  "&limit=50");
+            URL url = new URL("http://api.soundcloud.com/tracks?client_id=ffcaccc2a3bf0998c26d5a980a8b8607&limit=50" + genre);
             BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
             while ((line = br.readLine()) != null) {
 
@@ -396,18 +452,18 @@ public class RdfLocalManager implements RdfManager {
                     music.addProperty(p8, vtype, XSDDatatype.XSDstring);
 
                     String UPDATE_Query =
-                            "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"+
-                                    "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"+
+                            "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>" +
+                                    "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
                                     "PREFIX m: <https://schema.org/AudioObject#> "
                                     + "INSERT DATA"
-                                    + "{ <"+nsPrefix + musicURL.substring(23)+">    m:title    \""+titleOfMusic.replaceAll("\r","").replaceAll("\"","").replaceAll("\n","")+"\" ;"
-                                    + "                         m:description  \""+description.replaceAll("\r","").replaceAll("\"","").replaceAll("\n","")+"\" ;"
-                                    + "								m:url    \""+musicURL+"\" ;"
-                                    + "								m:id    \""+musicId+"\" ;"
-                                    + "								m:genre    \""+musicGenre+"\" ;"
-                                    + "								m:country    \""+vcountry+"\" ;"
-                                    + "								m:time    \""+vtime+"\" ;"
-                                    + "								m:type    \""+vtype+"\" ;"
+                                    + "{ <" + nsPrefix + musicURL.substring(23) + ">    m:title    \"" + titleOfMusic.replaceAll("\r", "").replaceAll("\"", "").replaceAll("\n", "") + "\" ;"
+                                    + "                         m:description  \"" + description.replaceAll("\r", "").replaceAll("\"", "").replaceAll("\n", "") + "\" ;"
+                                    + "								m:url    \"" + musicURL + "\" ;"
+                                    + "								m:id    \"" + musicId + "\" ;"
+                                    + "								m:genre    \"" + musicGenre + "\" ;"
+                                    + "								m:country    \"" + vcountry + "\" ;"
+                                    + "								m:time    \"" + vtime + "\" ;"
+                                    + "								m:type    \"" + vtype + "\" ;"
                                     + "." + "}   ";
                     System.out.println(UPDATE_Query);
                     UpdateProcessor upp = UpdateExecutionFactory.createRemote(
@@ -425,17 +481,17 @@ public class RdfLocalManager implements RdfManager {
     }
 
     @Override
-    public String readMusicFromFuseki(String country, String time, String type){
+    public String readMusicFromFuseki(String country, String time, String type) {
 
         final String resourceLink = "http://localhost:3030/resources/query";
-        String q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"+
-                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"+
-                "PREFIX : <https://schema.org/AudioObject#> "+
-                "SELECT ?id WHERE {"+
-                " { ?id :type \"" + type + "\" }"+
-                " { ?id :time \"" + time + "\" }"+
-                " { ?id :country \"" + country + "\" }"+
-                "}"+
+        String q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>" +
+                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
+                "PREFIX : <https://schema.org/AudioObject#> " +
+                "SELECT ?id WHERE {" +
+                " { ?id :type \"" + type + "\" }" +
+                " { ?id :time \"" + time + "\" }" +
+                " { ?id :country \"" + country + "\" }" +
+                "}" +
                 "LIMIT 50";
 
         String nsPrefix = "https://schema.org/VideoObject#";
@@ -453,8 +509,8 @@ public class RdfLocalManager implements RdfManager {
 
                 String idValue = s.asResource().getURI().substring(31);
                 Resource resource = model.createResource();
-                Property p1 = model.createProperty(nsPrefix,"id");
-                resource.addProperty(p1,idValue);
+                Property p1 = model.createProperty(nsPrefix, "id");
+                resource.addProperty(p1, idValue);
             }
         }
         model.setNsPrefix("music", nsPrefix);
@@ -466,42 +522,54 @@ public class RdfLocalManager implements RdfManager {
     @Override
     public void writeVideosToFuseki(String country, String time, String type) {
 
-		String location = "";
-		switch(country){
-		case "Germany":
-			location = "&location=37.42307%2C+-13.404953999999975&locationRadius=500km";
-			break;
-		case "Italy":
-			location = "&location=41.8724111%2C+-12.48022489999994&locationRadius=500km";
-			break;
-		case "Spain":
-			location = "&location=40.4167754%2C+-3.7037901999999576&locationRadius=500km";
-			break;
-		case "Paris":
-			location = "&location=48.85661400000001%2C+2.3522219000000177&locationRadius=500km";
-			break;
-		case "Romania":
-			location = "&location=44.4267674%2C+26.102538399999958&locationRadius=500km";
-			break;
-		}
-		
-		String queryType = "";
-		
-		switch (type){
-		case "business":
-			queryType = "&safeSearch=strict";
-			break;
-		case "date":
-			queryType ="&safeSearch=moderate";
-			break;
-		default:
-			queryType = "&safeSearch=none";
-			break;
-		}
-		
+        String location = "";
+        switch (country) {
+            case "Germany":
+                location = "&location=37.42307%2C+-13.404953999999975&locationRadius=500km";
+                break;
+            case "Italy":
+                location = "&location=41.8724111%2C+-12.48022489999994&locationRadius=500km";
+                break;
+            case "Spain":
+                location = "&location=40.4167754%2C+-3.7037901999999576&locationRadius=500km";
+                break;
+            case "Paris":
+                location = "&location=48.85661400000001%2C+2.3522219000000177&locationRadius=500km";
+                break;
+            case "Romania":
+                location = "&location=44.4267674%2C+26.102538399999958&locationRadius=500km";
+                break;
+        }
+
+        String queryType = "";
+        String videoDefinition = "";
+
+        switch (type) {
+            case "business": {
+                queryType = "&safeSearch=strict";
+                videoDefinition = "&videoDefinition=high";
+                break;
+            }
+            case "date": {
+                queryType = "&safeSearch=moderate";
+                videoDefinition = "&videoDefinition=standard";
+                break;
+            }
+            case "family": {
+                queryType = "&safeSearch=strict";
+                videoDefinition = "&videoDefinition=any";
+                break;
+            }
+            default: {
+                queryType = "&safeSearch=none";
+                videoDefinition = "&videoDefinition=any";
+                break;
+            }
+        }
+
         String api_key = "AIzaSyCZO2nHBNMSGgRg4VHMZ9P8dWT0H23J-Fc";
         String yt_url = "https://www.googleapis.com/youtube/v3/search?part=snippet&q="
-                         + "+" + time + queryType + location + "&type=video&videoCaption=closedCaption&key=" + api_key + "&format=5&maxResults=10&v=2";
+                + "+" + time + queryType + location + "&type=video&videoCaption=closedCaption&key=" + api_key + "&format=5&maxResults=10&v=2" + videoDefinition;
         String line = "", stringArray;
         StringBuilder stringArrayBuilder = new StringBuilder();
 
@@ -565,17 +633,17 @@ public class RdfLocalManager implements RdfManager {
                 video.addProperty(p7, vtype, XSDDatatype.XSDstring);
 
                 String UPDATE_Query =
-                        "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"+
-                                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"+
+                        "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>" +
+                                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
                                 "PREFIX v: <https://schema.org/VideoObject#> "
                                 + "INSERT DATA"
-                                + "{ <"+nsPrefix + videoId+">    v:title    \""+titleOfVideo.replace("\"", "") +"\" ;"
-                                + "                             v:description  \""+description.replace("\"", "")+"\" ;"
-                                + "								v:thumbnail    \""+thumbnailURL+"\" ;"
-                                + "								v:id    \""+videoId+"\" ;"
-                                + "								v:country    \""+vcountry+"\" ;"
-                                + "								v:time    \""+vtime+"\" ;"
-                                + "								v:type    \""+vtype+"\" ;"
+                                + "{ <" + nsPrefix + videoId + ">    v:title    \"" + titleOfVideo.replace("\"", "") + "\" ;"
+                                + "                             v:description  \"" + description.replace("\"", "") + "\" ;"
+                                + "								v:thumbnail    \"" + thumbnailURL + "\" ;"
+                                + "								v:id    \"" + videoId + "\" ;"
+                                + "								v:country    \"" + vcountry + "\" ;"
+                                + "								v:time    \"" + vtime + "\" ;"
+                                + "								v:type    \"" + vtype + "\" ;"
                                 + "." + "}   ";
 
                 UpdateProcessor upp = UpdateExecutionFactory.createRemote(
@@ -594,17 +662,17 @@ public class RdfLocalManager implements RdfManager {
     }
 
     @Override
-    public String readVideosFromFuseki(String country, String time, String type){
+    public String readVideosFromFuseki(String country, String time, String type) {
 
         final String resourceLink = "http://localhost:3030/resources/query";
-        String q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"+
-                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"+
-                "PREFIX : <https://schema.org/VideoObject#> "+
-                "SELECT ?id WHERE {"+
-                " { ?id :type \"" + type + "\" }"+
-                " { ?id :time \"" + time + "\" }"+
-                " { ?id :country \"" + country + "\" }"+
-                "}"+
+        String q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>" +
+                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
+                "PREFIX : <https://schema.org/VideoObject#> " +
+                "SELECT ?id WHERE {" +
+                " { ?id :type \"" + type + "\" }" +
+                " { ?id :time \"" + time + "\" }" +
+                " { ?id :country \"" + country + "\" }" +
+                "}" +
                 "LIMIT 50";
 
         String nsPrefix = "https://schema.org/VideoObject#";
@@ -623,8 +691,8 @@ public class RdfLocalManager implements RdfManager {
             if (s.isResource()) {
                 String idValue = s.asResource().getURI().substring(31).replace("video", "");
                 Resource resource = model.createResource();
-                Property p1 = model.createProperty(nsPrefix,"id");
-                resource.addProperty(p1,idValue);
+                Property p1 = model.createProperty(nsPrefix, "id");
+                resource.addProperty(p1, idValue);
             }
         }
 
@@ -634,31 +702,31 @@ public class RdfLocalManager implements RdfManager {
 
     @Override
     public void writeMenuToFuseki(String id, String arrivalTime, String servingTime, String menuType, String title, String picture,
-                                 String description, String ingredientList, String country) {
+                                  String description, String ingredientList, String country) {
 
         String nsPrefix = "https://schema.org/Recipe#";
-                    
 
-        String UPDATE_Query = 
-                "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"+
-				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"+
-				"PREFIX r: <https://schema.org/Recipe#> "
-                + "INSERT DATA"
-                + "{ <"+nsPrefix + id+">    r:id    \""+id+"\" ;"
-                + "                         r:arrivalTime  \""+arrivalTime+"\" ;"
-                + "								r:servingTime    \""+servingTime+"\" ;"
-                + "								r:menuType    \""+menuType+"\" ;"
-                + "								r:title    \""+title+"\" ;"
-                + "								r:picture    \""+picture+"\" ;"
-                + "								r:description    \""+description+"\" ;"
-                + "								r:ingredientList    \""+ingredientList+"\" ;"
-                        + "						r:country    \""+country+"\" ;"
-                + "." + "}   ";
 
-		UpdateProcessor upp = UpdateExecutionFactory.createRemote(
-				UpdateFactory.create(UPDATE_Query), 
-				"http://localhost:3030/resources/update");
-		upp.execute();
+        String UPDATE_Query =
+                "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>" +
+                        "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>" +
+                        "PREFIX r: <https://schema.org/Recipe#> "
+                        + "INSERT DATA"
+                        + "{ <" + nsPrefix + id + ">    r:id    \"" + id + "\" ;"
+                        + "                         r:arrivalTime  \"" + arrivalTime + "\" ;"
+                        + "								r:servingTime    \"" + servingTime + "\" ;"
+                        + "								r:menuType    \"" + menuType + "\" ;"
+                        + "								r:title    \"" + title + "\" ;"
+                        + "								r:picture    \"" + picture + "\" ;"
+                        + "								r:description    \"" + description + "\" ;"
+                        + "								r:ingredientList    \"" + ingredientList + "\" ;"
+                        + "						r:country    \"" + country + "\" ;"
+                        + "." + "}   ";
+
+        UpdateProcessor upp = UpdateExecutionFactory.createRemote(
+                UpdateFactory.create(UPDATE_Query),
+                "http://localhost:3030/resources/update");
+        upp.execute();
 
     }
 
@@ -667,36 +735,35 @@ public class RdfLocalManager implements RdfManager {
     public String readMenuFromFuseki() {
 
         Set<String> ids = new HashSet();
-		
-		final String resourceLink = "http://localhost:3030/resources/query";
-		String q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> "+
-					"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> "+
-					"PREFIX : <https://schema.org/Recipe#> "+
-					"SELECT ?c WHERE {"+
-					" { ?a :id ?c "+
- 					" }"+
-					"}"+
-					"LIMIT 50";			
 
-		Query query = QueryFactory.create(q);
-		QueryExecution qexec = QueryExecutionFactory.sparqlService(resourceLink, query);
-		ResultSet results = qexec.execSelect();			
-		
-		while (results.hasNext()) {
-			QuerySolution qs = results.next();
-			RDFNode s;
-			s= qs.get("c");
-			String foodId="";
-			if (s.isLiteral()) {
-				foodId = s.asLiteral().getString();
-			}
-			ids.add(foodId);
-		}
-		
+        final String resourceLink = "http://localhost:3030/resources/query";
+        String q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> " +
+                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
+                "PREFIX : <https://schema.org/Recipe#> " +
+                "SELECT ?c WHERE {" +
+                " { ?a :id ?c " +
+                " }" +
+                "}" +
+                "LIMIT 50";
+
+        Query query = QueryFactory.create(q);
+        QueryExecution qexec = QueryExecutionFactory.sparqlService(resourceLink, query);
+        ResultSet results = qexec.execSelect();
+
+        while (results.hasNext()) {
+            QuerySolution qs = results.next();
+            RDFNode s;
+            s = qs.get("c");
+            String foodId = "";
+            if (s.isLiteral()) {
+                foodId = s.asLiteral().getString();
+            }
+            ids.add(foodId);
+        }
+
         Model model = ModelFactory.createDefaultModel();
         String nsPrefix = "https://schema.org/Recipe#";
         model.setNsPrefix("recipe", nsPrefix);
-        
 
 
         Property p1 = model.createProperty(nsPrefix, "id");
@@ -710,87 +777,87 @@ public class RdfLocalManager implements RdfManager {
         Property p8 = model.createProperty(nsPrefix, "ingredientList");
         Property p9 = model.createProperty(nsPrefix, "country");
 
-		
-		for (String id : ids) {
-			final String resourceLink2 = "http://localhost:3030/resources/query";
-			q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> "+
-						"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> "+
-						"PREFIX : <https://schema.org/Recipe#> "+
-						"SELECT ?b ?c WHERE {"+
-						" { <https://schema.org/Recipe#"+id+"> ?b ?c "+
-	 					" }"+
-						"}"+
-						"LIMIT 50";			
 
-			query = QueryFactory.create(q);
-			qexec = QueryExecutionFactory.sparqlService(resourceLink2, query);
-			results = qexec.execSelect();			
-			
-			while (results.hasNext()) {
-				QuerySolution qs = results.next();
-				RDFNode s;
-				s= qs.get("c");
-				String menuList="";
-				if (s.isLiteral()) {
-					menuList = s.asLiteral().getString();
-				}
-				s= qs.get("b");
-				String menuType="";
-				if (s.isResource()) {
-					menuType = s.asResource().getURI();
-				}
+        for (String id : ids) {
+            final String resourceLink2 = "http://localhost:3030/resources/query";
+            q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> " +
+                    "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
+                    "PREFIX : <https://schema.org/Recipe#> " +
+                    "SELECT ?b ?c WHERE {" +
+                    " { <https://schema.org/Recipe#" + id + "> ?b ?c " +
+                    " }" +
+                    "}" +
+                    "LIMIT 50";
 
-			    Resource food = model.createResource(nsPrefix + id);
-			    
-				switch (menuType) {
-				  case "https://schema.org/Recipe#id":
-					    food.addProperty(p1, menuList, XSDDatatype.XSDstring);
-				        break;
-				  case "https://schema.org/Recipe#arrivalTime":
-					    food.addProperty(p2, menuList, XSDDatatype.XSDstring);
-				        break;
-				  case "https://schema.org/Recipe#servingTime":
-					    food.addProperty(p3, menuList, XSDDatatype.XSDstring);
-				        break;
-				  case "https://schema.org/Recipe#menuType":
-					    food.addProperty(p4, menuList, XSDDatatype.XSDstring);
-				        break;
-				  case "https://schema.org/Recipe#title":
-					    food.addProperty(p5, menuList, XSDDatatype.XSDstring);
-				        break;
-				  case "https://schema.org/Recipe#picture":
-					    food.addProperty(p6, menuList, XSDDatatype.XSDstring);
-				        break;
-				  case "https://schema.org/Recipe#description":
-					    food.addProperty(p7, menuList, XSDDatatype.XSDstring);
-				        break;
-				  case "https://schema.org/Recipe#ingredientList":
-					    food.addProperty(p8, menuList, XSDDatatype.XSDstring);
-				        break;
-				  case "https://schema.org/Recipe#country":
-					    food.addProperty(p9, menuList, XSDDatatype.XSDstring);
-				        break;
-				}
-				
-			}
-		}
+            query = QueryFactory.create(q);
+            qexec = QueryExecutionFactory.sparqlService(resourceLink2, query);
+            results = qexec.execSelect();
+
+            while (results.hasNext()) {
+                QuerySolution qs = results.next();
+                RDFNode s;
+                s = qs.get("c");
+                String menuList = "";
+                if (s.isLiteral()) {
+                    menuList = s.asLiteral().getString();
+                }
+                s = qs.get("b");
+                String menuType = "";
+                if (s.isResource()) {
+                    menuType = s.asResource().getURI();
+                }
+
+                Resource food = model.createResource(nsPrefix + id);
+
+                switch (menuType) {
+                    case "https://schema.org/Recipe#id":
+                        food.addProperty(p1, menuList, XSDDatatype.XSDstring);
+                        break;
+                    case "https://schema.org/Recipe#arrivalTime":
+                        food.addProperty(p2, menuList, XSDDatatype.XSDstring);
+                        break;
+                    case "https://schema.org/Recipe#servingTime":
+                        food.addProperty(p3, menuList, XSDDatatype.XSDstring);
+                        break;
+                    case "https://schema.org/Recipe#menuType":
+                        food.addProperty(p4, menuList, XSDDatatype.XSDstring);
+                        break;
+                    case "https://schema.org/Recipe#title":
+                        food.addProperty(p5, menuList, XSDDatatype.XSDstring);
+                        break;
+                    case "https://schema.org/Recipe#picture":
+                        food.addProperty(p6, menuList, XSDDatatype.XSDstring);
+                        break;
+                    case "https://schema.org/Recipe#description":
+                        food.addProperty(p7, menuList, XSDDatatype.XSDstring);
+                        break;
+                    case "https://schema.org/Recipe#ingredientList":
+                        food.addProperty(p8, menuList, XSDDatatype.XSDstring);
+                        break;
+                    case "https://schema.org/Recipe#country":
+                        food.addProperty(p9, menuList, XSDDatatype.XSDstring);
+                        break;
+                }
+
+            }
+        }
 
         return getJson(model);
     }
 
     @Override
-    public String searchInMenu(String id){
+    public String searchInMenu(String id) {
 
         Model model = ModelFactory.createDefaultModel();
 
         final String resourceLink = "http://localhost:3030/resources/query";
-        String q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> "+
-                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> "+
-                "PREFIX : <https://schema.org/Recipe#> "+
-                "SELECT ?b ?c WHERE {"+
-                " { :"+id+" ?b ?c "+
-                " }"+
-                "}"+
+        String q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> " +
+                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
+                "PREFIX : <https://schema.org/Recipe#> " +
+                "SELECT ?b ?c WHERE {" +
+                " { :" + id + " ?b ?c " +
+                " }" +
+                "}" +
                 "LIMIT 50";
 
         String nsPrefix = "https://schema.org/Recipe#";
@@ -801,42 +868,42 @@ public class RdfLocalManager implements RdfManager {
         while (results.hasNext()) {
             QuerySolution qs = results.next();
             RDFNode s;
-            s= qs.get("c");
-            String menuList="";
+            s = qs.get("c");
+            String menuList = "";
             if (s.isLiteral()) {
                 menuList = s.asLiteral().getString();
             }
-            s= qs.get("b");
-            String menuType="";
+            s = qs.get("b");
+            String menuType = "";
             if (s.isResource()) {
                 menuType = s.asResource().getURI();
             }
-            String value = menuType.substring(26)+":"+menuList;
+            String value = menuType.substring(26) + ":" + menuList;
             Resource menuItem = model.createResource();
             Property p1 = model.createProperty(nsPrefix);
-            menuItem.addProperty(p1,value);
+            menuItem.addProperty(p1, value);
 
         }
 
-        model.setNsPrefix("menu",nsPrefix);
+        model.setNsPrefix("menu", nsPrefix);
         return getJson(model);
 
     }
 
     @Override
-    public String searchInMenu(String criteria, String toSearch){
+    public String searchInMenu(String criteria, String toSearch) {
 
         Model model = ModelFactory.createDefaultModel();
 
         final String resourceLink = "http://localhost:3030/resources/query";
-        String q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> "+
-                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> "+
-                "PREFIX : <https://schema.org/Recipe#> "+
-                "SELECT ?a WHERE {"+
-                " { ?a :"+criteria+" ?c "+
-                "FILTER ( regex (?c,\""+toSearch+"\", \"i\") )"+
-                " }"+
-                "}"+
+        String q = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> " +
+                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
+                "PREFIX : <https://schema.org/Recipe#> " +
+                "SELECT ?a WHERE {" +
+                " { ?a :" + criteria + " ?c " +
+                "FILTER ( regex (?c,\"" + toSearch + "\", \"i\") )" +
+                " }" +
+                "}" +
                 "LIMIT 50";
 
         Query query = QueryFactory.create(q);
@@ -852,11 +919,11 @@ public class RdfLocalManager implements RdfManager {
 
                 Resource menuItem = model.createResource();
                 Property p1 = model.createProperty(nsPrefix + "prop");
-                menuItem.addProperty(p1,menuId);
+                menuItem.addProperty(p1, menuId);
             }
         }
 
-        model.setNsPrefix("menu",nsPrefix);
+        model.setNsPrefix("menu", nsPrefix);
         return getJson(model);
 
     }

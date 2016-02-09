@@ -10,7 +10,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b8d305c2-3cc7-4693-ac07-c8c07eb808f1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuser6.iml" afterPath="$PROJECT_DIR$/cuser6.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/cuser6_war_exploded/css/main.css" afterPath="$PROJECT_DIR$/out/artifacts/cuser6_war_exploded/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/cuser6_war_exploded/js/ajaxRequests.js" afterPath="$PROJECT_DIR$/out/artifacts/cuser6_war_exploded/js/ajaxRequests.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/cuser6_war_exploded/main.jsp" afterPath="$PROJECT_DIR$/out/artifacts/cuser6_war_exploded/main.jsp" />
@@ -42,34 +41,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ajaxRequests.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ajaxRequests.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/ajaxRequests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5536105">
-              <caret line="719" column="39" selection-start-line="719" selection-start-column="39" selection-end-line="719" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="841" column="42" selection-start-line="841" selection-start-column="42" selection-end-line="841" selection-end-column="42" />
               <folding>
-                <element signature="n#!!block;n#loadVideo#0" expanded="false" />
-                <element signature="n#!!block;n#loadVideoOptions#0" expanded="false" />
-                <element signature="n#!!block;n#loadNorris#0" expanded="false" />
-                <element signature="n#!!block;n#loadYoMomma#0" expanded="false" />
-                <element signature="n#!!block;n#loadYesOrNo#0" expanded="false" />
-                <element signature="n#!!block;n#loadSong#0" expanded="false" />
-                <element signature="n#!!block;n#loadSongOptions#0" expanded="false" />
-                <element signature="n#!!block;n#loadGIF#0" expanded="false" />
-                <element signature="n#!!block;n#loadCat#0" expanded="false" />
-                <element signature="n#!!block;n#loadNews#0" expanded="false" />
-                <element signature="n#!!block;n#loadTrivia#0" expanded="false" />
-                <element signature="n#!!block;n#loadYear#0" expanded="false" />
-                <element signature="n#!!block;n#loadDate#0" expanded="false" />
-                <element signature="n#!!block;n#loadCurrentDate#0" expanded="false" />
-                <element signature="n#!!block;n#loadMath#0" expanded="false" />
                 <element signature="n#!!block;n#loadGettyImages#0" expanded="false" />
-                <element signature="e#12236#12531#0" expanded="false" />
-                <element signature="e#13116#13871#0" expanded="false" />
-                <marker date="1454848617264" expanded="true" signature="1365:1405" placeholder="..." />
-                <marker date="1454848617264" expanded="false" signature="1432:1446" placeholder="..." />
-                <marker date="1454848617264" expanded="true" signature="1447:1484" placeholder="..." />
-                <marker date="1454848617264" expanded="true" signature="1489:1522" placeholder="..." />
+                <element signature="e#17219#17531#0" expanded="false" />
+                <element signature="n#!!block;n#addToOrder#0" expanded="false" />
+                <element signature="n#!!block;n#removeFromOrder#0" expanded="false" />
+                <element signature="n#!!block;n#refreshHiddenInput#0" expanded="false" />
+                <marker date="1454978188613" expanded="true" signature="1578:1642" placeholder="..." />
+                <marker date="1454978188613" expanded="true" signature="1669:1683" placeholder="..." />
+                <marker date="1454978188613" expanded="true" signature="1684:1733" placeholder="..." />
+                <marker date="1454978188613" expanded="true" signature="1738:1783" placeholder="..." />
+                <marker date="1454978188613" expanded="true" signature="26011:26036" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -79,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+              <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
               <folding>
                 <element signature="docComment;class#RdfRestApi#0" expanded="false" />
               </folding>
@@ -87,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RdfLocalManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RdfLocalManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="473" column="0" selection-start-line="473" selection-start-column="0" selection-end-line="473" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.030303031">
+              <caret line="387" column="37" selection-start-line="387" selection-start-column="37" selection-end-line="387" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#writeMusicToRDF#0;class#RdfLocalManager#0" expanded="false" />
@@ -100,10 +87,8 @@
                 <element signature="method#readVideosFromRDF#0;class#RdfLocalManager#0" expanded="false" />
                 <element signature="method#saveNewMenuToRDF#0;class#RdfLocalManager#0" expanded="false" />
                 <element signature="method#readNewMenuFromRDF#0;class#RdfLocalManager#0" expanded="false" />
-                <element signature="method#writeMusicToFuseki#0;class#RdfLocalManager#0" expanded="false" />
+                <element signature="method#readMusicFromFuseki#0;class#RdfLocalManager#0" expanded="false" />
                 <element signature="method#writeMenuToFuseki#0;class#RdfLocalManager#0" expanded="false" />
-                <element signature="method#searchInMenu#0;class#RdfLocalManager#0" expanded="false" />
-                <element signature="method#searchInMenu#1;class#RdfLocalManager#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -112,8 +97,20 @@
       <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state vertical-scroll-proportion="-11.527273">
+              <caret line="135" column="65" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="65" />
+              <folding>
+                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.0365853">
+              <caret line="131" column="25" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -172,10 +169,10 @@
         <option value="$PROJECT_DIR$/web/test.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/util/RdfUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfManager.java" />
+        <option value="$PROJECT_DIR$/web/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java" />
         <option value="$PROJECT_DIR$/web/css/main.css" />
-        <option value="$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java" />
-        <option value="$PROJECT_DIR$/web/main.jsp" />
         <option value="$PROJECT_DIR$/web/js/ajaxRequests.js" />
       </list>
     </option>
@@ -234,9 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,6 +283,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,8 +298,24 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Java/jdk1.7.0_75" />
-    <property name="SearchEverywhereHistoryKey" value="format &#9;ACTION&#9;ReformatCode&#10;debug&#9;ACTION&#9;LogDebugConfigure&#10;commit&#9;ACTION&#9;ChangesView.Commit&#10;JDK&#9;FILE&#9;file://C:/Users/Ervin/IdeaProjects/cuser/.idea/libraries/jdk1_7.xml&#10;build&#9;ACTION&#9;CompileProject" />
+    <property name="SearchEverywhereHistoryKey" value="show history&#9;ACTION&#9;Vcs.ShowTabbedFileHistory&#10;format&#9;ACTION&#9;ReformatCode&#10;format code&#9;ACTION&#9;ReformatCode&#10;format &#9;ACTION&#9;ReformatCode&#10;debug&#9;ACTION&#9;LogDebugConfigure&#10;commit&#9;ACTION&#9;ChangesView.Commit&#10;JDK&#9;FILE&#9;file://C:/Users/Ervin/IdeaProjects/cuser/.idea/libraries/jdk1_7.xml&#10;build&#9;ACTION&#9;CompileProject" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="301" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="300" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="301" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="975" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="304" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="303" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="304" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="979" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -872,7 +885,10 @@
       <workItem from="1454700900714" duration="4646000" />
       <workItem from="1454741455974" duration="17308000" />
       <workItem from="1454782622852" duration="9412000" />
-      <workItem from="1454828147547" duration="16220000" />
+      <workItem from="1454828147547" duration="17081000" />
+      <workItem from="1454947368019" duration="91000" />
+      <workItem from="1454947480674" duration="959000" />
+      <workItem from="1454948457064" duration="29839000" />
     </task>
     <task id="LOCAL-00001" summary="first working version on aws">
       <created>1453110050197</created>
@@ -934,11 +950,17 @@
       <option name="project" value="LOCAL" />
       <updated>1454535518156</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added visual menu loaded from Fuseki, changes in the UI, support with JS requests, UI interaction">
+      <created>1454848761944</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1454848761944</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157419000" />
+    <option name="totallyTimeSpent" value="189169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
@@ -952,14 +974,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29967776" sideWeight="0.2794562" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2777191" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44790548" sideWeight="0.6759819" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27243927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26100966" sideWeight="0.6759819" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2457627" sideWeight="0.491453" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2457627" sideWeight="0.491453" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15125" sideWeight="0.508547" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -972,7 +995,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="100" y="100" width="759" height="840" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1028,7 +1050,8 @@
     <MESSAGE value="Added getMusicLinks" />
     <MESSAGE value="Added mappings for new endpoints and changed methods" />
     <MESSAGE value="Added json support for rest endpoints for resources" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added json support for rest endpoints for resources" />
+    <MESSAGE value="Added visual menu loaded from Fuseki, changes in the UI, support with JS requests, UI interaction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added visual menu loaded from Fuseki, changes in the UI, support with JS requests, UI interaction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1043,7 +1066,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="66" />
+      <option name="time" value="72" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -1056,13 +1079,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/facebook/FBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1389,22 +1405,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5862069">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54950494">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state vertical-scroll-proportion="-5.0365853">
+          <caret line="131" column="25" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41033435">
+          <caret line="739" column="2" selection-start-line="739" selection-start-column="0" selection-end-line="739" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.527273">
+          <caret line="135" column="65" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="65" />
+          <folding>
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/ajaxRequests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="841" column="42" selection-start-line="841" selection-start-column="42" selection-end-line="841" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!block;n#loadGettyImages#0" expanded="false" />
+            <element signature="e#17219#17531#0" expanded="false" />
+            <element signature="n#!!block;n#addToOrder#0" expanded="false" />
+            <element signature="n#!!block;n#removeFromOrder#0" expanded="false" />
+            <element signature="n#!!block;n#refreshHiddenInput#0" expanded="false" />
+            <marker date="1454978188613" expanded="true" signature="1578:1642" placeholder="..." />
+            <marker date="1454978188613" expanded="true" signature="1669:1683" placeholder="..." />
+            <marker date="1454978188613" expanded="true" signature="1684:1733" placeholder="..." />
+            <marker date="1454978188613" expanded="true" signature="1738:1783" placeholder="..." />
+            <marker date="1454978188613" expanded="true" signature="26011:26036" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/rest/RdfRestApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
           <folding>
             <element signature="docComment;class#RdfRestApi#0" expanded="false" />
           </folding>
@@ -1413,8 +1465,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fii/odiunu/request/RdfLocalManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="473" column="0" selection-start-line="473" selection-start-column="0" selection-end-line="473" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.030303031">
+          <caret line="387" column="37" selection-start-line="387" selection-start-column="37" selection-end-line="387" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#writeMusicToRDF#0;class#RdfLocalManager#0" expanded="false" />
@@ -1423,49 +1475,8 @@
             <element signature="method#readVideosFromRDF#0;class#RdfLocalManager#0" expanded="false" />
             <element signature="method#saveNewMenuToRDF#0;class#RdfLocalManager#0" expanded="false" />
             <element signature="method#readNewMenuFromRDF#0;class#RdfLocalManager#0" expanded="false" />
-            <element signature="method#writeMusicToFuseki#0;class#RdfLocalManager#0" expanded="false" />
+            <element signature="method#readMusicFromFuseki#0;class#RdfLocalManager#0" expanded="false" />
             <element signature="method#writeMenuToFuseki#0;class#RdfLocalManager#0" expanded="false" />
-            <element signature="method#searchInMenu#0;class#RdfLocalManager#0" expanded="false" />
-            <element signature="method#searchInMenu#1;class#RdfLocalManager#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/ajaxRequests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5536105">
-          <caret line="719" column="39" selection-start-line="719" selection-start-column="39" selection-end-line="719" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!block;n#loadVideo#0" expanded="false" />
-            <element signature="n#!!block;n#loadVideoOptions#0" expanded="false" />
-            <element signature="n#!!block;n#loadNorris#0" expanded="false" />
-            <element signature="n#!!block;n#loadYoMomma#0" expanded="false" />
-            <element signature="n#!!block;n#loadYesOrNo#0" expanded="false" />
-            <element signature="n#!!block;n#loadSong#0" expanded="false" />
-            <element signature="n#!!block;n#loadSongOptions#0" expanded="false" />
-            <element signature="n#!!block;n#loadGIF#0" expanded="false" />
-            <element signature="n#!!block;n#loadCat#0" expanded="false" />
-            <element signature="n#!!block;n#loadNews#0" expanded="false" />
-            <element signature="n#!!block;n#loadTrivia#0" expanded="false" />
-            <element signature="n#!!block;n#loadYear#0" expanded="false" />
-            <element signature="n#!!block;n#loadDate#0" expanded="false" />
-            <element signature="n#!!block;n#loadCurrentDate#0" expanded="false" />
-            <element signature="n#!!block;n#loadMath#0" expanded="false" />
-            <element signature="n#!!block;n#loadGettyImages#0" expanded="false" />
-            <element signature="e#12236#12531#0" expanded="false" />
-            <element signature="e#13116#13871#0" expanded="false" />
-            <marker date="1454848617264" expanded="true" signature="1365:1405" placeholder="..." />
-            <marker date="1454848617264" expanded="false" signature="1432:1446" placeholder="..." />
-            <marker date="1454848617264" expanded="true" signature="1447:1484" placeholder="..." />
-            <marker date="1454848617264" expanded="true" signature="1489:1522" placeholder="..." />
           </folding>
         </state>
       </provider>
